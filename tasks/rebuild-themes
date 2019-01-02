@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm assets/css/theme-*.css
+mv assets/css/_theme_source/*.scss assets/css/
+bundle exec jekyll build
+cp _site/assets/css/theme-*.css assets/css
+mv assets/css/*.scss assets/css/_theme_source

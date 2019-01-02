@@ -1,0 +1,184 @@
+# Jekyll Site settings
+title: CSC 207 2019S
+# baseurl: /~curtsinger/teaching/2018F/CSC151
+# url: http://www.cs.grinnell.edu/~curtsinger/teaching/2018F/CSC151
+baseurl: /~rebelsky/Courses/CSC207/2019S/00
+url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2019S/00
+
+# Set the theme color. Options are blue, green, red, orange, purple, and gray
+color: gray
+
+instructor: Samuel A. Rebelsky
+
+instructor_title: Professor Rebelsky
+
+instructor_homepage: https://www.cs.grinnell.edu/~rebelsky
+
+instructor_email: rebelsky@grinnell.edu
+
+meeting_times: MWF 0:00&ndash;0:00 (section 00)
+
+section_number: "00"
+
+office_hours:
+  - 9:00-11:00 Tu, 9:00-10:00 Th, 1:30-3:00 Th (_tentative_)
+
+mentors:
+  - Anh Thu Pham (section 01)
+  - Zander Otavka (section 02)
+
+mentor_sessions:
+  - _TBD_
+
+tutors:
+  - Su from 1&ndash;3pm in Noyce 3813
+  - Su, M, T, W, Th from 7&ndash;10pm in Noyce 3813
+
+grader_email: "rebelsky@grinnell.edu"
+
+all_work_deadline: 5:00pm on Friday, 17 May 2019
+final_exam_time: TBD
+
+copyright: |
+  Copyright &copy; Samuel A. Rebelsky.  Selected materials are copyright by
+  other members of the CS department and are used with permission.
+
+copyright_message: |
+  Unless specified otherwise elsewhere on the page, this work is
+  licensed under a Creative Commons Attribution 3.0 Unported License.
+  To view a copy of this license, visit
+  <http://creativecommons.org/licenses/by-nc/3.0/> or send a letter
+  to Creative Commons, 543 Howard Street, 5th Floor, San Francisco,
+  California, 94105, USA.
+
+# Be picky about front-matter
+strict_front_matter: true
+
+# Set up collections for course content
+collections:
+  admin:
+    output: false
+
+  assignments:
+    output: true
+    permalink: /assignments/:path.html
+ 
+  current:
+    output: true;
+    permalink: /current/:path.html
+
+  eboards:
+    output: true
+    permalink: /eboards/:path.html
+
+  exams:
+    output: true
+    permalink: /exams/:path.html
+
+  handouts:
+    output: true
+    permalink: /handouts/:path.html
+
+  labs:
+    output: true
+    permalink: /labs/:path.html
+
+  links:
+    output: true
+    permalink: /links/:path.html
+
+  prelim:
+    output: false
+
+  problems:
+    output: false
+  
+  project:
+    output: true
+    permalink: /project/:path.html
+
+  readings:
+    output: true
+    permalink: /readings/:path.html
+
+  stuff:
+    output: true
+    permalink: /stuff/:path.html
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  
+  - scope:
+      path: ""
+      type: assignments
+    values:
+      link: false
+      layout: assigned
+      collaboration: |
+        You must work with your assigned partner(s) on this assignment. You may
+        discuss this assignment with anyone, provided you credit such 
+        discussions when you submit the assignment.
+      submitting: |
+        Email your answer to <{{ site.grader_email }}>. The subject of your
+        email should be **[CSC151-{{ site.section_number }}] {{ page.title }}**
+        and should contain your answers to all parts of the assignment. Scheme
+        code should be in the body of the message, not in an attachment.
+
+  - scope:
+      path: ""
+      type: exams
+    values:
+      link: false
+      layout: assigned
+ 
+  - scope:
+      path: ""
+      type: labs
+    values:
+      link: true
+      section: Lab
+      layout: assigned
+      no-due-message: |
+        Lab writeups are due at 10:30pm on the day of the next class meeting.
+        For example, a Wednesday lab is due at 10:30pm on Friday. Each lab
+        writeup will be announced at the end of class on a lab day.
+
+  - scope:
+      path: ""
+      type: project
+    values:
+      link: false
+      section: Project
+      layout: assigned
+
+# Build settings
+exclude:
+  - tasks
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    default_lang: drracket
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Plugin Settings
+plugins:
+  - jekyll-bootstrap-sass
+  - jekyll-include-cache
+   
+bootstrap:
+  assets: true

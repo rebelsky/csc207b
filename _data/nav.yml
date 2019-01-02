@@ -1,0 +1,16 @@
+- title: Home
+  path: /index.html
+- title: Schedule
+  path: /schedule/
+- title: Readings
+  path: /readings/
+- title: Labs
+  path: /labs/
+- title: Assignments
+  path: /assignments/
+- title: Exams
+  path: /exams/
+- title: Project
+  path: /project/
+- title: Syllabus
+  path: /syllabus/

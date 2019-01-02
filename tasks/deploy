@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SEMESTER=2019S
+COURSE=CSC151
+
+bundle exec jekyll build
+
+if [[ $(hostname -s) = turing ]]; then
+  mkdir -p ~/public_html/teaching/$SEMESTER/$COURSE/
+  rsync -rt _site/ ~/public_html/teaching/$SEMESTER/$COURSE/
+else
+  rsync -rtz --rsync-path="mkdir -p ~/public_html/teaching/$SEMESTER/$COURSE/ && rsync" _site/ turing:~/public_html/teaching/$SEMESTER/$COURSE/
+fi

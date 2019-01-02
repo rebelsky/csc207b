@@ -1,0 +1,156 @@
+- date: 2019-01-23
+  assigned:
+    - page: /assignments/assignment01.html
+
+- date: 2019-01-28
+  due:
+    - Quiz 1
+
+- date: 2019-01-31
+  due:
+    - page: /assignments/assignment01.html
+
+- date: 2019-02-01
+  assigned:
+    - page: /assignments/assignment02.html
+
+- date: 2019-02-04
+  due:
+    - Quiz 2
+
+- date: 2019-02-07
+  due:
+    - page: /assignments/assignment02.html
+
+- date: 2019-02-08
+  assigned:
+    - page: /assignments/assignment03.html
+
+- date: 2019-02-11
+  due:
+    - Quiz 3
+
+- date: 2019-02-14
+  due:
+    - page: /assignments/assignment03.html
+
+- date: 2019-02-15
+  assigned:
+    - page: /assignments/assignment04.html
+
+- date: 2019-02-18
+  due:
+    - Quiz 4
+
+- date: 2019-02-21
+  due:
+    - page: /assignments/assignment04.html
+
+- date: 2019-02-22
+  assigned:
+    - page: /assignments/assignment05.html
+
+- date: 2019-02-25
+  due:
+    - Quiz 5
+
+- date: 2019-02-28
+  due:
+    - page: /assignments/assignment05.html
+
+- date: 2019-03-01
+  assigned:
+    - page: /exams/exam01.html
+
+- date: 2019-03-04
+  due:
+    - Quiz 6
+
+- date: 2019-03-07
+  due:
+    - page: /exams/exam01.html
+
+- date: 2019-03-08
+  assigned:
+    - page: /assignments/assignment06.html
+
+- date: 2019-03-11
+  due:
+    - Quiz 7
+
+- date: 2019-03-14
+  due:
+    - page: //assignment06.html
+
+- date: 2019-03-15
+  assigned:
+    - page: /assignments/assignment07.html
+
+- date: 2019-04-01
+  due:
+    - Quiz 8
+
+- date: 2019-04-04
+  due:
+    - page: /assignments/assignment07.html
+
+- date: 2019-04-05
+  assigned:
+    - page: /assignments/assignment08.html
+
+- date: 2019-04-08
+  due:
+    - Quiz 9
+
+- date: 2019-04-11
+  due:
+    - page: /assignments/assignment08.html
+
+- date: 2019-04-12
+  assigned:
+    - page: /assignments/assignment09.html
+
+- date: 2019-04-15
+  due:
+    - Quiz 10
+
+- date: 2019-04-18
+  due:
+    - page: /assignments/assignment09.html
+
+- date: 2019-04-19
+  assigned:
+    - page: /exams/exam02.html
+
+- date: 2019-04-22
+  due:
+    - Quiz 11
+
+- date: 2019-04-25
+  due:
+    - page: /exams/exam02.html
+
+- date: 2019-04-26
+  assigned:
+    - page: /assignments/assignment10.html
+
+- date: 2019-04-29
+  due:
+    - Quiz 12
+
+- date: 2019-05-02
+  due:
+    - page: /assignments/assignment10.html
+
+- date: 2019-05-03
+  assigned:
+    - page: /assignments/assignment11.html
+
+- date: 2019-05-06
+  due:
+    - Quiz 13
+
+- date: 2019-05-09
+  due:
+    - page: /assignments/assignment11.html
+

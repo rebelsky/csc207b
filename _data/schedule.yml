@@ -1,0 +1,816 @@
+"Week 0":
+  "2018-08-31":
+    topic: Introduction to Algorithms
+    abbrev: intro-algorithms
+    summary: |
+      We begin the class by exploring the definition of computer science and by
+      trying to write some basic algorithms.
+    subjects: 
+      - Introduction - What is CS?
+      - Exercise - An everyday algorithm
+      - Debriefing on exercise 
+      - Common parts of an algorithm
+    assigned:
+      - page: /assignments/assignment1.html
+# Add notes, links, or both to list these on the schedule day
+#    notes: google.com
+#    links:
+#      - title: Some File
+#        icon: fa-file-pdf-o
+#        url: google.com
+#      - title: Another File
+#        icon: fa-file-o
+#        url: bing.com
+
+################################################################################
+
+"Week 1":
+  "2018-09-02":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment1.html
+        time: 10:30pm
+    
+  "2018-09-03":
+    topic: Getting Started with Linux and Scheme
+    abbrev: intro-linux
+    summary: |
+      We begin to consider the content and structure of the course.  We also
+      prepare ourselves to use our laboratory environment (that is, the Linux
+      workstations and the DrRacket Programming Environment).
+    subjects:
+      - Getting started with Linux
+      - Why use programming languages?
+      - Scheme history
+      - Scheme basics
+      - Using DrRacket
+    reading:
+      - page: /readings/algorithms.html
+      - page: /readings/linux.html
+      - page: /readings/drracket.html
+      - page: /readings/beginning-scheme.html
+    lab:
+      - page: /labs/linux.html
+      - page: /labs/starting-scheme.html
+    
+  "2018-09-05":
+    topic: Basic Types
+    abbrev: basic-types
+    summary: |
+      We explore some of the basic types in Scheme and the operations available
+      for those types.
+    subjects:
+      - Values and types
+      - Kinds of numbers
+      - Basic numeric operations
+      - Symbolic values
+      - Strings and characters
+    reading:
+      - page: /readings/types.html
+      - page: /readings/numbers.html
+      - page: /readings/strings.html
+      - page: /readings/symbols.html
+    lab:
+      - page: /labs/basic-types.html
+    assigned:
+      - page: /assignments/assignment2.html
+    
+  "2018-09-07":
+    topic: Introducing Lists
+    abbrev: lists-intro
+    summary: |
+      We start to explore Scheme's *list* data structure and some ways to use
+      lists to work with collections of data.
+    subjects:
+      - "Context: What and why lists?"
+      - Building lists
+      - Mapping lists
+      - Reducing lists
+      - Sorting lists
+      - Other list operations
+    reading: 
+      - page: /readings/simple-lists.html
+      - page: /readings/scheme-eval-1.html
+    lab: 
+      - page: /labs/simple-lists.html
+    due:
+      - Quiz 1
+
+################################################################################
+
+"Week 2":
+  "2018-09-10":
+    topic: Writing Your Own Procedures
+    abbrev: procedures
+    summary: |
+      We consider new ways to write your own procedures and why you might do so.
+    subjects:
+      - Review: Algorithm components
+      - Detour: Sequencing operations
+      - Review: Types
+      - User-defined-procedures
+    reading:
+      - page: /readings/procedures.html
+      - page: /readings/scheme-eval-2.html
+    lab:
+      - page: /labs/procedures.html
+  
+  "2018-09-11":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment2.html
+        time: 10:30pm
+    
+  "2018-09-12":
+    topic: Pair Programming
+    abbrev: pair-programming
+    summary: |
+      We explore the whys and hows of working with others.  We also catch up on
+      any confusing issues from the first few days of class.
+    subjects:
+      - Basics of pair programming
+      - Benefits of pair programming
+      - Pair programming in the classroom
+      - Forming a code of conduct
+      - Assorted other issues
+    reading:
+      - link: How Pair Programming Really Works
+        subtitle: Stuart Wray, IEEE Software
+        icon: fa-external-link
+        url: http://www.computer.org/cms/Computer.org/ComputingNow/homepage/2010/0110/W_SW_PairProgramming.pdf
+    assigned:
+      - page: /assignments/assignment3.html
+    
+  "2018-09-14":
+    topic: Documenting Programs and Procedures
+    abbrev: documentation
+    summary: |
+      We consider documentation for your programs: Why to write documention,
+      when to write documentation, how to write documentation.  We also explore
+      the 6P style of documentation that we use in this course.
+    subjects:
+      - The need for documentation
+      - The Six P's - a strategy for documenting procedures
+      - A few additional P's
+      - Practice
+      - Pair programming
+    reading:
+      - page: /readings/documentation.html
+    due:
+      - Quiz 2
+
+################################################################################
+
+"Week 3":
+  "2018-09-17":
+    topic: Testing Your Procedures
+    abbrev: testing
+    summary: |
+      We consider testing When, why, and how you might test the procedures and
+      programs that you write.
+    subjects:
+      - Why test?
+      - Strategies for testing
+      - RackUnit's primary testing operations
+      - Careful postconditions
+    reading:
+      - page: /readings/rackunit.html
+    lab: 
+      - page: /labs/rackunit.html
+    
+  "2018-09-18":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment3.html
+        time: 10:30pm
+
+  "2018-09-19":
+    topic: Tables and Compound Data
+    abbrev: tables
+    summary: |
+      We consider how to deal with compound data, such as the title, lattitude,
+      longitude, time, and date of an event.
+    subjects:
+      - Examples of compound data
+      - Heterogeneous lists
+      - Tables
+      - Processing lists of compound data
+    reading:
+      - page: /readings/heterogeneous-lists.html
+      - page: /readings/tables.html
+    lab:
+      - page: /labs/tables.html
+    assigned:
+      - page: /exams/exam1.html
+    
+  "2018-09-21":
+    topic: Reading Lists and Tables from Files
+    abbrev: file-lists
+    summary: |
+      We consider a variety of techniques for gathering lists and tables of
+      data from files.
+    subjects:
+      - Files and the filesystem
+      - Reading tables
+      - Reading files of textual data as lines, words, and characters
+    reading:
+      - page: /readings/data-from-files.html
+    lab:
+      - page: /labs/data-from-files.html
+    due:
+      - Quiz 3
+
+################################################################################
+
+"Week 4":
+  "2018-09-24":
+    topic: Boolean Values, Predicate Procedures, and List Filters
+    abbrev: boolean
+    summary: |
+      We consider a new type and its use in selecting elements from lists.
+    subjects:
+      - Boolean values
+      - True vs. truish
+      - Predicates - procedures that return Boolean values
+      - Combining Boolean values with `and` and `or`
+      - Filtering lists
+    reading: 
+      - page: /readings/boolean.html
+      - page: /readings/list-filters.html
+    lab: 
+      - page: /labs/boolean.html
+   
+  "2018-09-25":
+    message: _Work Due_
+    due:
+      - page: /exams/exam1.html
+        time: 10:30pm
+   
+  "2018-09-26":
+    topic: Local Bindings
+    abbrev: local-bindings
+    summary: |
+      We consider how and why to name values within procedures.
+    subjects:
+      - Local bindings
+      - The `let` and `let*` operations
+      - "Semantics: `let` as a procedure call"
+    reading:
+      - page: /readings/local-bindings.html
+      - page: /readings/data-science.html
+    lab:
+      - page: /labs/local-bindings.html
+    assigned:
+      - page: /assignments/assignment4.html
+    
+  "2018-09-28":
+    topic: Conditionals
+    abbrev: conditionals
+    summary: |
+      We consider one of the central components of algorithms.
+    subjects:
+      - The parts of an algorithm, revisited
+      - Choosing between two options with `if`
+      - Optional evaluation with `when`
+      - Making multiple choices with `cond`
+      - Comparing approaches
+    reading: 
+      - page: /readings/conditionals.html
+    lab:
+      - page: /labs/conditionals.html
+    due:
+      - Quiz 4
+  
+################################################################################
+
+"Week 5":
+  "2018-10-01":
+    topic: Discussion of Exam 1
+    abbrev: exam1
+    summary: |
+      We consider your work on exam 1.
+    subjects:
+      - Common problems
+      - Improving style
+  
+  "2018-10-02":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment4.html
+        time: 10:30pm
+    
+  "2018-10-03":
+    topic: Displaying Data
+    abbrev: displaying-data
+    summary: |
+      We explore techniques for displaying simple kinds of data, such as
+      coordinate pairs or counts of categorical data.
+    subjects:
+      - Why display data?
+      - Displaying coordinate pairs
+      - Tallying
+      - Displaying categorical counts
+      - Converting data
+    reading:
+      - page: /readings/displaying-data.html
+    lab:
+      - page: /labs/displaying-data.html
+    assigned:
+      - page: /assignments/assignment5.html
+    
+  "2018-10-05":
+    topic: Preconditions, revisited
+    abbrev: prepost
+    summary: |
+      We revisit preconditions.  We then consider programming techniques for
+      ensuring that preconditions are met.
+    subjects: 
+      - Verifying preconditions
+      - The error procedure
+      - Husk and kernel programming
+    reading: 
+      - page: /readings/preconditions.html
+    lab: 
+      - page: /labs/preconditions.html
+    due:
+      - Quiz 5
+  
+################################################################################
+
+"Week 6":
+  "2018-10-08":
+    topic: Recursion Basics
+    abbrev: recursion-basics
+    summary:  |
+      We begin our exploration of *recursion*, the most general form of
+      repetition available in Scheme.  You can use recursion to both build and
+      iterate over different kinds of values.
+    subjects:
+      - Background
+      - Key ideas in recursion
+      - Sample recursive procedures
+      - Expressing recursion in Scheme
+    reading:
+      - page: /readings/recursion-basics.html
+  
+  "2018-10-09":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment5.html
+        time: 10:30pm
+        
+  "2018-10-10":
+    topic: Recursion Basics, continued
+    abbrev: recursion-basics-lab
+    summary: |
+      We continue our exploration of recursion basics.
+    subjects:
+      - Lab
+      - Debrief
+    reading:
+      - page: /readings/recursion-basics.html
+    lab:
+      - page: /labs/recursion-basics.html
+    assigned:
+      - page: /exams/exam2.html
+    
+  "2018-10-12":
+    topic: Recursion with Helper Procedures
+    abbrev: helper-recursion
+    summary: |
+      We consider a different form of recursion, one based on the construction
+      of *recursive helper procedures* that take additional parameters.  Along
+      the way, we consider the idea of *tail recursion*.  We also explore how
+      careless design of recursive procedures can inadvertently lead to slow
+      execution.
+    subjects:
+      - Basics of helper recursion
+      - Tail recursion
+      - Why use tail recursion?
+    reading:
+      - page: /readings/helper-recursion.html
+    lab:
+      - page: /labs/helper-recursion.html
+    due:
+      - Quiz 6
+  
+################################################################################
+
+"Week 7":
+  "2018-10-15":
+    topic: Other Forms of List Recursion
+    abbrev: more-list-recursion
+    summary: |
+      We conclude our initial forays into list recursion by looking for some
+      common patterns in the design of recursive procedures.
+    subjects:
+      - Thinking in patterns
+      - Common atterns of list recursion (extreme, reduce, etc.)
+      - List predicates
+    reading:
+      - page: /readings/list-recursion-revisited.html
+    lab:
+      - page: /labs/list-recursion-revisited.html
+  
+  "2018-10-16":
+    message: _Work Due_
+    due:
+      - page: /exams/exam2.html
+        time: 10:30pm
+  
+  "2018-10-17":
+    topic: Numeric Recursion
+    abbrev: numeric-recursion
+    summary: |
+      We consider a slightly different kind of recursion, numeric recursion.
+      In this technique, we once again have procedures call themselves.
+      However, the parameter that we "simplify" at every step is a number,
+      rather than a list.
+    subjects:
+      - Generalizing recursion
+      - Numeric recursion
+    reading:
+      - page: /readings/numeric-recursion.html
+    lab:
+      - page: /labs/numeric-recursion.html
+    
+  "2018-10-19":
+    topic: Naming Local Procedures
+    abbrev: local-procs
+    summary: |
+      We explore how and why one writes local recursive procedures.
+    subjects:
+      - Why have local procedures
+      - Naming local procedures with letrec
+      - Naming local procedures with named let
+      - Tail recursion vs. helper recursion
+    reading:
+      - page: /readings/letrec.html
+    lab:
+      - page: /labs/letrec.html
+    due:
+      - Quiz 7
+  
+################################################################################
+
+"Fall Break":
+
+################################################################################
+
+"Week 8":
+  "2018-10-29":
+    topic: Debugging
+    abbrev: debugging
+    summary: |
+      We explore techniques for undersatnding and correcting flaws in our
+      programs.
+    subjects:
+      - Approaches to debugging
+      - Reading error messages
+      - The DrRacket debugger
+      - Debugging with printing
+    reading:
+      - page: /readings/debugging.html
+    lab:
+      - page: /labs/debugging.html
+    
+  "2018-10-31":
+    topic: Randomness and Simulation
+    abbrev: randomness
+    summary: |
+      We consider Scheme's `random` procedure and  how one might use that
+      procedure in writing simple simulations.
+    subjects:
+      - Why use randomness
+      - The `random` procedure
+      - Simulation
+    reading:
+      - page: /readings/randomness.html
+    lab:
+      - page: /labs/randomness.html
+    assigned:
+      - page: /assignments/assignment6.html
+    
+  "2018-11-02":
+    topic: Pairs and Pair Structures
+    abbrev: pairs
+    summary: |
+      We consider *pairs*, the basic data type used to build lists and other
+      structures in Scheme.  We also consider why it is useful to understand
+      about pairs.
+    subjects:
+      - Representing lists with pairs and cons cells
+      - Why care about the underlying representation
+      - Other pair structures
+    reading:
+      - page: /readings/pairs.html
+    lab:
+      - page: /labs/pairs.html
+    due:
+      - Quiz 8
+  
+################################################################################
+
+"Week 9":
+  "2018-11-05":
+    topic: Vectors
+    abbrev: vectors
+    summary: |
+      We consider *vectors*, an alternative to lists for storing collections of
+      data.
+    subjects: 
+      - Some problems with lists
+      - "A solution: vectors"
+      - "Behind the scenes: How Scheme implements vectors"
+      - Important vector procedures
+    reading:
+      - page: /readings/vectors.html
+    lab:
+      - page: /labs/vectors.html
+  
+  "2018-11-06":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment6.html
+        time: 10:30pm
+  
+  "2018-11-07":
+    topic: Trees
+    abbrev: trees
+    summary: |
+      We consider *trees*, structures built from pairs.  Trees are somewhat
+      like two-dimensional lists.
+    subjects:
+      - Tree basics
+      - Building trees with `cons`
+      - A recursive tree definition
+      - Structural recursion with trees
+    reading:
+      - page: /readings/binary-trees.html
+    lab:
+      - page: /labs/binary-trees.html
+    assigned:
+      - page: /assignments/assignment7.html
+    
+  "2018-11-09":
+    topic: Higher-Order Procedures, revisited
+    abbrev: hop
+    summary: |
+      We revisit the topic of *higher-order procedures*, one of the most
+      important techniques in languages like Scheme.  Higher-order procedures
+      are procedures -- like `map`, `left-section`, or `compose` -- that take
+      other procedures as parameters, return other procedures as values, or
+      both.
+    subjects:
+      - Some program design principles
+      - Thinking about repetition
+      - Procedures as first-class values
+    reading:
+      - page: /readings/hop.html
+    lab:
+      - page: /labs/hop.html
+    due:
+      - Quiz 9
+  
+################################################################################
+
+"Week 10":
+  "2018-11-12":
+    topic: Files in Scheme
+    abbrev: files
+    summary: |
+      We revisit files, considering the lower-level operations for working with
+      files, a technique for structuring information that permits the
+      information to persist across invocations of Scheme.  Files also let our
+      Scheme programs share information with other programs.
+    subjects:
+      - File basics
+      - Data persistence
+      - Ports
+      - Basic file operations
+    reading:
+      - page: /readings/files.html
+    lab:
+      - page: /labs/files.html
+  
+  "2018-11-13":
+    message: _Work Due_
+    due:
+      - page: /assignments/assignment7.html
+        time: 10:30pm
+    
+  "2018-11-14":
+    topic: Analyzing Procedures
+    abbrev: analyzing-procedures
+    summary: |
+      We explore techniques for analyzing the number of calls made in
+      evaluating procedures, particularly recursive procedures.  We consider
+      why such analysis is useful.
+    subjects:
+      - Comparing algorithms
+      - "Two metrics: time and number of steps"
+      - Using output to count procedure calls
+      - Tools for procedure analysis
+    reading:
+      - page: /readings/analysis.html
+    lab:
+      - page: /labs/analysis.html
+    assigned:
+      - page: /exams/exam3.html
+    
+  "2018-11-16":
+    topic: Association Lists
+    abbrev: association-lists
+    summary: |
+      We consider *association lists*, a simple, but useful, technique for
+      organizing tables of information.
+    subjects:
+      - Storing information in tables
+      - Representing table entries as lists
+      - Representing tables as lists
+      - Association lists - Schemes simple trable representation
+      - Implementing association list procedures
+    reading:
+      - page: /readings/association-lists.html
+    lab:
+      - page: /labs/association-lists.html
+    due:
+      - Quiz 10
+  
+################################################################################
+
+"Week 11":
+  "2018-11-19":
+    topic: Project Introduction
+    abbrev: project-ideas
+    summary: |
+      We introduce the project.
+    subjects:
+      - About the project
+      - Group composition and construction
+      - Playing and brainstorming
+    assigned:
+      - page: /project/project.html
+      - page: /project/proposal.html
+  
+  "2018-11-20":
+    message: _Work Due_
+    due:
+      - page: /exams/exam3.html
+        time: 10:30pm
+    
+  "2018-11-21":
+    topic: Project Work Day 1
+    abbrev: project-work-day-1
+    summary: |
+      We provide time for groups to work on their projects.
+    subjects:
+      - Work time
+  
+  "2018-11-23":
+    message: _No Class -- Thanksgiving Break_
+    summary: Have a great break.
+  
+################################################################################
+
+"Week 12":
+  "2018-11-26":
+    topic: Binary Search
+    abbrev: binary-search
+    summary: |
+      We consider the general problem of searching.  We explore *binary
+      search*, one of the most efficient algorithms for searching.
+    subjects:
+      - Analyzing algorithm efficiency
+      - The problem of searching
+      - Divide and conquer
+      - Destructive binary search (a demonstration)
+      - Design issues
+    reading:
+      - page: /readings/searching.html
+    lab:
+      - page: /labs/binary-search.html
+    due:
+      - page: /project/proposal.html
+        time: 10:30pm
+    
+  "2018-11-28":
+    topic: Project Work Day 2
+    abbrev: project-work-day-2
+    summary: |
+      We provide additional time for groups to work on their projects.
+    subjects:
+      - Work time
+    
+  "2018-11-30":
+    topic: Introduction to Sorting
+    abbrev: sorting
+    summary: |
+      We explore the problem of *sorting*.  When you sort a list, vector, or
+      other collection, you put the elements in order.  The order of the
+      elements usually corresponds to the type of the elements.  We might sort
+      strings alphabetically, grades numerically, colors by brightness, and so
+      on and so forth. 
+    subjects:
+      - The problem of sorting
+      - Writing sorting algorithms
+      - Some examples
+      - Formalizing the problem
+    due:
+      - Quiz 11
+  
+################################################################################
+
+"Week 13":
+  "2018-12-03":
+    topic: Special Topic
+    abbrev: special
+    summary: |
+      We explore an application of CS and data science related to the instructor's interests.
+  
+  "2018-12-04":
+    message: _Work Due_
+    due:
+      - page: /project/project.html
+        time: 10:30pm
+    
+  "2018-12-05":
+    topic: Insertion Sort
+    abbrev: insertion-sort
+    summary: |
+      We move from our general exploration of sorting to the implementation of
+      a particular sorting algorithm, *insertion sort*.  We also explore how
+      the running time for that algorithm varies based on the number of values
+      we are sorting.
+    subjects:
+      - Insertion sort basics
+      - Four questions about insertion sort
+      - Analyzing insertion sort
+    reading:
+      - page: /readings/sorting.html
+    lab:
+      - page: /labs/insertion-sort.html
+    assigned:
+      - page: /exams/exam4.html
+    
+  "2018-12-07":
+    topic: Merge Sort
+    abbrev: merge-sort
+    summary: |
+      We continue our exploration of sorting by considering the applicability
+      of the divide-and-conquer approach to the problem of sorting.  We look at
+      one particular divide-and-conquer algorithm, *merge sort*.  We explore
+      how the running time for that algorithm varies based on the number of
+      values we are sorting.
+    subjects:
+      - More efficient sorting techniques
+      - Divide and conquer, revisited
+      - Merge sort
+      - Analyzing merge sort
+    reading:
+      - page: /readings/mergesort.html
+    lab:
+      - page: /labs/mergesort.html
+    due:
+      - Quiz 12
+  
+################################################################################
+
+"Week 14":
+  "2018-12-10":
+    topic: Pause for Breath
+    abbrev: pause-14
+    summary: |
+      We pause to consider a few final topics.
+    subjects:
+      - A few more notes on searching and sorting
+      - About the final
+      - About presentations
+      - Presentation preparation time
+    
+  "2018-12-11":
+    message: _Work Due_
+    due:
+      - page: /exams/exam4.html
+        time: 10:30pm
+  
+  "2018-12-12":
+    topic: Project Presentations
+    abbrev: project-1
+    summary: |
+      We explore some of your projects.
+    subjects:
+      - Lightning presentations
+    
+  "2018-12-14":
+    topic: Wrap Up
+    abbrev: wrapup
+    summary: |
+      We conclude the course by considering the topics we've covered, and
+      discuss the concepts you will see in future CS courses.
+    subjects:
+      - The subject matter(s) of the course
+      - More about the subject matter(s)
+      - Comments on the final
+      - Course evaluation
+      - Final comments

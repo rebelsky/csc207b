@@ -1,0 +1,42 @@
+{% comment %}
+Include this file to list items grouped by the day they appear on the schedule.
+
+\param  items   An array of site pages that should be matched against each day
+                on the schedule.
+\param  schedule_section  The section of the schedule that should be scanned
+                          for matches.
+
+Examples:
+  {% include list_items_by_day.html items=site.labs schedule_section="lab" %}
+  {% include list_items_by_day.html items=site.readings schedule_section="reading" %}
+{% endcomment %}
+
+<dl class="dl-horizontal">
+  {% for week in site.data.schedule %}
+    {% for day in week[1] %}
+      {% assign matches = "" | split: "," %}
+      {% for item in day[1][include.schedule_section] %}
+        {% if item.page %}
+          {% assign match = include.items | where: "url", item.page | first %}
+          
+          {% if match %}
+            {% assign matches = matches | push: match %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+      {% assign num_matches = matches | size %}
+      {% if num_matches > 0 %}
+        <dt>{{ day[0] | date: '%B %-d' }}</dt>
+        <dd>
+          <ul class="list-unstyled">
+            {% for match in matches %}
+              <li><a href="{{ match.url | prepend: site.baseurl }}">{{ match.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </dd>
+      {% endif %}
+      
+    {% endfor %}
+  {% endfor %}
+</dl>

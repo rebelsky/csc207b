@@ -1,0 +1,69 @@
+---
+title: Schedule overview
+permalink: /overview/
+---
+<h1>{{ page.title }}</h1>
+
+<p><em>This overview shows the daily topics and <em>most</em> of the work due.
+Topic links will bring you to the appropriate day in the course schedule.</em></p>
+
+<table width="100%" class="table">
+  <thead>
+    <tr>
+      <th width="12%">&nbsp;</th> 
+      <th width="22%">Monday</th> 
+      <th width="22%">Tuesday</th> 
+      <th width="22%">Wednesday</th> 
+      <th width="22%">Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+{% assign classes = site.data.classes %}
+{% assign extra = site.data.extra %}
+{% assign classnum = 0 %}
+
+<!-- Iterate through the dates -->
+{% for week in site.data.dates %}
+  {% if week.break %}
+    <tr><th colspan=4>{{ week.week }}</th></tr>
+  {% else %}
+    {% assign classdays = "" | split: "," %} <!-- MTuWF -->
+    {% assign classdays = classdays | push: week.days[1] %}
+    {% assign classdays = classdays | push: week.days[2] %}
+    {% assign classdays = classdays | push: week.days[3] %}
+    {% assign classdays = classdays | push: week.days[5] %}
+    <tr>
+      <th>{{ week.week }}</th>
+      {% for day in classdays %}
+        <td valign="top">
+          <small>{{ day.date | date: "%e %b" }}</small><br/>
+          {% if day.class %}
+            {% assign class = classes[classnum] %}
+            {% assign classnum = classnum | plus: '1' %}
+            {% if class.abbrev %}
+              {% assign abbrev = class.abbrev %}
+            {% else %}
+              {% assign abbrev = class.topic | slugify %}
+            {% endif %}
+            <a href="../schedule/#{{ abbrev }}">{{ class.topic }}</a>
+          {% else %}
+            &nbsp;
+          {% endif %}
+          {% assign workdue = extra | where_exp: "x", "x.date == day.date" %}
+          {% if workdue %}
+            {% if workdue[0].due %}
+              <br/><em>Due: 
+              <!-- <i>{{ workdue[0].due }}</i> -->
+              {% assign thingy = workdue[0].due[0] %}
+              <!-- <i>{% include schedule_items.html items=thingy %}</i> -->
+              {% include schedule_item.html item=thingy %}</em>
+
+            {% endif %}
+          {% endif %}
+        </td>
+      {% endfor %}
+    </tr>
+  {% endif %}
+{% endfor %}
+  </tbody>
+</table>

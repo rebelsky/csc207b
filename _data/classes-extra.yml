@@ -1,0 +1,26 @@
+
+- topic: "Side effects: output and input"
+  abbrev: io
+  summary: We consider simple textual interactive programs, programs that read input from the user and produce output.
+  subjects:
+    - Simple output in Scheme
+    - Using output to trace program behavior
+    - Reading lines of text with `read-line`
+    - Reading Scheme values with `read`
+    - Side effects
+  reading:
+    - /readings/output.html
+    - /readings/simple-input.html
+  lab: /labs/io.html
+
+- topic: Revisiting lists
+  abbrev: lists
+  summary: We consider more general approaches to lists in Scheme
+  subjects:
+    - Lists, revisited
+    - car, cons, and cdr
+    - Other new list operations
+    - Representing drawings as values
+  reading: /readings/lists-revisited
+  lab: /labs/lists-revisited
+

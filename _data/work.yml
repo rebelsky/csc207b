@@ -1,0 +1,68 @@
+hw00:
+  page: /assignments/assignment00.html
+  assigned: 2019-01-23
+  due: 2019-01-27
+
+hw01:
+  page: /assignments/assignment01.html
+  assigned: 2019-01-25
+  due: 2019-01-29
+
+hw02:
+  page: /assignments/assignment02.html
+  assigned: 2019-01-30
+  due: 2019-02-05
+
+hw03:
+  page: /assignments/assignment03.html
+  assigned: 2019-02-06
+  due: 2019-02-12
+
+exam01:
+  page: /exams/exam01.html
+  assigned: 2019-02-13
+  due: 2019-02-19
+
+hw04:
+  page: /assignments/assignment04.html
+  assigned: 2019-02-20
+  due: 2019-02-26
+
+hw05:
+  page: /assignments/assignment05.html
+  assigned: 2019-02-27
+  due: 2019-03-05
+
+exam02:
+  page: /exams/exam02.html
+  assigned: 2019-03-06
+  due: 2019-03-12
+
+hw06:
+  page: /assignments/assignment06.html
+  assigned: 2019-04-03
+  due: 2019-04-09
+
+hw07:
+  page: /assignments/assignment07.html
+  assigned: 2019-04-10
+  due: 2019-04-16
+
+proposal:
+  page: /project/proposal.html
+  assigned: 2019-04-15
+  due: 2019-04-22
+
+project:
+  page: /project/project.html
+  assigned: 2019-04-15
+  due: 2019-04-30
+
+exam03:
+  page: /exams/exam01.html
+  assigned: 2019-05-01
+  due: 2019-05-07
+
+final:
+  due: 2019-05-14
+  due-time: TBD

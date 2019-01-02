@@ -1,0 +1,92 @@
+$current-day-color: lighten($brand-primary, 40%) !default;
+
+// Utility Classes
+.text-nowrap {
+  white-space: nowrap;
+}
+
+// Uncomment this to hide expanded URLs in the print view
+@media print {
+  a[href]:after {
+    content: "" !important;
+  }
+}
+
+// Marking for current day in schedule view
+div.current-day {
+  border-left: 4px solid $brand-primary;
+  margin-left: -19px;
+  background: $current-day-color;
+}
+
+// Day of week and full date styles for the schedule view
+span.day-of-week {
+  font-weight: medium;
+  font-size: 30px;
+}
+
+span.full-date {
+  font-size: 12px;
+  color: #444;
+}
+
+// Spacing for days in the schedule when there is no class
+div.row.schedule-day.no-class {
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  background: #f0f0f0;
+}
+
+// Special spacing for non-class schedule days that are the first in the week
+div.row.schedule-day.no-class.first {
+  margin-top: -15px;
+}
+
+// Add some extra space above due/assigned sections on non-class days
+div.schedule-spacer {
+ margin-top: 10.5px;
+}
+
+// Description Lists
+dl.horizontal dd {
+  margin-bottom: 0.25em;
+}
+
+@media (min-width: 768px) {
+  dl.dl-horizontal.narrow dt {
+    width: 100px;
+  }
+
+  dl.dl-horizontal.narrow dd {
+    margin-left: 110px;
+  }
+}
+
+// Icons
+i.fa {
+  color: $gray-dark;
+  font-size: 0.8em;
+}
+
+// Navbar
+nav span.navbar-brand {
+  font-weight: 600;
+  
+  img {
+    height: 28px;
+    float: left;
+    margin-right: 13px;
+    margin-top: -4px;
+  }
+}
+
+// Footer
+div.footer {
+  font-size: $font-size-small;
+}
+
+// A subtitle in the navbar brand
+.subtitle {
+  font-size: 12px;
+}
+

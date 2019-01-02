@@ -1,0 +1,153 @@
+- week: Week 1
+  anchor: week01
+  days:
+    - { date: 2019-01-20 }
+    - { date: 2019-01-21 }
+    - { date: 2019-01-22 }
+    - { date: 2019-01-23, class: true }
+    - { date: 2019-01-24 }
+    - { date: 2019-01-25, class: true }
+    - { date: 2019-01-26 }
+- week: Week 2
+  anchor: week02
+  days:
+    - { date: 2019-01-27 }
+    - { date: 2019-01-28, class: true }
+    - { date: 2019-01-29 }
+    - { date: 2019-01-30, class: true }
+    - { date: 2019-01-31 }
+    - { date: 2019-02-01, class: true }
+    - { date: 2019-02-02 }
+- week: Week 3
+  anchor: week03
+  days:
+    - { date: 2019-02-03 }
+    - { date: 2019-02-04, class: true }
+    - { date: 2019-02-05 }
+    - { date: 2019-02-06, class: true }
+    - { date: 2019-02-07 }
+    - { date: 2019-02-08, class: true }
+    - { date: 2019-02-09 }
+- week: Week 4
+  anchor: week04
+  days:
+    - { date: 2019-02-10 }
+    - { date: 2019-02-11, class: true }
+    - { date: 2019-02-12 }
+    - { date: 2019-02-13, class: true }
+    - { date: 2019-02-14 }
+    - { date: 2019-02-15, class: true }
+    - { date: 2019-02-16 }
+- week: Week 5
+  anchor: week05
+  days:
+    - { date: 2019-02-17 }
+    - { date: 2019-02-18, class: true }
+    - { date: 2019-02-19 }
+    - { date: 2019-02-20, class: true }
+    - { date: 2019-02-21 }
+    - { date: 2019-02-22, class: true }
+    - { date: 2019-02-23 }
+- week: Week 6
+  anchor: week06
+  days:
+    - { date: 2019-02-24 }
+    - { date: 2019-02-25, class: true }
+    - { date: 2019-02-26 }
+    - { date: 2019-02-27, class: true }
+    - { date: 2019-02-28 }
+    - { date: 2019-03-01, class: true }
+    - { date: 2019-03-02 }
+- week: Week 7
+  anchor: week07
+  days:
+    - { date: 2019-03-03 }
+    - { date: 2019-03-04, class: true }
+    - { date: 2019-03-05 }
+    - { date: 2019-03-06, class: true }
+    - { date: 2019-03-07 }
+    - { date: 2019-03-08, class: true }
+    - { date: 2019-03-09 }
+- week: Week 8
+  anchor: week08
+  days:
+    - { date: 2019-03-10 }
+    - { date: 2019-03-11, class: true }
+    - { date: 2019-03-12 }
+    - { date: 2019-03-13, class: true }
+    - { date: 2019-03-14 }
+    - { date: 2019-03-15, class: true }
+    - { date: 2019-03-16 }
+- week: Spring Break
+  break: true
+  anchor: break
+- week: Week 9
+  anchor: week09
+  days:
+    - { date: 2019-03-31 }
+    - { date: 2019-04-01, class: true }
+    - { date: 2019-04-02 }
+    - { date: 2019-04-03, class: true }
+    - { date: 2019-04-04 }
+    - { date: 2019-04-05, class: true }
+    - { date: 2019-04-06 }
+- week: Week 10
+  anchor: week10
+  days:
+    - { date: 2019-04-07 }
+    - { date: 2019-04-08, class: true }
+    - { date: 2019-04-09 }
+    - { date: 2019-04-10, class: true }
+    - { date: 2019-04-11 }
+    - { date: 2019-04-12, class: true }
+    - { date: 2019-04-13 }
+- week: Week 11
+  anchor: week11
+  days:
+    - { date: 2019-04-14 }
+    - { date: 2019-04-15, class: true }
+    - { date: 2019-04-16 }
+    - { date: 2019-04-17, class: true }
+    - { date: 2019-04-18 }
+    - { date: 2019-04-19, class: true }
+    - { date: 2019-04-20 }
+- week: Week 12
+  anchor: week12
+  days:
+    - { date: 2019-04-21 }
+    - { date: 2019-04-22, class: true }
+    - { date: 2019-04-23 }
+    - { date: 2019-04-24, class: true }
+    - { date: 2019-04-25 }
+    - { date: 2019-04-26, class: true }
+    - { date: 2019-04-27 }
+- week: Week 13
+  anchor: week13
+  days:
+    - { date: 2019-04-28 }
+    - { date: 2019-04-29, class: true }
+    - { date: 2019-04-30 }
+    - { date: 2019-05-01, class: true }
+    - { date: 2019-05-02 }
+    - { date: 2019-05-03, class: true }
+    - { date: 2019-05-04 }
+- week: Week 14
+  anchor: week14
+  days:
+    - { date: 2019-05-05 }
+    - { date: 2019-05-06, class: true }
+    - { date: 2019-05-07 }
+    - { date: 2019-05-08, class: true }
+    - { date: 2019-05-09 }
+    - { date: 2019-05-10, class: true }
+    - { date: 2019-05-11 }
+- week: Finals Week
+  anchor: finals
+  days:
+    - { date: 2019-05-12 }
+    - { date: 2019-05-13 }
+    - { date: 2019-05-14 }
+    - { date: 2019-05-15 }
+    - { date: 2019-05-16 }
+    - { date: 2019-05-17 }
+    - { date: 2019-05-18 }

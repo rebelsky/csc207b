@@ -1,0 +1,529 @@
+- topic: Getting started
+  abbrev: course-intro
+  summary: |
+    We begin the course by exploring some key ideas.
+  subjects: 
+    - Course goals
+    - Course structure
+    - Academic honesty
+    - ADTs and data structures
+    - Designing a stack ADT (an exercise)
+  reading:
+    - page: /home/syllabus
+    - page: /home/schedule
+    - page: /readings/designing-adts
+    - page: /readings/designing-data-structures
+
+- topic: Programming in the small with Java
+  abbrev: java-small
+  summary: |
+    We consider some basic issues of Java programming.
+  subjects:
+    - From C to Java
+    - The structure of a Java program
+    - Compiling and running Java programs
+  reading:
+    - "TBD"
+  lab:
+    - "TBD"
+
+- topic: Basic types
+  abbrev: basic-types
+  summary: |
+    We consider a variety of basic types in Java, including numeric types,
+    strings, and arrays.  We also delve a bit into input and output.
+  subjects:
+    - Strings
+    - Numeric types
+    - Arrays
+    - Basic output
+    - Basic input
+
+- topic: Getting started with Java development
+  abbrev: java-development
+  summary: |
+    We consider tools for developing programs in Java, particularly the
+    Eclipse integrated development environment (IDE) and the Git version
+    control system.
+  subjects:
+    - IDEs
+    - Eclipse basics
+    - Version control
+    - Git basics
+  reading:
+    - "TBD"
+  lab:
+    - "TBD"
+
+- topic: Unit testing and debugging
+  abbrev: unit-testing
+  summary: |
+    We return to concepts of unit testing and habits of debugging that 
+    you first learned in CSC 151.  We also introduce the concept of
+    test-driven development, common among agile developers.
+  subjects:
+    - A few thoughts on testing
+    - An example
+    - Test-driven development
+    - Why use debuggers?
+    - Debugging vs. print statements
+    - Debugging in Eclipse
+
+- topic: Objects and classes
+  abbrev: objects
+  summary: |
+    We consider Java's approach to objects, the primary building block
+    of object-oriented programming.  We also explore Java's classes.
+  subjects:
+    - Object basics
+    - Modeling objects with classes
+    - An exercise
+  reading:
+    - "Osera 2: Object-oriented modeling"
+
+- topic: Object semantics
+  abbrev: object-semantics
+  summary: |
+    We consider some underlying issues in the design and implementation
+    of objects in Java.  We explore some ways to represent objects
+    visually.
+  subjects:
+    - References
+    - The stack and the heap
+    - Representing objects
+  reading:
+    - "Osera 3.1: Mental Models of Computation"
+  lab:
+    - "TBD"
+
+- topic: Pause for Breath
+  abbrev: pause01
+  summary: |
+    We pause to consider the topics we have covered to date.
+  subjects:
+    - Object-oriented design
+
+- topic: Interfaces and subtype polymorphism
+  abbrev: interfaces
+  summary: |
+    We consider interfaces, which serve as specifications of expected
+    behavior for classes.  We also explore how interfaces support
+    one form of polymorphism, a key aspect of object-oriented programming.
+  subjects:
+    - Interfaces
+    - The building blocks of OOP
+    - Subtype polymorphism
+
+- topic: Parametric polymorphism
+  abbrev: generics
+  summary: |
+    We continue our explortation of polymorphism by considering a second
+    type of polymorphism, parametric polymorphism, and its realization in
+    Java's generics.
+  subjects:
+    - Subtype polymorphism, revisited
+    - Parametric polymorphism
+    - Java generics
+    - Generic classes
+    - Generic interfaces
+    - Generic methods
+    - Generics and arrays
+  reading:
+    - /readings/generics
+    - "Osera 7.2: Parametric Polymorphism (optional)"
+
+- topic: Inheritance
+  abbrev: inheritance
+  summary: |
+    We consider inheritance, the third core aspect of object-oriented
+    design.
+  subjects:
+    - Inheritance basics
+    - Inheritance and polymorphism
+    - Compile time vs. run time
+  lab:
+    - page: /labs/inheritance.html
+
+- topic: List ADTs
+  abbrev: list-adts
+  summary: |
+    We consider lists and ways to think about them.  We practice ADT
+    design.
+  subjects:
+    - The design of ADTs, revisited
+    - Scheme lists
+    - Java lists
+    - Quick notes on implementation
+
+- topic: Linked linear structures
+  abbrev: linked-structures
+  summary: |
+    We consider linear structures, such as queues and stacks.
+    We explore ways in which simple linked objects can be used to implement
+    linear structures.
+  subjects: 
+    - Linear structures
+    - Stacks
+    - Queues
+    - Other linear structures
+  reading:
+    - /readings/linear-structures
+    - /readings/stacks
+    - /readings/queues
+  lab:
+    - "TBD"
+  note:
+    - Cut out iterators
+
+- topic: Array-based linear structures
+  abbrev: array-based-structures
+  summary: |
+    We explore ways in which arrays can be used to implement linear structures.
+  subjects: 
+    - Detour: Wrappers
+    - Implementing linear structures with arrays
+    - Array-based queues
+    - Priority queues and their implementation
+  reading:
+    - /readings/wrappers
+  lab:
+    - "TBD"
+  note:
+    - Cut out iterators
+
+- topic: Iterators
+  abbrev: iterators
+  summary: |
+    We consider iterators, a standard mechanism for accessing the
+    elements of a collection.  We explore the use of Java's
+    anonymous inner classes to build iterators.
+  subjects:
+    - Iterators
+    - Iterating array-based structures
+    - Iterating linked linear structures
+    - Named iterators
+    - Anonymous inner classes
+  reading: 
+    - /readings/iterators
+  notes:
+    - Need to rewrite the anonymous inner class reading to focus on iterators
+    - May need to write an iterator reading
+    - For lab, may have them implement iterators
+
+- topic: Anonymous functions
+  abbrev: lambda
+  summary: |
+    We consider Java's support for anonymous functions.
+  subjects:
+    - Anonymous functions reviewed
+    - Anonymous functions in Java
+    - FUnctional interfaces
+  reading:
+    - /readings/anonymous-functions
+  notes:
+    - The reading does not yet exist and I don't want to use PM's
+
+- topic: Pause for breath
+  abbrev: pause02
+  summary: |
+    We pause to reflect on recent issues.
+
+- topic: Analyzing algorithms
+  abbrev: analysis
+  summary: |
+    We consider ways to analyze the resource use of algorithms, including
+    formal notation for describing that use.
+  subjects:
+    - Comparing algorithms
+    - Asymptotic analysis
+    - Counting steps
+    - Big-O, formalized
+    - Implications of Big-O
+  reading:
+    - "Osera 4: Complexity"
+  lab:
+    - /labs/complexity
+  notes:
+    - Copy PM's lab
+
+- topic:  Analyzing recursive algorithms
+  abbrev: analysis-recursive
+  summary: |
+    We consider techniques for analyzing recursive algorithms.
+  subjects:
+    - Iterative analysis, revisited
+    - Recurrence relations
+    - Approaches to recurrence relations
+  reading:
+    - "Osera 4.6: Recurrence Relations"
+
+- topic: Searching
+  abbrev: searching
+  summary: |
+    We consider the problem of searching a collection and techniques
+    for searching various kinds of collections.
+  subjects:
+    - Modeling the problem of searching
+    - Sequential search
+    - Predicates
+    - Binary search
+    - Comparators
+    - Testing binary search
+  reading:
+    - /readings/search
+
+- topic: Loop invariants
+  abbrev: loop-invariants
+  summary: |
+    We consider loop invariants, an important technique for designing
+    iterative algorithms.
+  subjects:
+    - Reasoning about iterative algorithms
+    - The state of a program
+    - Loop invariants
+    - Loop termination
+    - An exercise: Binary search
+  reading:
+    - /readings/loop-invariants
+    - "Osera 3.2"
+    - "Osera 3.3"
+
+- topic: Sorting
+  abbrev: sorting
+  summary: |
+    We return to the problem of sorting a list or array.
+  subjects:
+    - The problem of sorting
+    - Testing sorting algorithms
+    - Insertion sort
+    - Selection sort
+    - Generic sorts
+  reading:
+    - /readings/sorting
+    - "Osera 8.4: Generic Constraints"
+  notes:
+    - Some class time talking about tests
+
+- topic: Merge sort
+  abbrev: mergesort
+  summary: |
+    We consider the classic merge sort algorithm.
+  subjects:
+    - Lower bounds on sorting
+    - Divide-and-conquer algorithms
+    - An introduction to merge sort
+    - Analyzing merge sort
+  reading:
+    - /readings/mergesort
+    - "Osera 8.2: Merge sort"
+
+- topic: Quicksort
+  abbrev: quicksort
+  summary: |
+    We consider the classic Quicksort algorithm.
+  subjects:
+    - A quick introduction to Quicksort
+    - Partitioning
+    - Partitioning with invarians
+    - Key ideas from Quicksort
+  readings:
+    - /readings/quicksort
+    - "Osera 8.3: Quicksort"
+
+- topic: Pause for breath
+  abbrev: pause03
+  summary: |
+    We pause to reflect on recent topics
+
+- topic: Array-based lists
+  abbrev: array-lists
+  summary: |
+    We return to the list ADT and explore how to implement lists using
+    arrays.
+  subjects:
+    - A simple list interface
+    - The java.util.List interface
+    - The java.util.ListIterator interace
+  readings:
+    - /readings/lists
+    - Lists with "current" considered harmful
+    - java.util.List
+    - java.util.ListIterator
+  labs:
+    - /labs/array-lists
+
+- topic: Linked lists
+  abbrev: linked-lists
+  summary: |
+    We explore how to implement lists as linked structures.
+  subjects:
+    - A Node class
+    - Wrapping the Node class
+  readings:
+    - "TBD"
+
+- topic: Doubly-linked lists
+  abbrev: doubly-linked-lists
+  summary: |
+    We explore more sophisticated versions of the linked-list data structure
+  subjects:
+    - Linked lists, reviewed
+    - Doubly-linked lists
+    - Circularly-linked lists
+    - Other list issues
+  notes:
+    - No readings may exist yet. Agh!
+
+- topic: The Map ADT
+  abbrev: maps
+  summary: |
+    We introduce the Map (a.k.a. Dictionary) abstract data type and some
+    simple implementations.
+  subjects:
+    - Maps and dictionaries
+    - Associative arrays
+    - Association lists
+  reading:
+    - "Osera 11.0: Introduction to mapping structures"
+    - "Osera 11.1: An example"
+    - "Osera 11.2: The Map ADT"
+    - "Osera 11.3: Association lists"
+
+- topic: Trees and tree traversal
+  abbrev: Trees
+  summary: |
+    We introduce the tree structure and mechanisms for iterating trees.
+  subjects:
+    - Representing hierarchical information
+    - Tree terminology
+    - Depth-first and breadth-first traversal
+    - Recursive depth-first traversal
+    - Iterative breadth-first traversal
+    - Iterative depth-first traversal
+    - Pre-order, in-order, and post-order traversals
+  reading:
+    - "Osera 10.1: Hierarchial structures"
+    - "Osera 10.2: The Tree abstract data type"
+    - "Osera 10.3: Tree representation and operations"
+
+- topic: Binary search trees I
+  abbrev: bst1
+  summary: | 
+    We consider binary search trees, one of the standard implementations
+    of the Map abstract data type.
+  subjects: 
+    - Organizing binary search trees
+    - Adding elements to BSTs
+  reading:
+    - "Osera 10.4: Binary search trees"
+    - "Osera 11.4: Tree maps"
+
+- topic: Binary search trees II
+  abbrev: bst2
+  summary: |
+    We continue our exploration of binary search trees.
+  subjects:
+    - Deletion in BSTs.
+
+- topic: Hash tables
+  abbrev: hash-tables
+  summary: |
+    We consider hash tables, one of the most powerful implementations
+    of the Map abstract data type.  We also explore the issue of hash
+    functions.
+  subjects:
+    - Integer maps
+    - From objects to integers
+    - Handling collisions
+    - Rebuilding hash tables
+
+- topic: Probing in hash tables
+  abbrev: probing
+  summary: |
+    We explore one of the two primary collision-resolution mechansims
+    in hash tables.
+  subjects:
+    - Collisions
+    - Linear probing
+    - Quadratic probing
+
+- topic: Chaining in hash tables
+  abbrev: chaining
+  summary: |
+    We explore the second of two primary collision-resolution mechanisms
+    in hash tables.
+  subjects:
+    - Buckets and chaining
+
+- topic: Priority queues, heaps, and heap sort
+  abbrev: heaps
+  summary: |
+    We return to the subject of priority queues and consider heaps, one
+    of the more efficient ways to represent priority queues.
+  subjects:
+    - Priority queues, revisited
+    - The heap structure
+    - Adding elements to heaps
+    - Removing elements from heaps
+    - Storing trees in arrays
+  notes:
+    - Is this worth doing as a discussion or as a lab?  I like the discussion of heaps, but students also learn from practice.  
+    - Maybe we need two days.
+
+- topic: The Graph ADT
+  abbrev: graphs
+  summary: |
+    We consider the graph abstract data type and some common implementations
+    of graphs.
+  subjects:
+    - Modeling problems with graphs
+    - Graph terminology
+    - Weighted graphs
+    - Directed graphs
+    - Implementing graphs with adjacency matrices
+    - Implementing graphs with adjacency lists
+    - Implementing graphs wtih edge tables
+  notes:
+    - Readings?  Neither PM nor I seem to have any.  Anya used Skiena.
+
+- topic: Traversing graphs
+  abbrev: graph-traversal
+  summary: |
+    We consider the problem of visiting all the nodes in a graph,
+    expanding the approaches we used for trees.
+  subjects:
+    - Review of tree traversal
+    - Breadth-first traversal
+    - Depth-first traversal
+
+- topic: Minimum spanning trees
+  abbrev: mst
+  summary: |
+    We consider how to build minimum spanning trees in graphs
+  subjects:
+    - Minimum spanning trees
+    - Strategies for building minimum spanning trees
+    - Kruskal's algorithm
+    - Prim's algorithm
+    - Greed as an approach to algorithm design
+
+- topic: Shortest paths in graphs
+  abbrev: shortest-path
+  summary: |
+    We consider the problem of finding the shortest path between two
+    nodes in a graph
+  subjects:
+    - The shortest path problem
+    - Shortest paths in unweighted graphs
+    - Shortest paths in weight graphs
+    - Dijkstra's algorithm
+
+- topic: Wrapup
+  abbrev: wrap
+  summary: | 
+    We conclude the course.
+  topics:
+    - The subject matter(s) of the course
+    - Looking ahead
+    - Course evaluation
+    - About the final
