@@ -1,12 +1,12 @@
 # Jekyll Site settings
-title: CSC 207 2019S
+title: CSC 207.01 2019S
 # baseurl: /~curtsinger/teaching/2018F/CSC151
 # url: http://www.cs.grinnell.edu/~curtsinger/teaching/2018F/CSC151
-baseurl: /~rebelsky/Courses/CSC207/2019S/00
-url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2019S/00
+baseurl: /~rebelsky/Courses/CSC207/2019S/01
+url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2019S/01
 
 # Set the theme color. Options are blue, green, red, orange, purple, and gray
-color: gray
+color: blue
 
 instructor: Samuel A. Rebelsky
 
@@ -16,9 +16,9 @@ instructor_homepage: https://www.cs.grinnell.edu/~rebelsky
 
 instructor_email: rebelsky@grinnell.edu
 
-meeting_times: MWF 0:00&ndash;0:00 (section 00)
+meeting_times: MWF 8:30&ndash;9:50 (section 01)
 
-section_number: "00"
+section_number: "01"
 
 office_hours:
   - 9:00-11:00 Tu, 9:00-10:00 Th, 1:30-3:00 Th (_tentative_)
