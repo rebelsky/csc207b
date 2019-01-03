@@ -91,9 +91,12 @@ design.  We use the Java programming language for our work, along
 with the Eclipse integrated development environment and the Git
 version control system.
 
-There are two sections of the course this semester.  I'm teaching both
-of them.  That means that they are likely to be more or less the same.
-(Nope, I'm not trying a control group and a treatment group.)
+There are two sections of the course this semester.  I'm teaching
+both of them.  That means that they are likely to be more or less
+the same.  (Nope, I'm not trying a control group and a treatment
+group.)  Nonetheless, please make sure you refer to your section's
+course website when checking due dates and course policies.
+
 Although we sometimes have "themes" to courses in our introductory
 sequence, this course has no explicit theme.  (I have tried to adapt
 many of PM's assignments, and he notes that the implicit theme to
