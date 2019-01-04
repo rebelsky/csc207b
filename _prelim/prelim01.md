@@ -19,6 +19,8 @@ link: true
       Mr./Ms./Mx./[nothing] SURNAME."
     * "I'm from ..."
     * Optional: "My pronouns are ...."
+* I realize that PUM and LIA (from the readings) are horrid acronyms.  If
+  you have better ones, I'd appreciate it.
 
 ### Upcoming work
 
