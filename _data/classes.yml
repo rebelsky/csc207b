@@ -8,11 +8,13 @@
     - Academic honesty
     - ADTs and data structures
     - Designing a stack ADT (an exercise)
+    - A bit about OOP
   reading:
-    - page: /home/syllabus
-    - page: /home/schedule
-    - page: /readings/designing-adts
-    - page: /readings/designing-data-structures
+    - page: /syllabus/
+    - page: /schedule/
+    - page: /readings/designing-adts.html
+    - page: /readings/designing-data-structures.html
+    - page: /readings/oop-basics.html
 
 - topic: Programming in the small with Java
   abbrev: java-small
@@ -22,22 +24,20 @@
     - From C to Java
     - The structure of a Java program
     - Compiling and running Java programs
+    - Strings in Java
+    - Numeric types in Java
+    - Arrays in Java
+    - Basic output in Java
+    - Basic input in Java
   reading:
-    - "TBD"
+    - page: /readings/intro-java.html
+    - page: /readings/simple-java-c.html
+    - page: /readings/arrays.html
+    - "Osera 1: From C to Java (optional)"
   lab:
-    - "TBD"
-
-- topic: Basic types
-  abbrev: basic-types
-  summary: |
-    We consider a variety of basic types in Java, including numeric types,
-    strings, and arrays.  We also delve a bit into input and output.
-  subjects:
-    - Strings
-    - Numeric types
-    - Arrays
-    - Basic output
-    - Basic input
+    - page: /labs/getting-started.html
+  notes:
+    - The getting started lab should be the first two of PM's labs.  (Exploring Java and Arrays in Java)
 
 - topic: Getting started with Java development
   abbrev: java-development
@@ -51,9 +51,25 @@
     - Version control
     - Git basics
   reading:
-    - "TBD"
+    - /readings/git.html
   lab:
-    - "TBD"
+    - /readings/eclipse.html
+    - /labs/eclipse.html
+    - /labs/git.html
+
+- topic: Objects and classes
+  abbrev: objects
+  summary: |
+    We consider Java's approach to objects, the primary building block
+    of object-oriented programming.  We also explore Java's classes.
+  subjects:
+    - Object basics
+    - Modeling objects with classes
+    - An exercise
+  reading:
+    - "Osera 2: Object-oriented modeling"
+  lab:
+    - /labs/strings.html
 
 - topic: Unit testing and debugging
   abbrev: unit-testing
@@ -68,18 +84,6 @@
     - Why use debuggers?
     - Debugging vs. print statements
     - Debugging in Eclipse
-
-- topic: Objects and classes
-  abbrev: objects
-  summary: |
-    We consider Java's approach to objects, the primary building block
-    of object-oriented programming.  We also explore Java's classes.
-  subjects:
-    - Object basics
-    - Modeling objects with classes
-    - An exercise
-  reading:
-    - "Osera 2: Object-oriented modeling"
 
 - topic: Object semantics
   abbrev: object-semantics
@@ -455,6 +459,11 @@
   subjects:
     - Buckets and chaining
 
+- topic: Pause for breath
+  abbrev: pause04
+  summary: | 
+    We pause to explore any remaining complexities.
+
 - topic: Priority queues, heaps, and heap sort
   abbrev: heaps
   summary: |
@@ -482,7 +491,7 @@
     - Directed graphs
     - Implementing graphs with adjacency matrices
     - Implementing graphs with adjacency lists
-    - Implementing graphs wtih edge tables
+    - Implementing graphs with edge tables
   notes:
     - Readings?  Neither PM nor I seem to have any.  Anya used Skiena.
 
