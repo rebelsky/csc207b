@@ -12,8 +12,8 @@ Topic links will bring you to the appropriate day in the course schedule.</em></
     <tr>
       <th width="12%">&nbsp;</th> 
       <th width="22%">Monday</th> 
-      <th width="22%">Tuesday</th> 
       <th width="22%">Wednesday</th> 
+      <th width="22%">Thursday</th> 
       <th width="22%">Friday</th>
     </tr>
   </thead>
@@ -29,8 +29,8 @@ Topic links will bring you to the appropriate day in the course schedule.</em></
   {% else %}
     {% assign classdays = "" | split: "," %} <!-- MTuWF -->
     {% assign classdays = classdays | push: week.days[1] %}
-    {% assign classdays = classdays | push: week.days[2] %}
     {% assign classdays = classdays | push: week.days[3] %}
+    {% assign classdays = classdays | push: week.days[4] %}
     {% assign classdays = classdays | push: week.days[5] %}
     <tr>
       <th>{{ week.week }}</th>
