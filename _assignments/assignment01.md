@@ -306,6 +306,12 @@ helloworld
 
 $ java VigenereCipher nipnap helloworld cap
 Valid options are "encode" or "decode"
+
+$ java VignereCipher encode helloworld ""
+helloworld
+
+$ java VigenereCipher encode jeanolqraf yal
+helloworld
 ~~~
 
 You may make the same assumptions about the user input to simplify the problem:
