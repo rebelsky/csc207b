@@ -1,6 +1,7 @@
 ---
 title: Syllabus
 permalink: /syllabus/
+link: true
 ---
 # Syllabus
 
