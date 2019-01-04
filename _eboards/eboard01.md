@@ -2,8 +2,9 @@
 title: Eboard 01  Getting started
 number: 1
 section: eboards
-held: 2019-01-01
+held: 2019-01-23
 link: true
+current: true
 ---
 CSC 207 2019S, Class 01:  Getting started
 =========================================
@@ -20,10 +21,7 @@ _Overview_
 * Academic honesty
 * ADTs and data structures
 * Designing a stack ADT (an exercise)
-* page: /home/syllabus
-* page: /home/schedule
-* page: /readings/designing-adts
-* page: /readings/designing-data-structures
+* A quick intro to object-oriented design
 
 Preliminaries
 -------------
@@ -44,6 +42,8 @@ Preliminaries
       Mr./Ms./Mx./[nothing] SURNAME."
     * "I'm from ..."
     * Optional: "My pronouns are ...."
+* I realize that PUM and LIA (from the readings) are horrid acronyms.  If
+  you have better ones, I'd appreciate it.
 
 ### Upcoming work
 
@@ -86,15 +86,5 @@ ADTs and data structures
 Designing a stack ADT (an exercise)
 -----------------------------------
 
-page: /home/syllabus
---------------------
-
-page: /home/schedule
---------------------
-
-page: /readings/designing-adts
-------------------------------
-
-page: /readings/designing-data-structures
------------------------------------------
-
+A quick intro to object-oriented design
+---------------------------------------
