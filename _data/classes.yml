@@ -15,6 +15,7 @@
     - page: /readings/designing-adts.html
     - page: /readings/designing-data-structures.html
     - page: /readings/oop-basics.html
+  notes: ../eboards/eboard01
 
 - topic: Programming in the small with Java
   abbrev: java-small
@@ -36,7 +37,7 @@
     - "Osera 1: From C to Java (optional)"
   lab:
     - page: /labs/getting-started.html
-  notes:
+  reminders:
     - The getting started lab should be the first two of PM's labs.  (Exploring Java and Arrays in Java)
 
 - topic: Getting started with Java development
@@ -209,7 +210,7 @@
     - Anonymous inner classes
   reading: 
     - /readings/iterators
-  notes:
+  reminders:
     - Need to rewrite the anonymous inner class reading to focus on iterators
     - May need to write an iterator reading
     - For lab, may have them implement iterators
@@ -224,7 +225,7 @@
     - FUnctional interfaces
   reading:
     - /readings/anonymous-functions
-  notes:
+  reminders:
     - The reading does not yet exist and I don't want to use PM's
 
 - topic: Pause for breath
@@ -247,7 +248,7 @@
     - "Osera 4: Complexity"
   lab:
     - /labs/complexity
-  notes:
+  reminders:
     - Copy PM's lab
 
 - topic:  Analyzing recursive algorithms
@@ -305,7 +306,7 @@
   reading:
     - /readings/sorting
     - "Osera 8.4: Generic Constraints"
-  notes:
+  reminders:
     - Some class time talking about tests
 
 - topic: Merge sort
@@ -375,7 +376,7 @@
     - Doubly-linked lists
     - Circularly-linked lists
     - Other list issues
-  notes:
+  reminders:
     - No readings may exist yet. Agh!
 
 - topic: The Map ADT
@@ -475,7 +476,7 @@
     - Adding elements to heaps
     - Removing elements from heaps
     - Storing trees in arrays
-  notes:
+  reminders:
     - Is this worth doing as a discussion or as a lab?  I like the discussion of heaps, but students also learn from practice.  
     - Maybe we need two days.
 
@@ -492,7 +493,7 @@
     - Implementing graphs with adjacency matrices
     - Implementing graphs with adjacency lists
     - Implementing graphs with edge tables
-  notes:
+  reminders:
     - Readings?  Neither PM nor I seem to have any.  Anya used Skiena.
 
 - topic: Traversing graphs
