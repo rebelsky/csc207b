@@ -12,31 +12,50 @@ Examples:
 {% endcomment %}
 
 <dl class="dl-horizontal">
-  {% for week in site.data.schedule %}
-    {% for day in week[1] %}
-      {% assign matches = "" | split: "," %}
-      {% for item in day[1][include.schedule_section] %}
-        {% if item.page %}
-          {% assign match = include.items | where: "url", item.page | first %}
-          
-          {% if match %}
-            {% assign matches = matches | push: match %}
+  {% assign daynum = 0 %}
+  {% for week in site.data.dates %}
+    {% for day in week.days %}
+      {% if day.class %}
+        {% assign class = site.data.classes[daynum] %}
+        {% assign daynum = daynum | plus: 1 %}
+        {% assign matches = "" | split: "," %}
+        {% for item in class[include.schedule_section] %}
+          {% if item.page %}
+            {% assign match = include.items | where: "url", item.page | first %}
+            {% unless match %}
+              {% assign match = site.pages | where: "url", item.page | first %}
+            {% endunless %}
+            {% if match %}
+              {% assign matches = matches | push: match %}
+            {% endif %}
+          {% elsif item.link %}
+            {% assign matches = matches | push: item %}
+          {% else %}
+            {% assign matches = matches | push: item %}
           {% endif %}
+        {% endfor %}
+        {% assign num_matches = matches | size %}
+        {% if num_matches > 0 %}
+          <dt>{{ day.date | date: '%-d %B %Y' }}</dt>
+          <dd>
+            <ul class="list-unstyled">
+              {% for match in matches %}
+                <li>
+                  {% if match.url %}
+                    {% if match.title %}
+                      <a href="{{ match.url | prepend: "../" }}">{{ match.title }}</a>
+                    {% else %}
+                      <a href="{{ match.url }}">{{ match.link }}</a>*
+                    {% endif %}
+                  {% else %}
+                    {{ match }}
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </dd>
         {% endif %}
-      {% endfor %}
-      
-      {% assign num_matches = matches | size %}
-      {% if num_matches > 0 %}
-        <dt>{{ day[0] | date: '%B %-d' }}</dt>
-        <dd>
-          <ul class="list-unstyled">
-            {% for match in matches %}
-              <li><a href="{{ match.url | prepend: site.baseurl }}">{{ match.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </dd>
       {% endif %}
-      
     {% endfor %}
   {% endfor %}
 </dl>
