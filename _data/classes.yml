@@ -52,11 +52,11 @@
     - Version control
     - Git basics
   reading:
-    - /readings/git.html
+    - page: /readings/git.html
+    - page: /readings/eclipse.html
   lab:
-    - /readings/eclipse.html
-    - /labs/eclipse.html
-    - /labs/git.html
+    - page: /labs/eclipse.html
+    - page: /labs/git.html
 
 - topic: Objects and classes
   abbrev: objects
