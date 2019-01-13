@@ -232,9 +232,7 @@ For many of your programs, you will find the following classes useful:
     a file or even from a string.  The `next()` operation returns
     the next token as a string.  The `nextInt()`, `nextDouble()`,
     and `nextFloat()` methods return the next token in the
-    obvious type.  You can also use methods like `hasNextInt()`
-    to determine if the next token is of the appropriate type.
-
+    obvious type.  
 
 Putting it all together: Your first program
 -------------------------------------------

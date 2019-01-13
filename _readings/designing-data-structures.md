@@ -2,7 +2,6 @@
 title: Designing data structures
 link: true
 ---
-
 *Summary:* 
 As the name suggests, *data structures* are mechanisms for organizing
 ("structuring") data.  Data structures are closely related to

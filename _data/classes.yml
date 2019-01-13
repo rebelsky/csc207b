@@ -70,7 +70,7 @@
   reading:
     - "Osera 2: Object-oriented modeling"
   lab:
-    - /labs/strings.html
+    - page: /labs/strings.html
 
 - topic: Unit testing and debugging
   abbrev: unit-testing
@@ -85,6 +85,12 @@
     - Why use debuggers?
     - Debugging vs. print statements
     - Debugging in Eclipse
+  reading:
+    - page: /readings/unit-testing.html
+    - page: /readings/debugging.html
+  lab:
+    - page: /labs/unit-testing.html
+    - page: /labs/debugging.html
 
 - topic: Object semantics
   abbrev: object-semantics
