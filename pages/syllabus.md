@@ -59,9 +59,10 @@ resources.
 
 ### Textbooks / references
 
-There is no required textbook for this course, as the material has been written
-by Grinnell faculty and is posted on this website. However, there are some
-useful textbooks and references you may want to bookmark or keep handy.
+There is no required printed textbook for this course, as the
+material has been written by Grinnell faculty and is posted on this
+website.  However, there are some useful textbooks and references
+you may want to bookmark or keep handy.
 
 **Books**
 
@@ -446,3 +447,19 @@ chat.
 
 Email is also a reliable way to contact me, but please allow 24 hours for a
 response during the week, or 48 hours if you send an email over the weekend.
+
+## Working outside of MathLAN
+
+While I require that you do your in-class work on MathLAN, you should
+feel free to work on your own computer outside of class.  Because you
+will be using GitHub to share your work, you should find it comparatively
+easy to synchronize your work between machines.
+
+We are using the following software.
+
+* Eclipse 2018-12 is our IDE.  It is available from <https://www.eclipse.org/downloads/>.
+* JDK 11.0.1. is the version of Java we will be using.  It is available from <https://jdk.java.net/11/>.
+
+I do not provide guidance for installing any of this software on your
+personal machine.  If you want to work on your own machine, you should
+be able to figure out how to install the software.
