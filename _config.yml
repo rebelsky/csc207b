@@ -142,10 +142,6 @@ defaults:
       link: true
       section: Lab
       layout: assigned
-      no-due-message: |
-        Lab writeups are due at 10:30pm on the day of the next class meeting.
-        For example, a Wednesday lab is due at 10:30pm on Friday. Each lab
-        writeup will be announced at the end of class on a lab day.
 
   - scope:
       path: ""
