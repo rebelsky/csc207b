@@ -345,7 +345,9 @@ I will not accept late exams except in special circumstances. If you believe you
 
 The final exam for this class is mandatory.  Therefore I encourage
 you not to make travel plans that will conflict with your final
-exam schedule.
+exam schedule.  (It appears that our final is on the last day of
+finals week; we will discuss possible options for those who must
+take it earlier.)
 
 Unlike the other exams, the final will be an in-class exam. Talking with
 other students during the exam will not be permitted. You may ask me
