@@ -12,7 +12,6 @@ submitting: |
   When grading your work, we will use the final commit date on your repository as the official turn-in date.
   Please do not commit to your repository after your final submission unless you want to accept a later turn-in date!
 copyright:  Copyright &copy; Peter-Michael Osera and Samuel A. Rebelsky.
-copyright-message: |
 copyright_message: |
   This work is licensed under a Creative Commons Attribution-NonCommercial
   4.0 International License.  To view a copy of this license, visit
