@@ -52,11 +52,11 @@
     - Version control
     - Git basics
   reading:
-    - /readings/git.html
+    - page: /readings/git.html
+    - page: /readings/eclipse.html
   lab:
-    - /readings/eclipse.html
-    - /labs/eclipse.html
-    - /labs/git.html
+    - page: /labs/eclipse.html
+    - page: /labs/git.html
 
 - topic: Objects and classes
   abbrev: objects
@@ -70,7 +70,7 @@
   reading:
     - "Osera 2: Object-oriented modeling"
   lab:
-    - /labs/strings.html
+    - page: /labs/strings.html
 
 - topic: Unit testing and debugging
   abbrev: unit-testing
@@ -85,6 +85,12 @@
     - Why use debuggers?
     - Debugging vs. print statements
     - Debugging in Eclipse
+  reading:
+    - page: /readings/unit-testing.html
+    - page: /readings/debugging.html
+  lab:
+    - page: /labs/unit-testing.html
+    - page: /labs/debugging.html
 
 - topic: Object semantics
   abbrev: object-semantics

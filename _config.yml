@@ -49,6 +49,8 @@ copyright_message: |
   License.  To view a copy of this license, visit
   <http://creativecommons.org/licenses/by/4.0/>.
 
+java_api: https://docs.oracle.com/en/java/javase/11/docs/api/java.base
+
 # Be picky about front-matter
 strict_front_matter: true
 
@@ -140,10 +142,6 @@ defaults:
       link: true
       section: Lab
       layout: assigned
-      no-due-message: |
-        Lab writeups are due at 10:30pm on the day of the next class meeting.
-        For example, a Wednesday lab is due at 10:30pm on Friday. Each lab
-        writeup will be announced at the end of class on a lab day.
 
   - scope:
       path: ""
@@ -151,6 +149,13 @@ defaults:
     values:
       link: false
       section: Project
+      layout: assigned
+
+  - scope:
+      path: ""
+      type: readings
+    values:
+      link: true
       layout: assigned
 
 # Build settings
@@ -167,7 +172,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
-    default_lang: drracket
+    default_lang: java
     span:
       line_numbers: false
     block:

@@ -2,8 +2,6 @@
 title: Designing abstract data types
 link: true
 ---
-# {{ page.title }}
-
 *Summary:*
 We consider a technique for designing abstract data types.
 

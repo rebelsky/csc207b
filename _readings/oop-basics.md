@@ -2,8 +2,6 @@
 title: Basics of object-oriented problem solving
 link: true
 ---
-# {{ page.title }}
-
 *Summary:* We consider, at a high
 level, the basic issues involved in object-oriented problem solving.
 

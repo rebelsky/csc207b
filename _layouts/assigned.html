@@ -32,6 +32,11 @@ layout: default
     <dd>{{ page.summary | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
   {% endif %}
   
+  {% if page.prereqs %}
+    <dt>Prerequisites</dt>
+    <dd>{{ page.prereqs | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+
   {% if page.collaboration %}
     <dt>Collaboration</dt>
     <dd>{{ page.collaboration | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
