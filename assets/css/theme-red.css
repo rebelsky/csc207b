@@ -6000,3 +6000,11 @@ div.footer {
 
 .subtitle {
   font-size: 12px; }
+
+blockquote {
+  color: #808080;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 15px; }
