@@ -77,14 +77,14 @@ Osera, Peter Michael (2019).  [_Class notes on Algorithms and Object-Oriented Pr
 There are also some useful textbooks and references you may want
 to bookmark or keep handy.
 
-**Books**
+#### Books
 
 Weiss, Mark Allen (2010). _Data Structures and Problem Solving Using Java_, Fourth Edition. Pearson. ISBN: 978-0-321-54140-6. 
 
 > The book that some other faculty in the department sometimes use for
 the course.  A few copies should be available in the bookstore.
 
-**References**
+#### References
 
 Oracle (2019).  [_Java 11 API: Module java.base_](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html)
 
