@@ -100,8 +100,13 @@ course website when checking due dates and course policies.
 Although we sometimes have "themes" to courses in our introductory
 sequence, this course has no explicit theme.  (I have tried to adapt
 many of PM's assignments, and he notes that the implicit theme to
-those assignments is "projects that you could extend to make them your
-own", or something like that.)
+those assignments is "_projects that you could extend to make them your
+own_" or something like that.)
+
+I'm trying an experiment this semester.  Since I'm using PM's
+assignments, I'm also using some of his readings and labs.  You'll
+find that the Rebelsky readings and labs and the Osera readings and
+labs will feel somewhat different.  I hope that's okay.
 
 Learn more about the course in [the syllabus](../syllabus/) and 
 [the schedule](../schedule/).

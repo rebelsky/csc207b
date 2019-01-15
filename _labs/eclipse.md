@@ -26,7 +26,9 @@ using Eclipse 2018-12, the latest version.
 
 I recommend that you create a launcher for Eclipse.  Right click
 on your task bar, click on "Add New Items", click on "Launcher",
-and follow the instructions.
+and follow the instructions.  In MathLAN, the icon appears to be
+in `/opt/eclipse/icon.xpm`, rather than the standard location, so
+you'll have to navigate there to find it.
 
 Exercises
 ---------

@@ -13,7 +13,7 @@
   {% endunless %}
   {% if page %}
     {% if page.link or jekyll.environment == 'test' %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{% if page.section %}{{ page.section }}:&nbsp;{% endif %}{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}</a>
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}</a>
     {% else %}
       {% if page.section %}{{ page.section }}:&nbsp;{% endif %}{{ page.title }}
     {% endif %}
