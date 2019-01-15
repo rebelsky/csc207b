@@ -57,16 +57,55 @@ for support. You may also notify me, if you feel comfortable doing
 so, and I will do my best to help you identify and arrange other
 resources.
 
-### Textbooks / references
+### Textbooks / References
 
 There is no required printed textbook for this course, as the
 material has been written by Grinnell faculty and is posted on this
-website.  However, there are some useful textbooks and references
-you may want to bookmark or keep handy.
+website.  There are two primary sources for the readings.
+
+Rebelsky, Samuel A. (2019).  [_CSC 207 2019S_](../home/).  
+
+> The various readings I've prepared for this class.  Most of these
+  are based on readings I've written for previous sections of CSC
+  207\.  At one time, I called those _The Tao of Java_.  (Types,
+  Algorithms, Objects)
+
+Osera, Peter Michael (2019).  [_Class notes on Algorithms and Object-Oriented Programming](../book/)
+
+> A draft of a textbook that PM is writing for the course.
+
+There are also some useful textbooks and references you may want
+to bookmark or keep handy.
 
 **Books**
 
+Weiss, Mark Allen (2010). _Data Structures and Problem Solving Using Java_, Fourth Edition. Pearson. ISBN: 978-0-321-54140-6. 
+
+> The book that some other faculty in the department sometimes use for
+the course.  A few copies should be available in the bookstore.
+
 **References**
+
+Oracle (2019).  [_Java 11 API: Module java.base_](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html)
+
+> The primary reference pages for the standard Java classes.  PM notes
+  that "[T]he Java standard library documentation is the best organized
+  API document out there, and is a large reason why Java is so
+  popular."
+
+Oracle (2016).  [_The Java Tutorials_](https://docs.oracle.com/javase/tutorial/)
+
+> The Java Tutorials were once the go-to guides for learning new concepts
+  in Java.  Unfortunately, Oracle has not updated them since Java 8.
+  Nonetheless, they still provide a wealth of useful information.
+
+Eclipse.org (2018).  [_Java Development User Guide_](https://help.eclipse.org/2018-12/index.jsp?nav=%2F1)
+
+> What it says.  A guide to Java development in Eclipse.
+
+Google (n.d.).  [_Google Java Style Guide_](https://google.github.io/styleguide/javaguide.html)
+
+> The style guide you should use for your code in this course.
 
 ## Grading
 
