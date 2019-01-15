@@ -448,7 +448,17 @@ chat.
 Email is also a reliable way to contact me, but please allow 24 hours for a
 response during the week, or 48 hours if you send an email over the weekend.
 
-## Working outside of MathLAN
+## Additional information
+
+### Configuring your MathLAN account
+
+Make sure to add the following line to the end of your `.bashrc`.
+
+```text
+export PATH=/usr/lib/jvm/jdk-11.0.1/bin:$PATH
+```
+
+### Working outside of MathLAN
 
 While I require that you do your in-class work on MathLAN, you should
 feel free to work on your own computer outside of class.  Because you
@@ -458,8 +468,16 @@ easy to synchronize your work between machines.
 We are using the following software.
 
 * Eclipse 2018-12 is our IDE.  It is available from <https://www.eclipse.org/downloads/>.
-* JDK 11.0.1. is the version of Java we will be using.  It is available from <https://jdk.java.net/11/>.
+* JDK 11 is the version of the Java Development Kit we will be using.  It is available from <https://jdk.java.net/11/>.
 
 I do not provide guidance for installing any of this software on your
 personal machine.  If you want to work on your own machine, you should
 be able to figure out how to install the software.
+
+### Formatting your code
+
+I expect you to follow the guidelines in the [Google Java Style
+Guide](https://google.github.io/styleguide/javaguide.html) for any
+code you write in this class.  Failing to follow those guidelines
+will likely result in a loss of redit.
+
