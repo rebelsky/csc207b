@@ -61,6 +61,18 @@ layout: default
     <dt>Disclaimer</dt>
     <dd>{{ page.disclaimer | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
   {% endif %}
+
+  {% if page.repo %}
+    <dt>Repository</dt>
+    <dd>{{ page.repo | markdownify | replace: '<p>' | replace: '</p>' }}</dd>
+  {% endif %}
+
+  {% if page.classes %}
+    <dt>Classes</dt>
+    {% for class in page.classes %}
+      <dd>{{ class | markdownify | replace: '<p>' | replace: '</p>' }}</dd>
+    {% endfor %}
+  {% endif %}
 </dl>
 
 {{ content }}
