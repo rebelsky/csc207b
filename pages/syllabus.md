@@ -57,15 +57,55 @@ for support. You may also notify me, if you feel comfortable doing
 so, and I will do my best to help you identify and arrange other
 resources.
 
-### Textbooks / references
+### Textbooks / References
 
-There is no required textbook for this course, as the material has been written
-by Grinnell faculty and is posted on this website. However, there are some
-useful textbooks and references you may want to bookmark or keep handy.
+There is no required printed textbook for this course, as the
+material has been written by Grinnell faculty and is posted on this
+website.  There are two primary sources for the readings.
 
-**Books**
+Rebelsky, Samuel A. (2019).  [_CSC 207 2019S_](../home/).  
 
-**References**
+> The various readings I've prepared for this class.  Most of these
+  are based on readings I've written for previous sections of CSC
+  207\.  At one time, I called those _The Tao of Java_.  (Types,
+  Algorithms, Objects)
+
+Osera, Peter Michael (2019).  [_Class notes on Algorithms and Object-Oriented Programming](../book/)
+
+> A draft of a textbook that PM is writing for the course.
+
+There are also some useful textbooks and references you may want
+to bookmark or keep handy.
+
+#### Books
+
+Weiss, Mark Allen (2010). _Data Structures and Problem Solving Using Java_, Fourth Edition. Pearson. ISBN: 978-0-321-54140-6. 
+
+> The book that some other faculty in the department sometimes use for
+the course.  A few copies should be available in the bookstore.
+
+#### References
+
+Oracle (2019).  [_Java 11 API: Module java.base_](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html)
+
+> The primary reference pages for the standard Java classes.  PM notes
+  that "[T]he Java standard library documentation is the best organized
+  API document out there, and is a large reason why Java is so
+  popular."
+
+Oracle (2016).  [_The Java Tutorials_](https://docs.oracle.com/javase/tutorial/)
+
+> The Java Tutorials were once the go-to guides for learning new concepts
+  in Java.  Unfortunately, Oracle has not updated them since Java 8.
+  Nonetheless, they still provide a wealth of useful information.
+
+Eclipse.org (2018).  [_Java Development User Guide_](https://help.eclipse.org/2018-12/index.jsp?nav=%2F1)
+
+> What it says.  A guide to Java development in Eclipse.
+
+Google (n.d.).  [_Google Java Style Guide_](https://google.github.io/styleguide/javaguide.html)
+
+> The style guide you should use for your code in this course.
 
 ## Grading
 
@@ -446,3 +486,37 @@ chat.
 
 Email is also a reliable way to contact me, but please allow 24 hours for a
 response during the week, or 48 hours if you send an email over the weekend.
+
+## Additional information
+
+### Configuring your MathLAN account
+
+Make sure to add the following line to the end of your `.bashrc`.
+
+```text
+export PATH=/usr/lib/jvm/jdk-11.0.1/bin:$PATH
+```
+
+### Working outside of MathLAN
+
+While I require that you do your in-class work on MathLAN, you should
+feel free to work on your own computer outside of class.  Because you
+will be using GitHub to share your work, you should find it comparatively
+easy to synchronize your work between machines.
+
+We are using the following software.
+
+* Eclipse 2018-12 is our IDE.  It is available from <https://www.eclipse.org/downloads/>.
+* JDK 11 is the version of the Java Development Kit we will be using.  It is available from <https://jdk.java.net/11/>.
+
+I do not provide guidance for installing any of this software on your
+personal machine.  If you want to work on your own machine, you should
+be able to figure out how to install the software.
+
+### Formatting your code
+
+I expect you to follow the guidelines in the [Google Java Style
+Guide](https://google.github.io/styleguide/javaguide.html) for any
+code you write in this class.  Failing to follow those guidelines
+will likely result in a loss of redit.
+

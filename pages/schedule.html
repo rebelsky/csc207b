@@ -110,13 +110,21 @@ link: true
                 </div>
                 <div class="row stuff">
                   <div class="reading col-md-4 col-sm-4 col-xs-6">
-                    <strong>Reading</strong>
                     {% assign reading = class.reading %}
+                    {% if reading.size > 1 %}
+                      <strong>Readings</strong>
+                    {% else %}
+                      <strong>Reading</strong>
+                    {% endif %}
                     {% include schedule_items.html items=reading default="_No reading_" %}
                   </div> <!-- reading -->
                   <div class="lab col-md-4 col-sm-4 col-xs-6">
-                    <strong>Lab</strong>
                     {% assign lab = class.lab %}
+                    {% if lab.size > 1 %}
+                      <strong>Labs</strong>
+                    {% else %}
+                      <strong>Lab</strong>
+                    {% endif %}
                     {% include schedule_items.html items=lab default="_No lab_"%}
                   </div> <!-- lab -->
                   <div class="clearfix visible-xs-block"></div>
