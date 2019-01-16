@@ -20,6 +20,42 @@ from Racket to C, so we can use this opportunity to develop some
 best practices for migrating from language to language whether it's
 from Java to C#, Java to Python, or to some more exotic languages.
 
+## Part 0: Preparation
+
+We'll be using Java 11 in this course.  Java 11 is not the default
+Java, so you will have to update your `.bashrc` to specify the path
+to Java 11.  
+
+a. Open a terminal window.
+
+b. Type `which java`.  You should see something like the followwing
+
+```shell
+$ which java
+/usr/bin/java
+```
+
+c. Edit the file `~/.bashrc` (aka `/home/username/.bashrc`) and add
+the following line to the end.
+
+```text
+export PATH=/usr/lib/jvm/jdk-11.0.1/bin:$PATH
+```
+
+d. In the terminal window, type `source ~/.bashrc`.  This reloads
+your updated .bashrc file.
+
+e. In the terminal window, type `which java` again.  This time, you should see something like
+the following.
+
+```shell
+$ which javac
+/usr/lib/jvm/jdk-11.0.1/bin/javac
+```
+
+f. In the terminal window, type `java --version`.    You should see
+something like the following.
+
 ## Part 1: Basic compilation pipeline
 
 When learning a new programming language, our first concern before

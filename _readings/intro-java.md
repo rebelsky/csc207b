@@ -157,7 +157,7 @@ equals sign).
     NAME = EXPRESSION;
 ```
 
-Creating New Objects
+Creating new objects
 --------------------
 
 In many cases, particularly at the beginning of the `main` 
@@ -178,7 +178,7 @@ on the kind of object you're creating.  You will need to check
 the documentation for the object to determine what parameters are
 appropriate.
 
-Using Named Objects
+Using named objects
 -------------------
 
 You've created an object.  You've named that object.  What else can
@@ -190,7 +190,7 @@ programmers say that this is "calling a method" others say it is
     NAME.METHOD(PARAMETERS);
 ```
 
-Useful Classes
+Useful classes
 --------------
 
 For many of your programs, you will find the following classes useful:
