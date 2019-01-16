@@ -70,7 +70,7 @@ layout: default
   {% if page.javadoc %}
     <dt>Javadoc</dt>
     {% for thing in page.javadoc %}
-      <dd>{{ thing | markdownify | replace: '<p>' | replace: '</p>' }}</dd>
+      <dd>{{ thing | process_liquid | markdownify | replace: '<p>' | replace: '</p>' }}</dd>
     {% endfor %}
   {% endif %}
 </dl>
