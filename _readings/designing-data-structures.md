@@ -331,7 +331,7 @@ ImmutableList cdr(ImmutableList list) {
 boolean nullp(ImmutableList list) {
   return (result.index >= list.array.size);
 } // nullp
-</pre>
+```
 
 This implementation is a bit more complex, and probably requires
 more documentation for the programmers who may have to maintain or
