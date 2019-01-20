@@ -4,7 +4,7 @@ summary: |
   In this laboratory, you will extend your knowledge of numeric
   values in Java.  You'll also explore the creation of classes
   in Java.
-repo: <https://github.com/Grinnell-CSC207/lab-classes-2019>
+repo: <https://github.com/Grinnell-CSC207/intro-classes-2019>
 javadoc:
   - "[`java.lang.Integer`]({{ site.java_api }}/java/lang/Integer.html)"
   - "[`java.lang.String`]({{ site.java_api }}/java/lang/String.html)"
@@ -30,12 +30,13 @@ Exercises
 
 ### Exercise 1: Multiplication
 
-a. Extend the `Fraction` class so that it permits
-multiplication of two fractions.  That is, you should add an
-appropriate `multiply` method to the class.
+a. Extend the `Fraction` class so that it permits multiplication
+of two fractions.  That is, you should add an appropriate `multiply`
+method to the class.
 
 b. Write an experiment that allows you to explore the behavior of
-the new method.
+the new method.  (The experiment is simply code in `FractionExpt.java`
+that shows what happens when you multiply two numbers.)
 
 ### Exercise 2: Fractional portions
 
@@ -92,12 +93,11 @@ static methods of the `java.lang.Integer` class.
 
 ### Exercise 4: A counter class
 
-a. Write and test (or experiment with) a class, `Counter`, that
-generates objects that can count.  Objects in class `Counter`
-should provide two methods: `increment`, which adds 1 to
-the counter, and `get`, which gets the current value of the
-counter.  Your class needs one zeroary constructor which initializes
-the counter to 0.
+Write and experiment with a class, `Counter`, that generates objects
+that can count.  Objects in class `Counter` should provide two
+methods: `increment`, which adds 1 to the counter, and `get`, which
+gets the current value of the counter.  Your class needs one zeroary
+constructor which initializes the counter to 0.
 
 Make sure to verify that if you create two separate 
 `Counter` objects, you can change the two objects separately.
@@ -143,12 +143,20 @@ appropriately.
 For those with extra time
 -------------------------
 
-### Extra 1: Further enhancing counters
+### Extra 1: Simplifying fractions
+
+Update the fraction class so that we simplify each fraction when
+we create it.  In case you've forgotten, the simplified version of
+a fraction has a numerator and denominator with a greatest common
+divisor of 1; you can create the simplified version by finding the
+gcd and dividing both numerator and denominator by that gcd.
+
+### Extra 2: Further enhancing counters
 
 Identify other methods that would be useful to include in the
 `Counter` class and add them.
 
-### Extra 2: Further enhancing fractions
+### Extra 3: Further enhancing fractions
 
 Identify other methods that would be useful to include in the
 `Fraction` class and add them.
