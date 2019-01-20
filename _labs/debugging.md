@@ -11,9 +11,9 @@ todo:
 Preparation
 -----------
 
-In the [the laboratory on unit testing](../labs/unit-testing), you
+In [the laboratory on unit testing](../labs/unit-testing), you
 forked and cloned the repository
-`<https://github.com/Grinnell-CSC207/lab-unit-testing-2019>`.  You'll
+<https://github.com/Grinnell-CSC207/lab-unit-testing-2019>.  You'll
 work with that same repository.  (So return to the directory if you
 have it, and make a new copy if you don't.)
 
