@@ -20,9 +20,18 @@ Preparation
 
 a. Fork and clone the repository.
 
-b. Read through the code to make sure that you understand what it does.
+b. Import your clone into Eclipse.
 
-c. Bring up the documentation for the three standard classes we'll be
+* Select **File** > **Import...**
+* Click on **General** and then **Existing Projects into Workspace**
+* Click **Next**
+* Under "Select root director*, enter the path to your clone of the
+  repository on the local filesystem.
+* Click **Finish**
+
+c. Read through the code to make sure that you understand what it does.
+
+d. Bring up the documentation for the three standard classes we'll be
 using (links above).
 
 Exercises
