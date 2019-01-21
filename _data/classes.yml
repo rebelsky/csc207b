@@ -34,7 +34,8 @@
     - page: /readings/intro-java.html
     - page: /readings/simple-java-c.html
     - page: /readings/arrays.html
-    - "Osera 1: From C to Java (optional)"
+    - link: "Osera 1: From C to Java (optional)"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap02.pdf
   lab:
     - page: /labs/getting-started.html
   reminders:
@@ -68,9 +69,10 @@
     - Modeling objects with classes
     - An exercise
   reading:
-    - "Osera 2: Object-oriented modeling"
+    - link: "Osera 2: Object-oriented modeling"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap02.pdf
   lab:
-    - page: /labs/strings.html
+    - page: /labs/intro-classes.html
 
 - topic: Unit testing and debugging
   abbrev: unit-testing
@@ -103,16 +105,21 @@
     - The stack and the heap
     - Representing objects
   reading:
-    - "Osera 3.1: Mental Models of Computation"
+    - link: "Osera 3.1: Mental Models of Computation"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap03.pdf
   lab:
-    - "TBD"
+    - page: /labs/mental-models.html
 
 - topic: Pause for Breath
   abbrev: pause01
   summary: |
-    We pause to consider the topics we have covered to date.
+    We pause to consider the topics we have covered to date and to
+    quickly introduce exceptions..
   subjects:
     - Object-oriented design
+    - Exceptions
+  reading:
+    - page: /readings/exceptions.html
 
 - topic: Interfaces and subtype polymorphism
   abbrev: interfaces
@@ -124,6 +131,11 @@
     - Interfaces
     - The building blocks of OOP
     - Subtype polymorphism
+  reading:
+    - page: /readings/interfaces.html
+    - page: /readings/subtype-polymorphism.html
+  lab:
+    - page: /labs/subtype-polymorphism.html
 
 - topic: Parametric polymorphism
   abbrev: generics
@@ -140,8 +152,11 @@
     - Generic methods
     - Generics and arrays
   reading:
-    - /readings/generics
-    - "Osera 7.2: Parametric Polymorphism (optional)"
+    - page: /readings/generics.html
+    - link: "Osera 7.2: Parametric Polymorphism (optional)"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap07.pdf
+  lab:
+    - page: /labs/generics.html
 
 - topic: Inheritance
   abbrev: inheritance
@@ -152,6 +167,8 @@
     - Inheritance basics
     - Inheritance and polymorphism
     - Compile time vs. run time
+  reading:
+    - page: /readings/inheritance.html
   lab:
     - page: /labs/inheritance.html
 
@@ -178,9 +195,9 @@
     - Queues
     - Other linear structures
   reading:
-    - /readings/linear-structures
-    - /readings/stacks
-    - /readings/queues
+    - page: /readings/linear-structures.html
+    - page: /readings/stacks.html
+    - page: /readings/queues.html
   lab:
     - "TBD"
   note:
@@ -191,14 +208,15 @@
   summary: |
     We explore ways in which arrays can be used to implement linear structures.
   subjects: 
-    - Detour: Wrappers
+    - "Detour: Wrappers"
     - Implementing linear structures with arrays
     - Array-based queues
     - Priority queues and their implementation
   reading:
-    - /readings/wrappers
+    - page: /readings/wrappers.html
+    - page: /readings/priority-queues.html
   lab:
-    - "TBD"
+    - page: /labs/array-based-queues.html
   note:
     - Cut out iterators
 
@@ -215,11 +233,16 @@
     - Named iterators
     - Anonymous inner classes
   reading: 
-    - /readings/iterators
+    - page: /readings/anonymous-inner-classes.html
+    - page: /readings/iterators.html
+  lab:
+    - page: /labs/iterators.html
   reminders:
     - Need to rewrite the anonymous inner class reading to focus on iterators
     - May need to write an iterator reading
     - For lab, may have them implement iterators
+    - Note that there are some good questions about iterators at the start
+      of the arry-based-lists lab.
 
 - topic: Anonymous functions
   abbrev: lambda
@@ -228,16 +251,13 @@
   subjects:
     - Anonymous functions reviewed
     - Anonymous functions in Java
-    - FUnctional interfaces
+    - Functional interfaces
   reading:
-    - /readings/anonymous-functions
+    - page: /readings/anonymous-functions.html
+  lab:
+    - page: /labs/anonymous-functions.html
   reminders:
     - The reading does not yet exist and I don't want to use PM's
-
-- topic: Pause for breath
-  abbrev: pause02
-  summary: |
-    We pause to reflect on recent issues.
 
 - topic: Analyzing algorithms
   abbrev: analysis
@@ -251,9 +271,10 @@
     - Big-O, formalized
     - Implications of Big-O
   reading:
-    - "Osera 4: Complexity"
+    - link: "Osera 4: Complexity"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap04.pdf
   lab:
-    - /labs/complexity
+    - page: /labs/complexity.html
   reminders:
     - Copy PM's lab
 
@@ -266,7 +287,17 @@
     - Recurrence relations
     - Approaches to recurrence relations
   reading:
-    - "Osera 4.6: Recurrence Relations"
+    - link: "Osera 4.6: Recurrence Relations"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap04.pdf
+  lab:
+    - page: /labs/analyze-recursive.html
+  reminders:
+    - Need to write the lab (or find one in PM).
+
+- topic: Pause for breath
+  abbrev: pause02
+  summary: |
+    We pause to reflect on recent issues.
 
 - topic: Searching
   abbrev: searching
@@ -281,7 +312,9 @@
     - Comparators
     - Testing binary search
   reading:
-    - /readings/search
+    - page: /readings/search.html
+  lab:
+    - page: /labs/binary-search.html
 
 - topic: Loop invariants
   abbrev: loop-invariants
@@ -293,11 +326,11 @@
     - The state of a program
     - Loop invariants
     - Loop termination
-    - An exercise: Binary search
+    - "An exercise: Binary search"
   reading:
-    - /readings/loop-invariants
-    - "Osera 3.2"
-    - "Osera 3.3"
+    - page: /readings/loop-invariants.html
+    - link: "Osera 3.2 and 3.3"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap03.pdf
 
 - topic: Sorting
   abbrev: sorting
@@ -310,7 +343,7 @@
     - Selection sort
     - Generic sorts
   reading:
-    - /readings/sorting
+    - page: /readings/sorting.html
     - "Osera 8.4: Generic Constraints"
   reminders:
     - Some class time talking about tests
@@ -325,8 +358,13 @@
     - An introduction to merge sort
     - Analyzing merge sort
   reading:
-    - /readings/mergesort
-    - "Osera 8.2: Merge sort"
+    - page: /readings/mergesort.html
+    - link: "Osera 8.2: Merge sort"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
+  lab:
+    - page: /labs/mergesort.html
+  reminders:
+    - Use PM's lab.
 
 - topic: Quicksort
   abbrev: quicksort
@@ -337,9 +375,10 @@
     - Partitioning
     - Partitioning with invarians
     - Key ideas from Quicksort
-  readings:
-    - /readings/quicksort
-    - "Osera 8.3: Quicksort"
+  reading:
+    - page: /readings/quicksort.html
+    - link: "Osera 8.3: Quicksort"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
 
 - topic: Pause for breath
   abbrev: pause03
@@ -355,13 +394,16 @@
     - A simple list interface
     - The java.util.List interface
     - The java.util.ListIterator interace
-  readings:
-    - /readings/lists
-    - Lists with "current" considered harmful
-    - java.util.List
-    - java.util.ListIterator
-  labs:
-    - /labs/array-lists
+  reading:
+    - page: /readings/list-adts.html
+    - link: Lists with "current" considered harmful
+      url: http://csis.pace.edu/~bergin/papers/ListsWithCurrent.html
+    - link: java.util.List
+      url: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html
+    - link: java.util.ListIterator
+      url: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.Iteratorhtml
+  lab:
+    - page: /labs/array-based-lists.html
 
 - topic: Linked lists
   abbrev: linked-lists
@@ -370,8 +412,13 @@
   subjects:
     - A Node class
     - Wrapping the Node class
-  readings:
-    - "TBD"
+  reading:
+    - page: /readings/linked-lists.html
+  lab:
+    - page: /labs/linked-lists.html
+  reminders:
+    - Need to write the damn reading.
+    - My lab or PM's? (Mine)
 
 - topic: Doubly-linked lists
   abbrev: doubly-linked-lists
@@ -382,6 +429,10 @@
     - Doubly-linked lists
     - Circularly-linked lists
     - Other list issues
+  reading:
+    - page: /readings/doubly-linked-lists.html
+  lab:
+    - page: /labs/doubly-linked-lists.html
   reminders:
     - No readings may exist yet. Agh!
 
@@ -395,7 +446,8 @@
     - Associative arrays
     - Association lists
   reading:
-    - "Osera 11.0: Introduction to mapping structures"
+    - link: "Osera 11.0: Introduction to mapping structures"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf
     - "Osera 11.1: An example"
     - "Osera 11.2: The Map ADT"
     - "Osera 11.3: Association lists"
@@ -413,9 +465,15 @@
     - Iterative depth-first traversal
     - Pre-order, in-order, and post-order traversals
   reading:
-    - "Osera 10.1: Hierarchial structures"
+    - link: "Osera 10.1: Hierarchial structures"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf
     - "Osera 10.2: The Tree abstract data type"
     - "Osera 10.3: Tree representation and operations"
+    - page: /readings/tree-traversal.html
+  lab:
+    - page: /labs/tree-traversal.html
+  reminders:
+    - This is likely a new lab.
 
 - topic: Binary search trees I
   abbrev: bst1
@@ -426,8 +484,14 @@
     - Organizing binary search trees
     - Adding elements to BSTs
   reading:
-    - "Osera 10.4: Binary search trees"
-    - "Osera 11.4: Tree maps"
+    - link: "Osera 10.4: Binary search trees"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf
+    - link: "Osera 11.4: Tree maps"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf
+  lab:
+    - page: /labs/binary-search-trees.html
+  reminders:
+    - Use Osera's BST lab.
 
 - topic: Binary search trees II
   abbrev: bst2
@@ -435,6 +499,10 @@
     We continue our exploration of binary search trees.
   subjects:
     - Deletion in BSTs.
+  lab:
+    - page: /labs/binary-search-trees.html
+  reminders:
+    - Check to see if we need a separate lab.
 
 - topic: Hash tables
   abbrev: hash-tables
@@ -447,6 +515,15 @@
     - From objects to integers
     - Handling collisions
     - Rebuilding hash tables
+    - Hash functions
+  reading:
+    - link: "Osera 12: Hashing"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap12.pdf
+  lab:
+    - page: /labs/hash-tables.html
+  reminders:
+    - Lots of this lab can be moved to other days.
+    - Have them write a hash function for our good old fraction class.
 
 - topic: Probing in hash tables
   abbrev: probing
@@ -457,6 +534,8 @@
     - Collisions
     - Linear probing
     - Quadratic probing
+  lab:
+    - page: /labs/hash-table-probing.html
 
 - topic: Chaining in hash tables
   abbrev: chaining
@@ -465,6 +544,8 @@
     in hash tables.
   subjects:
     - Buckets and chaining
+  lab:
+    - page: /labs/hash-table-chained.html
 
 - topic: Pause for breath
   abbrev: pause04
@@ -482,6 +563,10 @@
     - Adding elements to heaps
     - Removing elements from heaps
     - Storing trees in arrays
+  reading: 
+    - page: /readings/priority-queues.html
+  lab:
+    - page: TBD
   reminders:
     - Is this worth doing as a discussion or as a lab?  I like the discussion of heaps, but students also learn from practice.  
     - Maybe we need two days.
@@ -499,8 +584,15 @@
     - Implementing graphs with adjacency matrices
     - Implementing graphs with adjacency lists
     - Implementing graphs with edge tables
+  reading:
+    - TBD
+  lab:
+    - TBD
   reminders:
     - Readings?  Neither PM nor I seem to have any.  Anya used Skiena.
+    - http://www.cs.grinnell.edu/~rebelsky/Courses/CS152/2006S/EBoards/graphs.txt
+    - Maybe the appropriate section of CLRS?
+    - Anya has a lab on graphs.  http://www.cs.grinnell.edu/~vostinar/csc-207-spring-2018-schedule/csc-207-s18-representing-graphs/
 
 - topic: Traversing graphs
   abbrev: graph-traversal
@@ -511,6 +603,14 @@
     - Review of tree traversal
     - Breadth-first traversal
     - Depth-first traversal
+  reading:
+    - page: /readings/tree-traversal.html
+    - page: /readings/graph-traversal.html
+  lab: 
+    - TBD
+  reminders:
+    _ Damn, I probably have to write this unless I have them from a
+      really old 207.
 
 - topic: Minimum spanning trees
   abbrev: mst
@@ -522,6 +622,10 @@
     - Kruskal's algorithm
     - Prim's algorithm
     - Greed as an approach to algorithm design
+  reading:
+    - TBD
+  lab:
+    - TBD
 
 - topic: Shortest paths in graphs
   abbrev: shortest-path
@@ -531,8 +635,12 @@
   subjects:
     - The shortest path problem
     - Shortest paths in unweighted graphs
-    - Shortest paths in weight graphs
+    - Shortest paths in weighted graphs
     - Dijkstra's algorithm
+  reading:
+    - TBD
+  lab:
+    - TBD
 
 - topic: Wrapup
   abbrev: wrap

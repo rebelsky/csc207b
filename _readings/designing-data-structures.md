@@ -126,7 +126,7 @@ know three things about the ADT:
   are the most important part of the ADT, since they tell us exactly
   what functionality we need to build.
 
-Ho we decide how to implement an ADT (build a data structure)?  As
+How do we decide how to implement an ADT (build a data structure)?  As
 in the case of ADT's, you'll find that you may have to consider
 different approaches and explore the benefits and drawbacks of each.
 In doing so, I find it useful to employ an approach that I call
@@ -331,7 +331,7 @@ ImmutableList cdr(ImmutableList list) {
 boolean nullp(ImmutableList list) {
   return (result.index >= list.array.size);
 } // nullp
-</pre>
+```
 
 This implementation is a bit more complex, and probably requires
 more documentation for the programmers who may have to maintain or
