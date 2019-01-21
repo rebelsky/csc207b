@@ -158,6 +158,19 @@
   lab:
     - page: /labs/generics.html
 
+- topic: List ADTs
+  abbrev: list-adts
+  summary: |
+    We consider lists and ways to think about them.  We practice ADT
+    design.
+  subjects:
+    - The design of ADTs, revisited
+    - Scheme lists
+    - Java lists
+    - Quick notes on implementation
+  reminders:
+    - Moved to Wednesday because diving is Friday.
+
 - topic: Inheritance
   abbrev: inheritance
   summary: |
@@ -171,17 +184,6 @@
     - page: /readings/inheritance.html
   lab:
     - page: /labs/inheritance.html
-
-- topic: List ADTs
-  abbrev: list-adts
-  summary: |
-    We consider lists and ways to think about them.  We practice ADT
-    design.
-  subjects:
-    - The design of ADTs, revisited
-    - Scheme lists
-    - Java lists
-    - Quick notes on implementation
 
 - topic: Linked linear structures
   abbrev: linked-structures
