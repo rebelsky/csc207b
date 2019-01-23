@@ -51,7 +51,7 @@ such as by allowing you to bring a page of summary notes to a quiz or test.
 Many students find it useful to *take notes while reading*.  I will admit
 that I have never been good at marking up the texts I read, even though I
 do "read actively".  But I see many very successful students printing out
-readings and taking notes as they go.  In CSC 151, it's also helpful to
+readings and taking notes as they go.  It's also helpful to
 *try code while reading*.  Most of our readings introduce new ways of
 expressing ideas in code.  You understand the code much better when you
 try it (and then take notes on what you observe).  Taking notes on readings
