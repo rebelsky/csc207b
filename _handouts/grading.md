@@ -4,7 +4,7 @@ section: handouts
 ---
 # {{ page.title }}
 
-The [syllabus](../home/syllabus) summarizes the weights
+The [syllabus](../syllabus/) summarizes the weights
 of various course components.  The [narrative on teaching and
 learning](../handouts/teaching) provides some general perspectives on how
 I teach, how I hope you learn, and how I grade.  This document provides
@@ -89,17 +89,16 @@ so that we can reach an appropriate understanding.
 Weekly homework
 ---------------
 
-We have tried a variety of strategies for homework in 151.  We have found
-that students are most successful, and the workload is most manageable,
-when we have weekly homework assignments.  We will assign one homework
-per week, except in weeks in which an exam or project is due.  Almost all
-assignments (including most examinations and projects) will be due at
-10:30 p.m. on Tuesday night.
+We will have weekly homework assignments this semester in CSC 207.  Almost
+all assignments will require work with an assigned partner or partners.
+Homework will be due on Thursday evenings at 10:30 p.m.  There will not
+be homework in weeks in which take-home examinations are due.
 
 I have tried a variety of approaches to grading homework.  I admit to some
 fondness for a plus/check/minus/zero (or excellent/good/fair/poor) scale,
 which looks at the big picture and not niggling details.  But I also like
 using a detailed rubric that covers the various aspects of the assignment.
+You will see different approaches on different assignments.
 
 Since different people have different opinions, I thought I should
 let you know about my scale.  Homework that is primarily correct will
@@ -158,16 +157,15 @@ class. If you do the lab writeup on your own, you must acknowledge your
 partner (any anyone else who gave you help) in your writeup.
 
 Your writeup should include your solution to each assigned exercise.
-If the exercise directs you to write Scheme code, include your Scheme
-code. If the exercise directs you to find out what the output of some
-expression is, copy and paste the output from the DrRacket console. If
-the exercise asks a question or asks you to explain something, write
-an answer in English. You do not need to copy instructions or problem
-statements from the lab exercises into your writeup, but do number
-your solutions.
+If the exercise directs you to write Java code, include your Java
+code. If the exercise asks a question or asks you to explain
+something, write an answer in English. You do not need to copy
+instructions or problem statements from the lab exercises into your
+writeup, but do number your solutions.
 
-You will submit your lab writeups via electronic mail to
-{{ site.grader_email }}.
+You will typically submit your lab writeups via electronic mail to
+{{ site.grader_email }}.  In a few cases, I may ask you to submit
+a written lab writeup.
 
 Lab writeups are generally graded with an acceptable (1) or unacceptable
 (0) binary.  Your write up is acceptable if it includes a solution or
@@ -191,11 +189,24 @@ day's lab.
 Examinations
 ------------
 
-When grading exams this semester, I usually assume full credit for
-each problem and remove points for each error I encounter.  When I
-encounter something particularly exceptional, I may add points.
-I typically guarantee minimum grades on examinations for students who
-spend a reasonable amount of time on the exam and get a minimum number
-of problems correct.  (Warning: My view of "reasonable" may be somewhat
-longer than your view.)
+I believe that you show mastery through individual work on difficult
+problems. I also believe that you need time and resources to work
+on such problems. Hence, all of my exaninations (except, possibly,
+the final examination) are take-home examinations. Most are likely
+to have four problems. Correct or mostly correct solutions on all
+four problems will earn you an A. Correct or mostly correct solutions
+on three problems will earn you a B. Correct or mostly correct
+solutions on two problems will earn you a C. Correct or mostly
+correct solutions on one problem will earn you a D.
+
+I try to keep my examinations at a reasonable length. I attempt
+each problem on my own. If any problem takes me much more than
+fifteen minutes, I scale it back. I believe that an exam I can
+complete in an hour should be doable by most students in under eight
+hours.
+
+After two semesters of finding that students do not significantly
+improve their grade by redoing problems or doing alternative makeup
+problems, I have decided that I will not permit makeups for
+examinations.
 

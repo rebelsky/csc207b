@@ -42,14 +42,25 @@ Preliminaries
       Mr./Ms./Mx./[nothing] SURNAME."
     * "I'm from ..."
     * Optional: "My pronouns are ...."
+* For some reason, I ended up with copies of 151 handouts in the handouts
+  section of the course.  I've updated [the page on
+  grading](../handouts/grading), [the page on note-taking](taking-notes)
 * I realize that PUM and LIA (from the readings) are horrid acronyms.  If
   you have better ones, I'd appreciate it.
+* We'll be using two "books" for this course: The readings I write (or
+  wrote) and the material that Peter-Michael wrote.  There's a link
+  to his book under the Reference menu.  You can grab either the whole
+  book or individual chapters.
 
 ### Upcoming work
 
 * [Assignment 1](../assignments/assignment01) due Thursday night (not tomorrow).
 * Readings due before class Friday.
-* Quiz on Monday.
+    * [An introduction to Java](../readings/intro-java)
+    * [Simple Java for C progammers](../readings/simple-java-c)
+    * [Arrays in Java](../readings/arrays)
+    * Optional: Osera 1: From C to Java
+* Quiz on Monday (and every Monday).
 
 ### Extra credit (Academic/Artistic)
 
