@@ -35,7 +35,7 @@
     - page: /readings/simple-java-c.html
     - page: /readings/arrays.html
     - link: "Osera 1: From C to Java (optional)"
-      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap02.pdf
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap01.pdf
   lab:
     - page: /labs/getting-started.html
   reminders:
@@ -158,6 +158,19 @@
   lab:
     - page: /labs/generics.html
 
+- topic: List ADTs
+  abbrev: list-adts
+  summary: |
+    We consider lists and ways to think about them.  We practice ADT
+    design.
+  subjects:
+    - The design of ADTs, revisited
+    - Scheme lists
+    - Java lists
+    - Quick notes on implementation
+  reminders:
+    - Moved to Wednesday because diving is Friday.
+
 - topic: Inheritance
   abbrev: inheritance
   summary: |
@@ -171,17 +184,6 @@
     - page: /readings/inheritance.html
   lab:
     - page: /labs/inheritance.html
-
-- topic: List ADTs
-  abbrev: list-adts
-  summary: |
-    We consider lists and ways to think about them.  We practice ADT
-    design.
-  subjects:
-    - The design of ADTs, revisited
-    - Scheme lists
-    - Java lists
-    - Quick notes on implementation
 
 - topic: Linked linear structures
   abbrev: linked-structures
