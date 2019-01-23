@@ -30,9 +30,8 @@ Preliminaries
 
 * Welcome to CSC207!
 * I'm Sam (or SamR)
-* Our class mentors are Anh Thu (section 1) and Zander (section 2)
-* You should have received two handouts at the start of class
-    * A playing card.
+* Our class mentors are Anh Thu (section 1) and Shuyi (section 2)
+* You should have received one handout at the start of class
     * The [CS Department Academic Honesty Policy](http://www.cs.grinnell.edu/academic-honesty-policy)
 * Since it's the first day of class, I will take attendance.  (_It will take
   me a few weeks to learn all of your names._)
@@ -43,8 +42,8 @@ Preliminaries
     * "I'm from ..."
     * Optional: "My pronouns are ...."
 * For some reason, I ended up with copies of 151 handouts in the handouts
-  section of the course.  I've updated [the page on
-  grading](../handouts/grading), [the page on note-taking](taking-notes)
+  section of this course.  I've updated [the page on
+  grading](../handouts/grading) and [the page on note-taking](taking-notes)
 * I realize that PUM and LIA (from the readings) are horrid acronyms.  If
   you have better ones, I'd appreciate it.
 * We'll be using two "books" for this course: The readings I write (or
