@@ -20,8 +20,8 @@ _Overview_
 * Course structure
 * Academic honesty
 * ADTs and data structures
-* Designing a stack ADT (an exercise)
 * A quick intro to object-oriented design
+* Designing a stack ADT (an exercise)
 
 Preliminaries
 -------------
@@ -94,8 +94,9 @@ Academic honesty
 ADTs and data structures
 ------------------------
 
+A quick intro to object-oriented design
+---------------------------------------
+
 Designing a stack ADT (an exercise)
 -----------------------------------
 
-A quick intro to object-oriented design
----------------------------------------
