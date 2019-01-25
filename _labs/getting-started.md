@@ -209,7 +209,7 @@ With this in mind, try writing a program that solves the following problem:
 However:
 
 * When `n` is a multiple of 3, print `fizz`,
-* When `n` is a multiple of 5, print `fuzz`, and
+* When `n` is a multiple of 5, print `buzz`, and
 * When `n` is both a multiple of 3 and 5, print `fizzbuzz`.
 
 You should write this program in a Java file called `Fizzbuzz.java`.
