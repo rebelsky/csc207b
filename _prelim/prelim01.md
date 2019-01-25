@@ -16,7 +16,7 @@ link: true
     * "You can call me PRIMARY_NAME."
     * "If you must address me by surname, you can call me
       Mr./Ms./Mx./[nothing] SURNAME."
-    * "I'm from ..."
+    * Something you did during break (if you're willing to share)
     * Optional: "My pronouns are ...."
 * For some reason, I ended up with copies of 151 handouts in the handouts
   section of this course.  I've updated [the page on
@@ -44,7 +44,8 @@ _None yet._
 
 ### Extra credit (Peer)
 
-_None yet._
+* Watch some part of the indoor track meet on Saturday (starts at 9:30);
+  30 minutes suffices.
 
 ### Extra credit (Wellness)
 
