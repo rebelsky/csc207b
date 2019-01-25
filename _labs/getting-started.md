@@ -49,8 +49,8 @@ e. In the terminal window, type `which java` again.  This time, you should see s
 the following.
 
 ```shell
-$ which javac
-/usr/lib/jvm/jdk-11.0.1/bin/javac
+$ which java
+/usr/lib/jvm/jdk-11.0.1/bin/java
 ```
 
 f. In the terminal window, type `java --version`.    You should see
@@ -205,11 +205,11 @@ With this in mind, try writing a program that solves the following problem:
 
 ---
 
-**(Fizzbuzz).**  Write a function `fizzbuzz(n)` that takes an integer `n` and prints the integers from 0 to `n` (inclusive) to the console, one integer per line.
+**(Fizzbuzz).**  Write a function `fizzbuzz(PrintWriter pen, int n)` that takes an integer `n` and prints the integers from 0 to `n` (inclusive), one integer per line, using the specified `PrintWriter`.
 However:
 
 * When `n` is a multiple of 3, print `fizz`,
-* When `n` is a multiple of 5, print `fuzz`, and
+* When `n` is a multiple of 5, print `buzz`, and
 * When `n` is both a multiple of 3 and 5, print `fizzbuzz`.
 
 You should write this program in a Java file called `Fizzbuzz.java`.
@@ -224,7 +224,7 @@ It's ideal for this purpose because:
 2. It tests the language's expressiveness.
    In other words, how does one express repetitive and conditional behavior?
 
-Over the course of this week, we'll be working through some of the canonical programs that PM likes to write when learning a new language.
+Over the course of the next few weeks, we'll be working through some of the canonical programs that PM likes to write when learning a new language.
 Feel free to add these to your arsenal whenever you pick up a new language, too!
 
 ---
@@ -265,7 +265,7 @@ With all this in mind, try writing some code to answer the following questions:
 1. **(Initialization).** Perhaps the largest departure from C is that the following code snippet in C
 
 ```c
-int arr [5];
+int arr[5];
 ```
 
 is how you declare an array with five elements in C.
@@ -273,7 +273,7 @@ Note that there is no array literal or new expression present.
 What happens if you try this with Java? *i.e.*, declare a variable with an array type, do not use an array literal or new expression to initialize it, and then use that array.
 
 2. **(New Expressions).**  Note that the array literal allows you to specify the contents of the array (if you know them at compile time).
-What value(s) does the new expression use to initialize each element of an array?
+What value(s) does the `new` expression use to initialize each element of an array?
 
 3. **(Out-of-bounds).**  Recall that with C arrays, you are free to walk off the end of the array into arbitrary parts of memory (because an array is morally a pointer)!
 Can you do this in Java?
