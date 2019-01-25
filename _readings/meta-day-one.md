@@ -1,6 +1,5 @@
 ---
 title: Readings for day one
-current: true
 link: true
 ---
 There are five readings for the first day of class.
