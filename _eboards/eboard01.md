@@ -4,7 +4,6 @@ number: 1
 section: eboards
 held: 2019-01-23
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 01:  Getting started
 ============================================

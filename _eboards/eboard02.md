@@ -4,6 +4,7 @@ number: 2
 section: eboards
 held: 2019-01-25
 link: true
+current: true
 ---
 CSC 207.02 2019S, Class 02:  Programming in the small with Java
 ===============================================================
