@@ -16,7 +16,7 @@ link: true
     * "You can call me PRIMARY_NAME."
     * "If you must address me by surname, you can call me
       Mr./Ms./Mx./[nothing] SURNAME."
-    * "I'm from ..."
+    * Optional: "During winter break, I ..."
     * Optional: "My pronouns are ...."
 * For some reason, I ended up with copies of 151 handouts in the handouts
   section of this course.  I've updated [the page on
@@ -27,10 +27,15 @@ link: true
   wrote) and the material that Peter-Michael wrote.  There's a link
   to his book under the Reference menu.  You can grab either the whole
   book or individual chapters.
+* I'm teaching two sections of CSC 207 this semester.  I'm not yet sure
+  of all the implications.  One is that I'm likely to assume I've said
+  something in one class when I've said it in another.
+* I'm trying to be less snarky this semester.  Call me on it.
 
 ### Upcoming work
 
 * [Assignment 1](../assignments/assignment01) due Thursday night (not tomorrow).
+    * Partners assigned Friday.
 * Readings due before class Friday.
     * [An introduction to Java](../readings/intro-java)
     * [Simple Java for C progammers](../readings/simple-java-c)
@@ -44,11 +49,12 @@ _None yet._
 
 ### Extra credit (Peer)
 
-_None yet._
+* Indoor track.  The meet starts at 9:30 am Saturday.  The 5K is like 
+  noon.  Just spend 30 minutes for EC.
 
 ### Extra credit (Wellness)
 
-_None yet._
+* Ten days of kindness.
 
 ### Extra credit (Misc)
 
