@@ -40,6 +40,7 @@
     - page: /labs/getting-started.html
   reminders:
     - The getting started lab should be the first two of PM's labs.  (Exploring Java and Arrays in Java)
+  notes: ../eboards/eboard02
 
 - topic: Getting started with Java development
   abbrev: java-development
