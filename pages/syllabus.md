@@ -269,8 +269,8 @@ line of the e-mail.
 
 Submit your lab write-up by pasting the code or answers in the body of
 an email (do not send an attachment) to [{{ site.data.info.grader_email
-}}](mailto:{{ site.data.info.grader_email }}) by 10:30pm the day it is
-due. If your writeup is not received by 10:30pm, it will be considered
+}}](mailto:{{ site.data.info.grader_email }}) by class time the day it is
+due. If your writeup is not received by class time, it will be considered
 late.
 
 The subject of the email should be of the form ***[CSC 207.{{
