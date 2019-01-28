@@ -2,7 +2,7 @@
 title: Current EBoard
 permalink: /eboards/current.html
 ---
-{% assign current = site.eboards | where: "current", true | first %}
+{% assign current = site.eboards | where: "current", true | last %}
 {% if current %}
 Current eboard
 ==============

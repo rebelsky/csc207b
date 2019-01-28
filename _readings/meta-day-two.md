@@ -1,6 +1,5 @@
 ---
 title: Readings for day two
-current: true
 link: true
 ---
 There are three readings for the second day of class.
