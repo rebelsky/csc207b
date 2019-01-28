@@ -8,6 +8,6 @@ summary: |
 ---
 There are two labs for today.
 
-* [Gettings started with Git and GitHub](../labs/git)
 * [The Eclipse IDE](../labs/eclipse)
+* [Gettings started with Git and GitHub](../labs/git)
 
