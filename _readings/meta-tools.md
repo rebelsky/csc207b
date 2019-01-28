@@ -1,5 +1,6 @@
 ---
 title: Lab equipment
+current: true
 link: true
 ---
 There are two readings for today.
