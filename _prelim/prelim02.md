@@ -16,6 +16,9 @@ link: true
   similar, but evidence suggests that when I "lecture", I do so differently
   each time.  I may assume that I've said something to you that I haven't;
   let me know when that happens.
+* Mentor sessions at time TBD (Sunday nights).  Doodle poll coming.  
+* Anh Thu is an SEPC member, feel free to let her know your thoughts
+  about the department (or this class) and she will relay them anonymously.
 
 ### Upcoming work
 
@@ -50,7 +53,7 @@ link: true
 
 #### Extra credit (Wellness)
 
-* Kindness through grattitude, next Monday and Tuesday 11-1, outside DHall.
+* Kindness through gratitude, next Monday and Tuesday 11-1, outside DHall.
 
 #### Extra credit (Misc)
 
@@ -65,4 +68,10 @@ link: true
 * Men's basketball vs. Ripon, 3:00 p.m. Saturday.
 
 ### Friday PSA
+
+* If you imbibe, do so within reason.
+* Whatever decisions you make, you should make them because they are
+  right for you!
+* If you cohabit, get consent.
+* Present: BAC
 
