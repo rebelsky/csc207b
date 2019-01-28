@@ -2,7 +2,7 @@
 title: Current assignment
 permalink: /assignments/current.html
 ---
-{% assign current = site.assignments | where: "current", true | first %}
+{% assign current = site.assignments | where: "current", true | last %}
 {% if current %}
 Current Assignment
 ==================
