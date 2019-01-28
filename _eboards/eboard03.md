@@ -26,6 +26,7 @@ Preliminaries
 ### News / Etc.
 
 * We'll follow the new partner methodology.
+    * Partner names on the board.
     * See email about "Do not partner me with" option.
 * Please turn in your academic honesty policy if you have not done so
   already.
@@ -66,18 +67,9 @@ Preliminaries
 * [Assignment 1](../assignments/assignment01) due Thursday night.
 * Reading due before class Wednesday.
     * Osera, Chapter 2
-* Lab Writeup due before class Wednesday: TBD.
+* No lab writeup for Monday's class.
 
 ### Extra credit
-
-* Thanks for folks who have been sharing suggestions!
-* Getting extra credit.
-    * Participate in the activity.
-    * Send me an email of the form "CSC 207 Extra Credit (Name)", preferably
-      within two days of the event.
-    * The body of the email should include a reflective paragraph about
-      the activity.
-    * I will eventually respond and record the extra credit.
 
 ### Extra credit (Academic/Artistic)
 
@@ -85,7 +77,7 @@ Preliminaries
 
 #### Extra credit (Wellness)
 
-* Kindness through gratitude, next Monday and Tuesday 11-1, outside DHall.
+* Kindness through gratitude, Monday and Tuesday 11-1, outside DHall.
 
 #### Extra credit (Misc)
 
@@ -93,12 +85,81 @@ Preliminaries
 
 ### Questions
 
+_Tell me about the organization of a Java program_
+
+> Java programs consist of multiple classes that work together.
+
+> Each class (normally) resides in its own file.  More precisely,
+  each public class has to be in its own file; you can add private
+  classes to a file with a public class.
+
+> By default, Java programs need a public, static, `main`, that takes
+  an array of strings as parameters.
+
+> We use the `main` method that appears in the command when you
+  start the Java program.  `java HelloWorld` means "run the main
+  method in the `HelloWorld` class.
+
+> That main method (and other methods) can ... (a) run "normal" code;
+  (b) call static methods in the same class; (c) call static methods
+  in other classes with `ClassName.method`; (d) create objects
+  with `new ClassName(params)`; (e) call methods on those created
+  objects.
+
+> For levels of groups, Java also supports packages (a group of classes)
+  and modules (a group of packages).  We will not use modules, which
+  were just introduced.
+
+Can you have a method that's not static?
+
+> Yes.  Just don't write the word `static`.  That method will then 
+  require that you create an object and it can use the fields and
+  methods of that object.  (See Wednesday's class.)
+
+How should we format code?
+
+> See the Google Java Style Guide.
+
+> Our goal is consistency, which helps readers (and writers) (and graders).
+
 Quiz
 ----
+
+Fun and a chance for all of us to learn a bit.  (More or less.)
 
 Eclipse lab
 -----------
 
+* Computers are sentient and malicious!
+
 Git lab
 -------
 
+What should commit comments look like?
+
+> A note that will remind you what you just did.
+
+> "Add the HelloWorld class."
+
+> "Prepare the project for use in Eclipse."
+
+> "Squash the <describe> bug."
+
+> "Refactor the code in HelloWorld."
+
+Debrief
+-------
+
+Things Eclipse gives you ...
+
+* On-the-fly syntax checking.  (You'll see a red x at the left.)
+* Contextual documentation.
+* Some automation (e.g., for refactoring, moving files).
+* Enough that it overwhelms some folks.
+* Lots of warnings on the command line.
+
+Things Git gives you ...
+
+* An easy way to share code.
+* A history of your project.
+* Ways to see changes.
