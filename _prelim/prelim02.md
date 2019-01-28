@@ -16,10 +16,12 @@ link: true
   similar, but evidence suggests that when I "lecture", I do so differently
   each time.  I may assume that I've said something to you that I haven't;
   let me know when that happens.
+* Mentor sessions Sunday evenings, time TBA.  Survey coming.
 
 ### Upcoming work
 
 * [Assignment 1](../assignments/assignment01) due Thursday night.
+    * Sam will announce pairings at the end of class.
 * Readings due before class Monday.
     * [Gettings started with Git and GitHub](../readings/git)
     * [The Eclipse IDE](../readings/eclipse)
@@ -50,19 +52,24 @@ link: true
 
 #### Extra credit (Wellness)
 
-* Kindness through grattitude, next Monday and Tuesday 11-1, outside DHall.
+* Kindness through gratitude, next Monday and Tuesday 11-1, outside DHall.
 
 #### Extra credit (Misc)
 
 * Data Buddies survey (distributed via email)
     * Folks have reported that it was mostly a good use of time.
 
-#### Other good things
+### Other good things
 
 * Women's basketball vs. St. Norbert, 5:30 p.m. Friday.
-* Men's basketball vs. St. Norbert, 5:30 p.m. Friday.
+* Men's basketball vs. St. Norbert, 7:30 p.m. Friday.
 * Women's basketball vs. Ripon, 1:00 p.m. Saturday.
 * Men's basketball vs. Ripon, 3:00 p.m. Saturday.
 
 ### Friday PSA
+
+* Someone cares about you, please think about taking care of yourself.
+* Plan in advance.
+* Consent is ABSOLUTELY, POSITIVELY necessary
+* A gift to you: BAC card
 
