@@ -44,7 +44,7 @@ your account (name, email, editor).
     * `git config --global user.name YOUR_NAME`
     * `git config --global user.email USERNAME@grinnell.edu`
 * Finally, set your editor.  You can use `emacs`, `vi` (or `vim`,
-  or `vim.basic`), or even `gedit`.
+  or `vim.basic`), or even `gedit` or `geany`.
     * `git config --global core.editor EDITOR`
 
 ### Exercise 3: Create a new repository
