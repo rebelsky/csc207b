@@ -250,13 +250,13 @@ expect to earn a lower score.
 ### Labs
 
 We will complete labs in class almost every day. You will be asked to
-submit a subset of the lab work via email for most labs. Your grade on
-labs will account for 10% of your final grade. Labs will be graded on
-a complete/incomplete scale. Writeups are due by 10:30pm on the *next*
-day of class. In particular, a lab completed on Monday is due at 10:30pm
-on Wednesday, a lab completed on Wednesday is due at 10:30pm on Friday,
-and a lab completed in class on Friday is due at 10:30pm the following
-Monday.
+submit a subset of the lab work via email for most labs. Your grade
+on labs will account for 10% of your final grade. Labs will be graded
+on a complete/incomplete scale. Writeups are before class on the next
+day of class. In particular, a lab completed on Monday is due before
+class on Wednesday a lab completed on Wednesday is due before class on
+Friday, and a lab completed in class on Friday is due before class the
+following Monday.
 
 If you complete the lab on your own, you must acknowledge your partner's
 contributions in your writeup. If you submit the lab together, only
@@ -269,8 +269,8 @@ line of the e-mail.
 
 Submit your lab write-up by pasting the code or answers in the body of
 an email (do not send an attachment) to [{{ site.data.info.grader_email
-}}](mailto:{{ site.data.info.grader_email }}) by 10:30pm the day it is
-due. If your writeup is not received by 10:30pm, it will be considered
+}}](mailto:{{ site.data.info.grader_email }}) by class time the day it is
+due. If your writeup is not received by class time, it will be considered
 late.
 
 The subject of the email should be of the form ***[CSC 207.{{
