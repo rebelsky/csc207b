@@ -42,7 +42,7 @@ your account (name, email, editor).
 * First, open a new terminal window.
 * Next, type these commands
     * `git config --global user.name YOUR_NAME`
-    * `git config --global user.email USERNAME@grinnell.edu*`
+    * `git config --global user.email USERNAME@grinnell.edu`
 * Finally, set your editor.  You can use `emacs`, `vi` (or `vim`,
   or `vim.basic`), or even `gedit`.
     * `git config --global core.editor EDITOR`
@@ -124,7 +124,7 @@ e. Use `git push` to send them back to the GitHub repository.
 f. Bring up the repository on GitHub and verify that the files have
 been added.
 
-### Exercise 7: Add Some Java
+### Exercise 7: Add some Java
 
 In [the Eclipse lab](../labs/eclipse.html), you created
 a simple "Hello World" Java program.  Create a similar
@@ -244,6 +244,12 @@ d. These lines show the conflict.  Fix the conflict and save the file.
 
 e. Back in the terminal, add and commit the changed file.  Then try
 pulling again.  Git should now be happy.
+
+### Exercise 14: Support your partner
+
+If you are working with a partner, your partner should configure
+Git too.  (They should create an account and set appropriate
+characteristics in the terminal.)
 
 For those with extra time
 -------------------------
