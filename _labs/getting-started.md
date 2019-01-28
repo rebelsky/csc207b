@@ -1,6 +1,5 @@
 ---
 title: Getting started with Java
-current: true
 summary: |
   In this lab, you'll explore some basics of Java programming using
   commands in the shell.  (We'll soon switch to the Eclipse IDE.)
