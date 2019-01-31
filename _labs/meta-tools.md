@@ -1,7 +1,6 @@
 ---
 title: Lab equipment
 link: true
-current: true
 summary: |
   Today you start experimenting with our "lab equipment", Git and
   Eclipse.
