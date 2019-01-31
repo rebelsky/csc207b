@@ -19,6 +19,6 @@ No current lab writeup found
 
 There does not seem to be a current lab writeup.  However, Sam is
 known to screw things up.  Make sure to check the [class
-news](../home/news/) for official information.
+news](../news/) for official information.
 
 {% endif %}
