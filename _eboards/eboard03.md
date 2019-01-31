@@ -71,7 +71,7 @@ Preliminaries
 
 ### Extra credit
 
-### Extra credit (Academic/Artistic)
+#### Extra credit (Academic/Artistic)
 
 #### Extra credit (Peer)
 
