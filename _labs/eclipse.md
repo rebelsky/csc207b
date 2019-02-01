@@ -3,6 +3,9 @@ title: Getting started with Eclipse
 summary: |
   In this laboratory, you will start using Eclipse. In particular,
   you will create your first project in Eclipse.
+todo:
+  - Add instructions for creating a launcher. (It appears that things
+    have changed once again.)
 ---
 
 Preparation
@@ -96,7 +99,7 @@ public class HelloJava {
    */
   public static void main(String[] args) throws Exception {
     PrintWriter pen = new PrintWriter(System.out, true);
-    pen.println("I am the 1337 h4x0r. Phear me!");
+    pen.print("I am the 1337 h4x0r. Phear me!");
     pen.flush();
   } // main(String[])
 } // class HelloJava
