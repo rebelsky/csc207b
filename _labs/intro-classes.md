@@ -14,6 +14,7 @@ todo:
   - Add a few examples in which they learn about static access to
     fields (or fail to access those fields).  Maybe something as
     simple as giving them a procedure.
+current: true
 ---
 
 Preparation
@@ -26,11 +27,12 @@ b. Import your clone into Eclipse.
 * Select **File** > **Import...**
 * Click on **General** and then **Existing Projects into Workspace**
 * Click **Next**
-* Under "Select root director*, enter the path to your clone of the
+* Under "Select root directory", enter the path to your clone of the
   repository on the local filesystem.
 * Click **Finish**
 
 c. Read through the code to make sure that you understand what it does.
+You don't need to know all the details, but a big-picture view is  helpful.
 
 d. Bring up the documentation for the three standard classes we'll be
 using (links above).
@@ -76,11 +78,11 @@ Here are some examples that illustrate what it's supposed to do.
   pen.println(f.fractional());  // 0/2 or 0
 ```
 
-b. Test your procedure and correct any errors.
+b. Check/test your procedure and correct any errors.
 
 ### Exercise 3: From string to fraction
 
-Write and test a third constructor for the `Fraction` class.  This
+Write and check/test a third constructor for the `Fraction` class.  This
 constructor should accept a string as a parameter, parse that string,
 and generate the appropriate fraction.  For example,
 

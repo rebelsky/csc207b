@@ -34,7 +34,7 @@ tutors:
   - Su from 1&ndash;3pm in Noyce 3813
   - Su, M, T, W, Th from 7&ndash;10pm in Noyce 3813
 
-grader_email: "rebelsky@grinnell.edu"
+grader_email: "csc151-01-grader@grinnell.edu"
 
 all_work_deadline: 5:00pm on Friday, 17 May 2019
 final_exam_time: TBD
@@ -107,6 +107,10 @@ collections:
     output: true
     permalink: /stuff/:path.html
 
+  writeups:
+    output: true
+    permalink: /writeups/:path.html
+
 # Default layouts
 defaults:
   - scope:
@@ -159,6 +163,13 @@ defaults:
     values:
       link: true
       layout: assigned
+
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      link: true
+      layout: writeup
 
 # Build settings
 exclude:
