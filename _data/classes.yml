@@ -162,19 +162,6 @@
   lab:
     - page: /labs/generics.html
 
-- topic: List ADTs
-  abbrev: list-adts
-  summary: |
-    We consider lists and ways to think about them.  We practice ADT
-    design.
-  subjects:
-    - The design of ADTs, revisited
-    - Scheme lists
-    - Java lists
-    - Quick notes on implementation
-  reminders:
-    - Moved to Wednesday because diving is Friday.
-
 - topic: Inheritance
   abbrev: inheritance
   summary: |
@@ -188,6 +175,19 @@
     - page: /readings/inheritance.html
   lab:
     - page: /labs/inheritance.html
+
+- topic: List ADTs
+  abbrev: list-adts
+  summary: |
+    We consider lists and ways to think about them.  We practice ADT
+    design.
+  subjects:
+    - The design of ADTs, revisited
+    - Scheme lists
+    - Java lists
+    - Quick notes on implementation
+  reminders:
+    - Moved to Wednesday because diving is Friday.
 
 - topic: Linked linear structures
   abbrev: linked-structures
@@ -250,21 +250,6 @@
     - Note that there are some good questions about iterators at the start
       of the arry-based-lists lab.
 
-- topic: Anonymous functions
-  abbrev: lambda
-  summary: |
-    We consider Java's support for anonymous functions.
-  subjects:
-    - Anonymous functions reviewed
-    - Anonymous functions in Java
-    - Functional interfaces
-  reading:
-    - page: /readings/anonymous-functions.html
-  lab:
-    - page: /labs/anonymous-functions.html
-  reminders:
-    - The reading does not yet exist and I don't want to use PM's
-
 - topic: Analyzing algorithms
   abbrev: analysis
   summary: |
@@ -299,6 +284,21 @@
     - page: /labs/analyze-recursive.html
   reminders:
     - Need to write the lab (or find one in PM).
+
+- topic: Anonymous functions
+  abbrev: lambda
+  summary: |
+    We consider Java's support for anonymous functions.
+  subjects:
+    - Anonymous functions reviewed
+    - Anonymous functions in Java
+    - Functional interfaces
+  reading:
+    - page: /readings/anonymous-functions.html
+  lab:
+    - page: /labs/anonymous-functions.html
+  reminders:
+    - The reading does not yet exist and I don't want to use PM's
 
 - topic: Pause for breath
   abbrev: pause02
@@ -385,11 +385,6 @@
     - page: /readings/quicksort.html
     - link: "Osera 8.3: Quicksort"
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
-
-- topic: Pause for breath
-  abbrev: pause03
-  summary: |
-    We pause to reflect on recent topics
 
 - topic: Array-based lists
   abbrev: array-lists

@@ -1,0 +1,85 @@
+---
+layout: default
+---
+{% assign lab = site.documents | where: "url", page.lab | first %}
+{% include lab_date.html url=page.lab %}
+
+{% capture subject %}
+CSC 207.{{ site.section_number }} Writeup for Class {{ page.number }} (YOUR NAMES) 
+{% endcapture %}
+
+<h1>Lab writeup for class {{ page.number }}
+{% if page.subject %}
+: {{ page.subject }}
+{% elsif lab %}
+: {{ lab.title }}
+{% endif %}
+</h1>
+
+<dl class="dl-horizontal narrow">
+  {% if lab %}
+    <dt>Lab</dt>
+    <dd><a href="..{{ page.lab }}">{{ lab.title }}</a></dd>
+  {% endif %}
+
+  {% if assigned-day %}
+    <dt>Assigned</dt>
+    <dd>{{ assigned-day | date: "%A, %-d %B %Y" }}</dd>
+  {% elsif lab-day %}
+    <dt>Assigned</dt>
+    <dd>{{ lab-day | date: "%A, %-d %B %Y" }}</dd>
+  {% endif %}
+
+  {% if lab-due %}
+    <dt>Due</dt>
+    <dd>{{ lab-due | date: "%A, %-d %B %Y" }}{% if due-time %} by {{ due-time }}{% endif %}</dd>
+  {% elsif page.no-due-message %}
+    <dt>Due</dt>
+    <dd>{{ page.no-due-message | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+  
+  {% if page.summary %}
+    <dt>Summary</dt>
+    <dd>{{ page.summary | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+  
+  {% if page.prereqs %}
+    <dt>Prerequisites</dt>
+    <dd>{{ page.prereqs | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+
+  {% if page.collaboration %}
+    <dt>Collaboration</dt>
+    <dd>{{ page.collaboration | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+  
+    <dt>Submitting</dt>
+    <dd>
+      Send your solution 
+      {% if page.exercise %} to {{ page.exercise }} {% endif %} 
+      to <a href="mailto:{{ site.grader_email }}?subject={{ subject }}">{{ site.grader_email }}</a>.  Title your email <strong>{{ subject }}</strong>.
+      {% if page.submitting %}
+        {{ page.submitting | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}
+      {% else %}
+        Please include your answers in the body of your email.
+      {% endif %}
+    </dd>
+
+  {% if page.workload %}
+    <dt>Expected time</dt>
+    <dd>{{ page.workload | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+
+  {% for note in page.note %}
+    <dt>Note</dt>
+    <dd>{{ note | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endfor %}
+
+  {% if page.disclaimer %}
+    <dt>Disclaimer</dt>
+    <dd>{{ page.disclaimer | process_liquid | markdownify | remove: "<p>" | remove: "</p>" }}</dd>
+  {% endif %}
+</dl>
+
+{{ content | process_image_in_pre  }}
+

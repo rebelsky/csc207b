@@ -11,6 +11,7 @@ javadoc:
   - "[`DrawingPanel`](https://www.buildingjavaprograms.com/code-files/4ed/javadoc/DrawingPanel.html)"
   - "[`java.awt.Graphics`]({{ site.java_api }}/java/awt/Graphics)"
   - "[`java.awt.Font`]({{ site.java_api }}/java/awt/Font)"
+current: true
 ---
 
 Everyone has wished they could read faster at some point in their life, for example, to get through the required reading for their English class, to cram for an exam, or to simply get through their ever-growing list of novels to read.

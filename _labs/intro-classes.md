@@ -14,6 +14,7 @@ todo:
   - Add a few examples in which they learn about static access to
     fields (or fail to access those fields).  Maybe something as
     simple as giving them a procedure.
+current: true
 ---
 
 Preparation
