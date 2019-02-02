@@ -1,7 +1,6 @@
 ---
 title: Assignment 1
 subtitle: Classical encryption
-current: true
 summary: |
   In this assignment, you'll practice your basic programming-in-the-small
   skills to implement a number of *[classical
