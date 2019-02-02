@@ -59,6 +59,7 @@
   lab:
     - page: /labs/eclipse.html
     - page: /labs/git.html
+  notes: ../eboards/eboard03
 
 - topic: Objects and classes
   abbrev: objects
@@ -74,6 +75,7 @@
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap02.pdf
   lab:
     - page: /labs/intro-classes.html
+  notes: ../eboards/eboard04
 
 - topic: Unit testing and debugging
   abbrev: unit-testing
@@ -94,6 +96,7 @@
   lab:
     - page: /labs/unit-testing.html
     - page: /labs/debugging.html
+  notes: ../eboards/eboard05
 
 - topic: Object semantics
   abbrev: object-semantics

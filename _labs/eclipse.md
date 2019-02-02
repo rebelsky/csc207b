@@ -3,6 +3,9 @@ title: Getting started with Eclipse
 summary: |
   In this laboratory, you will start using Eclipse. In particular,
   you will create your first project in Eclipse.
+todo:
+  - Add instructions for creating a launcher. (It appears that things
+    have changed once again.)
 ---
 
 Preparation
@@ -35,8 +38,8 @@ Exercises
 
 ### Exercise 1: Your first program
 
-a. Make a new Java project in Eclipse and call it `HelloEclipse`.
-From the **File** menu, select **New**, and then "Java Project".
+a. Make a new Java project in Eclipse and call it `First`.
+From the **File** menu, select **New**, and then **Java Project**.
 A **New Java Project** window should appear.  Enter the project
 name "First".  Do not click any buttons yet.
 
@@ -94,11 +97,11 @@ public class HelloJava {
   /**
    * Print a silly message.
    */
-  public static void main (String[] args) throws Exception {
+  public static void main(String[] args) throws Exception {
     PrintWriter pen = new PrintWriter(System.out, true);
-    pen.println ("I am the 1337 h4x0r. Phear me!");
+    pen.print("I am the 1337 h4x0r. Phear me!");
     pen.flush();
-  } // main (String[])
+  } // main(String[])
 } // class HelloJava
 ```
 
@@ -211,6 +214,12 @@ c. Hover the cursor over one of the instances of `print` or
 
 d. Hover the cursor over `main` or `HelloJava` and
 observe what happens.
+
+### Exercise 7: Support your partner
+
+If you are working with a partner, your partner should configure
+Eclipse too.  (Make sure that you're using Java 11; install the
+Google Java formatting guidelines.)
 
 For those with extra time
 -------------------------
