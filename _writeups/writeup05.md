@@ -1,6 +1,6 @@
 ---
 number: 5
-lab: /labs/testing
+lab: /labs/testing.html
 exercise: TBD
 link: true
 ---
