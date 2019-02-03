@@ -9,8 +9,8 @@ copyright_message: |
 link: true
 javadoc:
   - "[`DrawingPanel`](https://www.buildingjavaprograms.com/code-files/4ed/javadoc/DrawingPanel.html)"
-  - "[`java.awt.Graphics`]({{ site.java_api }}/java/awt/Graphics)"
-  - "[`java.awt.Font`]({{ site.java_api }}/java/awt/Font)"
+  - "[`java.awt.Graphics`](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/Graphics.html)
+  - "[`java.awt.Font`](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/Font.html)
 current: true
 ---
 
