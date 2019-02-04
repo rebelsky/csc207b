@@ -137,7 +137,7 @@ If you haven't done so already write unit tests for
 a. Add the following assertion at the start of your test.
 
 ```java
-    assertEquals("1K", 1024, expt(2, 10));
+    assertEquals(1024, expt(2, 10), "1K");
 ```
 
 b. Run the test.  It will likely fail.
