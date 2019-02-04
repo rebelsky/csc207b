@@ -120,19 +120,20 @@ the following.
 ```
 
 We will replace this line with our test code.  To start with, we'll
-use the `assertEquals` method, which takes three parameters: a
-string that describes the test, the expected value, and the expression
-to test.  For example, if I've written a method called `average`
-in the `Math` class, I might do a simple test with
+use the `assertEquals` method, which takes three parameters the
+expected value, the expression to test, and a string the describes
+the test.  (Note: JUnit 4 put the description first.)  For example, if
+I've written a method called `average` in the `Math` class, I might
+do a simple test with
 
 ```java
-        assertEquals("averaging 1 and 3", 2, Calculator.average(1,3));
+        assertEquals(2, Calculator.average(1,3), "averaging 1 and 3");
 ```
 
 While `assertEquals` will be our primary tools,
 JUnit provides a variety of other kinds of assertion tests.  You
 can read documentation at 
-<https://junit.org/junit4/javadoc/latest/org/junit/Assert.html>.
+<https://junit.org/junit5/docs/current/api/org/junit/jupiter/api/Assertions.html>.
 
 You can put as many assertions in a test as you want, but JUnit
 will only tell you if they all succeeded - the first one that fails
@@ -189,17 +190,18 @@ import org.junit.Test;
 public class MyMathTest {
   @Test
   public void testAverage() {
-    assertEquals("zero", 0, MyMath.average(0, 0));
+    assertEquals(0, MyMath.average(0, 0), "zero");
     for (int i = 0; i &lt; 100; i++) {
-      assertEquals(i + " vs " + -i, 0, MyMath.average(i, -i));
+      assertEquals(0, MyMath.average(i, -i), i + " vs " + -i);
     } // for
   } // testAverage
 
   @Test
   public void testIsEven() {
     for (int i = -100; i &lt; 100; i += 2) {
-      assertEquals(i + " is even", true, MyMath.isEven(i));
-      assertEquals((i + 1) + " is odd", false, MyMath.isEven(i + 1));
+      assertEquals(i + " is even", true, 
+      assertTrue(MyMath.isEven(i), i + " is even");
+      assertFalse(MyMath.isEven(i + 1), (i + 1) + " is odd");
     } // for
   } // testIsEven
 } // MyMathTest

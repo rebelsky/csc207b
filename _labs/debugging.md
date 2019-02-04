@@ -31,18 +31,30 @@ If you haven't yet written your test cases, here's one.
 
 ```java
 public void testRemoveAs() {
-  assertEquals("empty string", "", SampleMethods.removeAs(""));
-  assertEquals("no as", "hello", SampleMethods.removeAs("hello"));
-  assertEquals("eliminate one a", "", SampleMethods.removeAs("a"));
-  assertEquals("eliminate many as", "", SampleMethods.removeAs("aaaa"));
-  assertEquals("eliminate one a, short string", "pin", 
-               SampleMethods.removeAs("pain"));
-  assertEquals("eliminate many as, medium string", "lphbet", 
-               SampleMethods.removeAs("alphabet"));
-  assertEquals("eliminate many as, silly string", "BCDEFGHIJKLMNOPQ",
-               SampleMethods.removeAs("aBaaCDaaaEFGaaaaHIJKaaaaLMNaaaOPaaQa"));
-  assertEquals("eliminate prefix and suffix as", "bbb",
-               SampleMethods.removeAs("aaabbbaaa"));
+  assertEquals("", 
+               SampleMethods.removeAs(""),
+               "empty string");
+  assertEquals("hello", 
+               SampleMethods.removeAs("hello"),
+               "no as");
+  assertEquals("", 
+               SampleMethods.removeAs("a"),
+               "eliminate one a");
+  assertEquals("", 
+               SampleMethods.removeAs("aaaa"),
+               "eliminate many as");
+  assertEquals("pin", 
+               SampleMethods.removeAs("pain"),
+               "eliminate one a, short string");
+  assertEquals("lphbet", 
+               SampleMethods.removeAs("alphabet"),
+               "eliminate many as, medium string");
+  assertEquals("BCDEFGHIJKLMNOPQ",
+               SampleMethods.removeAs("aBaaCDaaaEFGaaaaHIJKaaaaLMNaaaOPaaQa"),
+               "eliminate many as, silly string");
+  assertEquals("bbb",
+               SampleMethods.removeAs("aaabbbaaa"),
+               "eliminate prefix and suffix as");
 } // testRemoveAs
 ```
 
