@@ -61,7 +61,7 @@ h. Change the body of `test2` to the following.  Then observe what
 happens when you run your test code.
 
 ```java
-    assertEquals("stupid test", 10, 3*5);
+    assertEquals(10, 3*5, "stupid test");
 ```
 
 This test is supposed to fail.  It's there to demonstrate that (a)
@@ -115,7 +115,7 @@ the test?
   public void testExtremes() {
      int tmp = Integer.MAX_VALUE - 10;
      int[] values = { tmp, tmp, -tmp, -tmp };
-     assertEquals("extreme test", 0, sum(values));
+     assertEquals(0, sum(values), "extreme values");
   } // testExtremes
 ```
 

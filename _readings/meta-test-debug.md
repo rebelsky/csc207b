@@ -5,8 +5,8 @@ current: true
 ---
 There are two readings for today.
 
-* [Unit testing with JUnit](/labs/unit-testing)
-* [Debugging in Eclipse](/labs/debugging)
+* [Unit testing with JUnit](/readings/unit-testing)
+* [Debugging in Eclipse](/readings/debugging)
 
 Read both.
 
