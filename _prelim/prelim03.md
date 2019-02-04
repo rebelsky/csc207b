@@ -8,13 +8,15 @@ link: true
 * We'll follow the new partner methodology.
     * Partner names appear on the board.
     * See email about "Do not partner me with" option.
+* I've responded to every lab that has been submitted.
 * Please turn in your academic honesty policy if you have not done so
   already.
 * If you're not on the csstudents list, you probably should be.  Let me
   know if you'd like to be added.
 * Mentor sessions at 7:00 p.m. Sunday nights.
-* You will have a substitute teacher on Wednesday.  I'll be off learning
-  about Fairness, Accountability, and Transparency in Artificial Intelligence.
+* You will have a substitute teacher on Wednesday.  I'll be off at the
+  ACM FAT* conference learning about Fairness, Accountability, and
+  Transparency in Artificial Intelligence.
 * If you feel unsafe coming to class on Wednesday, send me an email message
   and I will treat it as an excused absence.  You are, however, responsible
   for making up the work on your own.
@@ -35,29 +37,34 @@ link: true
       that I might ask you questions, you may be more inclined to ask
       me questions.
     * And more.
-* If being called on in class causes severe anxiety, let me know and
+* If being called on during class causes severe anxiety, let me know and
   we'll figure out a way to adjust to support you.
 * I've updated the due time for lab writeups; writeups are generally due 
   at the start of class.
 * You should be able to access everything on the current eboard by
-  substituting `.md` for `.html` at the end of the URL.
+  substituting `.md` for `.html` at the end of the URL.  
+    * `md` stands for "markdown", a very simple markup language that
+      I use when writing the boards.
+    * I'll probably work on ways to automate the update of the HTML page.
 
 ### Upcoming work
 
 * [Assignment 1](../assignments/assignment01) due Thursday night.
 * Reading due before class Wednesday.
     * Osera, Chapter 2
-* Lab Writeup due before class Wednesday: TBD.
+* No lab writeup.
 
 ### Extra credit
 
-### Extra credit (Academic/Artistic)
+#### Extra credit (Academic/Artistic)
+
+* CS Table Tomorrow, Noon, Somewhere.  Trusting trust.
 
 #### Extra credit (Peer)
 
 #### Extra credit (Wellness)
 
-* Kindness through gratitude, next Monday and Tuesday 11-1, outside DHall.
+* Kindness through gratitude, Tuesday 11-1, outside DHall.
 
 #### Extra credit (Misc)
 

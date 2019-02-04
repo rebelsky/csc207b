@@ -40,7 +40,7 @@ link: true
       the activity.
     * I will eventually respond and record the extra credit.
 
-### Extra credit (Academic/Artistic)
+#### Extra credit (Academic/Artistic)
 
 * Opening reception for "The Incident", Bucksbaum Rotunda, 7:00 p.m. 
   tonight. (May be triggering.)
