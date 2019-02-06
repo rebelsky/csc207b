@@ -113,17 +113,7 @@
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap03.pdf
   lab:
     - page: /labs/mental-models.html
-
-- topic: Pause for Breath
-  abbrev: pause01
-  summary: |
-    We pause to consider the topics we have covered to date and to
-    quickly introduce exceptions..
-  subjects:
-    - Object-oriented design
-    - Exceptions
-  reading:
-    - page: /readings/exceptions.html
+  notes: ../eboards/eboard06
 
 - topic: Interfaces and subtype polymorphism
   abbrev: interfaces
@@ -161,6 +151,18 @@
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap07.pdf
   lab:
     - page: /labs/generics.html
+  notes: ../eboards/eboard07
+
+- topic: Pause for Breath
+  abbrev: pause01
+  summary: |
+    We pause to consider the topics we have covered to date and to
+    quickly introduce exceptions..
+  subjects:
+    - Object-oriented design
+    - Exceptions
+  reading:
+    - page: /readings/exceptions.html
 
 - topic: Inheritance
   abbrev: inheritance
