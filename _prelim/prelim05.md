@@ -17,13 +17,19 @@ link: true
   much talking today.
 * JUnit's API changed significantly from JUnit4 to JUnit5.  I think I've
   caught all of the code that needed changing, but there may be a few left.
+* Due to a confluence of circumstances, it appears we will have few MAPs
+  in the department this summer.  Check with JW and CC for details on 
+  their MAPs.
 
 ### Upcoming work
 
 * [Assignment 2](../assignments/assignment02) due Thursday night.
 * Reading due before class Wednesday
     * Osera 3.1: Mental Models of Computation
-* Lab writeup: TBD
+* Lab writeup: Problem 1 from the Debugging Lab
+    * To `csc207-01-grader@grinnell.edu`
+    * Subject: **CSC 207.01 Writeup for Class 5 (Your names)**
+    * Submit the corrected code for the `removeAs` method.
 
 ### Extra credit
 
@@ -36,6 +42,7 @@ link: true
     * Angwin, Julia, Larson, Jeff, Mattu Surya, and Kirchner, Lauren.  
       Machine bias.  Pro Publica.
       <https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing>
+* CS department advising forum, Thursday, 11am.
 * _Once Upon a Time Wolf_ (tickets required), Bucksbaum.
   Friday, 8 February, 7pm.
 * _Once Upon a Time Wolf_ (tickets required), Bucksbaum.
