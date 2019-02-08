@@ -1,7 +1,7 @@
 ---
 number: 7
 lab: /labs/subtype-polymorphism.html
-exercise: exercise 7
+exercise: exercise 5a
 link: true
 current: true
 ---
