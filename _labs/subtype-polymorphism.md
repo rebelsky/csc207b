@@ -151,19 +151,23 @@ b. Compare your answer to the source code of `VCompose`.
 Pick one of the following composition mechanisms and implement it as a
 class.
 
-a. `Truncate`, which, given a text block and a maximum width,
+a. `Truncated`, which, given a text block and a maximum width,
 builds a new block that truncates the input block to that width.
 
-b. `Center`, which, given a text block and a width, builds
+b. `Centered`, which, given a text block and a width, builds
 a new block that centers the block within that width.
 
-c. `RightJustify`, which, given a text block and a width, builds a
-new block right-justifies the input block within that width.
+c. `RightJustified`, which, given a text block and a width, builds a
+new block that right-justifies the input block within that width.
 
 For those with extra time
 -------------------------
 
-### Extra 1: Other compositions
+### Extra 1: More composition classes
+
+Implement the other two composition classes from the last exercise.
+
+### Extra 2: Other compositions
 
 Use the various implementations of `TextBlock` to make an
 "interesting" textual composition.  
