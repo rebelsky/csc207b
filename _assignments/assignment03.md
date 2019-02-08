@@ -15,13 +15,13 @@ collaboration: |
   code, and even look at other people's code for inspiration, but
   you should not develop code together.
 submitting: |
-  Please put all of your work in a GitHub repository named `csc207-hw03.
-  Email the address of that repository to grader-207-01@cs.grinnell.edu.
-  Please use a subject of "CSC207 2019S Assignment &oop-number;
-  (*Your Name*)".
+  Please put all of your work in a GitHub repository named `csc207-hw03`.
+  Email the address of that repository to `csc207-01-grader@cs.grinnell.edu`.
+  Please use a subject of "CSC207 2019S Assignment 3 (*Your Name*)".
 warning: |
   So that this assignment is a learning experience for everyone, we may
   spend class time publicly critiquing your work.
+current: true
 ---
 Preparation
 -----------
