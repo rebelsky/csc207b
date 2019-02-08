@@ -4,7 +4,6 @@ number: 5
 section: eboards
 held: 2019-02-04
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 05:  Unit testing and debugging
 =======================================================
