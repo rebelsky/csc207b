@@ -1,7 +1,5 @@
 # Jekyll Site settings
 title: CSC 207 2019S
-# baseurl: /~curtsinger/teaching/2018F/CSC151
-# url: http://www.cs.grinnell.edu/~curtsinger/teaching/2018F/CSC151
 baseurl: /~rebelsky/Courses/CSC207/2019S/00
 url: http://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2019S/00
 
@@ -34,7 +32,7 @@ tutors:
   - Su from 1&ndash;3pm in Noyce 3813
   - Su, M, T, W, Th from 7&ndash;10pm in Noyce 3813
 
-grader_email: "csc151-01-grader@grinnell.edu"
+grader_email: "csc207-01-grader@grinnell.edu"
 
 all_work_deadline: 5:00pm on Friday, 17 May 2019
 final_exam_time: TBD

@@ -3,6 +3,7 @@ title: Subtype polymorphism in Java
 repo: <https://github.com/Grinnell-CSC207/lab-polymorphism-2019>
 summary: |
   We explore issues of polymorphism in Java.
+current: true
 ---
 Preparation
 -----------
@@ -18,7 +19,7 @@ Exercises
 
 a. Scan through `MathUtils.java` and verify that the square root
 method has the form described in [the
-reading](../readings/polymorphism.html).
+reading](../readings/subtype-polymorphism).
 
 b. Run the `main` method of `MathExpt` to see that it behaves as
 expected.
@@ -46,7 +47,7 @@ print a simple block.   I would suggest something like the following.
 
 ### Exercise 3: Boxed text
 
-The [reading](../readings/polymorphism.html), claims that it is
+The [reading](../readings/subtype-polymorphism), claims that it is
 possible to combine text blocks together by using one as a parameter
 to the constructor of another.  (In fact, that seems to be the only
 way to create a `BoxedBlock`.  Try creating and printing out each
