@@ -12,12 +12,15 @@ link: true
 * [Assignment 3](../assignments/assignment03) due next Thursday night.
     * Partners to be assigned before the end of class.
 * Reading due before class Monday
-* Lab writeup: TBD
+    * [Generics and parametric polymorphism](../generics)
+    * PM on parametric polymorphism (optional)
+* Lab writeup: Exercise 7
     * To `csc207-01-grader@grinnell.edu`
     * Subject: **CSC 207.01 Writeup for Class 7 (Your names)**
+    * Please put your code in the body of the message.
 * Quiz Monday
     * Object modeling
-    * Subtype polymorphism
+    * Subtype polymorphism and interfaces
     * Maybe a bit about testing or debugging
 
 ### Extra credit
@@ -49,4 +52,6 @@ link: true
 ### Other good things
 
 ### Friday PSA
+
+* I care.  Take care.
 

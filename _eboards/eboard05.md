@@ -83,6 +83,8 @@ Preliminaries
 
 ### Questions
 
+_Should our repos be public or private?_
+
 > Private.
 
 _Does our program have to close the drawing panel, or should we make
@@ -94,8 +96,7 @@ Quiz
 ----
 
 If you finish early, take the time to mediate quietly.  (Yes, you can also
-_Should our repos be public or private?_
-
+go off to the bathroom or get some water.)
 
 Lab: Testing
 ------------
