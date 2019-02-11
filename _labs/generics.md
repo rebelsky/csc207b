@@ -29,7 +29,15 @@ will be.
 
 b. Compile and run `SEAExpt.java` to see what the output is.
 
-c. Create an expandable array of strings, assign some values to it,
+c. `SimpleExpandableArray` is supposed to expand the array when
+you set a value larger than the size.  Do you expect it to do
+so for this example?
+
+d.  Within the portion of the `set` method of `SimpleExandableArray`
+that expands the array, add a call to `System.err.println` so that
+you can tell when the array expands.
+
+e. Create an expandable array of strings, assign some values to it,
 and print them out.  Here's a start.
 
 ```java
@@ -40,30 +48,39 @@ and print them out.  Here's a start.
   } // for
 ```
 
-d. What do you expect to happen if you assign a string to an element
+f. What do you expect to happen if you assign a string to an element
 of `numbers` or a number to an element of strings??
 
-e. Check your answer experimentally.
+g. Check your answer experimentally.
 
-f. What do you expect to happen if we leave out the type when we
+h. What do you expect to happen if we leave out the type when we
 construct `numbers`, as in the following?
 
 ```java
   ExpandableArray<BigInteger> numbers = new SimpleExpandableArray();
 ```
 
-g. Check your answer experimentally.
+i. Check your answer experimentally.
 
-h. What do you expect to happen if we leave out the type when we
+j. What do you expect to happen if we leave out the type when we
 declare `strings`, as in the following?
+
+```
+  ExpandableArray strings = new SimpleExpandableArray<String>();
+```
+
+k. Check your answer experimentally.
+
+l. What do you expect to happen if we leave out the type on both
+sides of the declaration, as in the following?
 
 ```
   ExpandableArray strings = new SimpleExpandableArray();
 ```
 
-i. Check your answer experimentally.
+m. Check your answer experimentally.
 
-j. Summarize what you've learned in these exercises.
+n. Summarize what you've learned in these exercises.
 
 ### Exercise 2: Searching
 
