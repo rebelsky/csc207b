@@ -3,7 +3,6 @@ title: Subtype polymorphism in Java
 repo: <https://github.com/Grinnell-CSC207/lab-polymorphism-2019>
 summary: |
   We explore issues of polymorphism in Java.
-current: true
 ---
 Preparation
 -----------
