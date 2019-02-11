@@ -33,13 +33,11 @@ c. Create an expandable array of strings, assign some values to it,
 and print them out.  Here's a start.
 
 ```java
-  ExpandableArray<String> strings =
-      new SimpleExpandableArray<String>();
+  ExpandableArray<String> strings = new SimpleExpandableArray<String>();
   ...
-  for (int i = 0; i < 10; i++)
-    {
-      pen.println("strings[" + i + "] = " + strings.get(i));
-    } // for
+  for (int i = 0; i < 10; i++) {
+    pen.println("strings[" + i + "] = " + strings.get(i));
+  } // for
 ```
 
 d. What do you expect to happen if you assign a string to an element
@@ -51,8 +49,7 @@ f. What do you expect to happen if we leave out the type when we
 construct `numbers`, as in the following?
 
 ```java
-  ExpandableArray<BigInteger> numbers =
-    new SimpleExpandableArray();
+  ExpandableArray<BigInteger> numbers = new SimpleExpandableArray();
 ```
 
 g. Check your answer experimentally.
@@ -61,8 +58,7 @@ h. What do you expect to happen if we leave out the type when we
 declare `strings`, as in the following?
 
 ```
-  ExpandableArray strings =
-      new SimpleExpandableArray();
+  ExpandableArray strings = new SimpleExpandableArray();
 ```
 
 i. Check your answer experimentally.
@@ -94,10 +90,10 @@ declaration of `strings`, as in the following?
 
 g. Check your answer experimentally.
 
-h. Revise the `short` predicate so that it takes an
-object as a parameter, converts it to a string, and sees if it
-has fewer than five characters.  Do you expect that new predicate
-to work with the updated `strings`?
+h. Create a new `SmallObject` predicate whose `hold` method takes
+an object as a parameter, converts it to a string, and sees if that
+string has fewer than five characters.  Do you expect that new
+predicate to work with the updated `strings`?
 
 i. Check your answer experimentally.
 
@@ -106,39 +102,28 @@ j. Summarize what you've learned in these exercises.
 ### Exercise 3: Predicates
 
 a. What do you expect to happen if we restore the original
-declaration of `strings` and use the new version of
-`small`?
+declaration of `strings` and use the new comparator we just 
+developed?
 
 ```java
     String[] strings = new String[] { ... };
-    ...
-    Predicate<Object> small = 
-      new Predicate<Object>()
-        {
-          @Override
-          public boolean holds(Object val)
-          {
-            return (val.toString().length() < 5);
-          } // holds(Object)
-        }; // new Predicate<Object>
-    ...
-    pen.println("A small string: " + SearchUtils.search(strings, small));
+    pen.println("A small string: " + SearchUtils.search(strings, SmallObject.PRED));
 ```
 
 b. Check your answer experimentally.
 
-c. What do you expect to happen if we use the new `small`
+c. What do you expect to happen if we use the new `SmallObject.PRED`
 predicate to search `numbers`?
 
 ```java
-    pen.println("A small integer: " + SearchUtils.search(numbers, small));
+    pen.println("A small integer: " + SearchUtils.search(numbers, SmallObject.PRED));
 ```
 
 d. Check your answer experimentally.
 
 e. Summarize what you've learned in this exercise.
 
-### Exercise 4: A Box
+### Exercise 4: Boxes
 
 As you've noted, when two variables refer to the same mutable object,
 we can change the object through one variable and see the effect 
@@ -182,8 +167,7 @@ Finish the following alternate implementation of
 `ExpandableArray`
 
 ```java
-public class VectorBasedExpandableArray
-{
+public class VectorBasedExpandableArray {
   Vector<T> values;
   ...
 } // class VectorBasedExpandableArray
