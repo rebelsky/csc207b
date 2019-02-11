@@ -77,7 +77,7 @@ will be.
 b. Compile and run `SearchExpt.java` to see what the output is.
 
 d. What do you expect to happen if you try to search `strings`
-with `odd` or `numbers` with `small`?
+with `OddInteger.PRED` or `numbers` with `SmallString.PRED`?
 
 e. Check your answer experimentally.
 
