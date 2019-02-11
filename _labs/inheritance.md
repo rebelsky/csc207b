@@ -44,7 +44,7 @@ public interface BasicCounter {
 Exercises
 ---------
 
-### Exercise 1: Your Base Class
+### Exercise 1: Your base class
 
 Write a class, `BasicCounter`, in package `groupname.util`, that
 implements the `Counter` interface.  The class will allow clients

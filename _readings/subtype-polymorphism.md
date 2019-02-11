@@ -109,9 +109,10 @@ that there's a better implementation, we need to rewrite not just
 two short examples suggest, repetition of code is likely to lead
 to problems in maintaining and updating your program.
 
-Using polymorphism, we can write one method that serves both purposes.
-In particular, since both `Integer`s and `BigIntegers` are `Number`s,
-and since all `Number`s provide a `doubleValue` method, we can write
+Using subtype polymorphism, we can write one method that serves
+both purposes.  In particular, since both `Integer` objects and
+`BigInteger` objects are `Number` objects, and since all `Number`
+objects provide a `doubleValue` method, we can write
 
 ```java
 public static double squareRoot(Number num) {
@@ -132,8 +133,8 @@ public static double squareRoot(Number num) {
 
 Now we can call `Helper.squareRoot` on an `Integer`, a `BigInteger`,
 a `Double`, a `BigDecimal`, a `Float`, or any of the other types
-that are also `Number`s.  If someone later designs another kind of
-`Number` (say, a `Fraction`), `Helper.squareRoot`
+that implement the `Number` interface.  If someone later designs
+another kind of `Number` (say, a `Fraction`), `Helper.squareRoot`
 will work on that new kind of number without any additional effort
 on the part of the programmer who wrote the `squareRoot` method
 
@@ -200,7 +201,7 @@ public interface TextBlock {
    * @param i the number of the row
    * @return the ith row
    * @pre
-   *   0 &lt;= i &lt; this.height()
+   *   0 <= i < this.height()
    * @exception Exception
    *   if the row number is invalid.
    */
@@ -246,7 +247,7 @@ package groupname.layout;
  * One line of text.
  *
  * @author Samuel A. Rebelsky
- * @version 1.1 of January 2019
+ * @version 1.3 of January 2019
  */
 public class TextLine implements TextBlock {
   // +--------+------------------------------------------------------------
@@ -302,10 +303,6 @@ public class TextLine implements TextBlock {
     return this.line.length();
   } // width()
  
-  // +---------------+-----------------------------------------------------
-  // | Class Methods |
-  // +---------------+
-
 } // class TextLine
 ```
 
@@ -336,7 +333,7 @@ package groupname.layout;
  * A text block surrounded by a box.
  *
  * @author Samuel A. Rebelsky
- * @version 1.1 of January 2019
+ * @version 1.2 of January 2019
  */
 public class BoxedBlock implements TextBlock {
   // +--------------+------------------------------------------------------
@@ -420,6 +417,7 @@ public class BoxedBlock implements TextBlock {
    * Build a sequence of dashes of a specified length.
    */
   String dashes(int len) {
+    // Note: This method is probably overkill.
     // Make sure the collection of dashes is big enough
     while (lotsOfDashes.length() < len) {
       lotsOfDashes = lotsOfDashes.concat(lotsOfDashes);
