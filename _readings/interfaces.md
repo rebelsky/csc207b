@@ -8,8 +8,8 @@ summary: |
 prereqs: |
   Basic understanding of classes.
 ---
-Introduction: Separating the what from the how
-----------------------------------------------
+Introduction: Separating the *what* from the *how*
+--------------------------------------------------
 
 As you should have discovered by now, a pair of key activities in
 object-oriented design are describing classes of objects and using

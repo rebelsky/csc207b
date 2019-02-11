@@ -1,7 +1,6 @@
 ---
 title: Interfaces and subtype polymorphism
 link: true
-current: true
 ---
 There are two readings for today.
 
