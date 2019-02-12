@@ -10,7 +10,6 @@ prereqs: |
   [Subtype polymorphism](../readings/subtype-polymorphism).
 todo: 
   - Ernest says talk about multiple type variables.
-current: true
 ---
 Introduction
 ------------
