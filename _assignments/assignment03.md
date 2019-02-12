@@ -144,7 +144,6 @@ For example, given the following program fragment,
   TextBlock block2 = new TruncatedBlock(block, 3);
   TBUtils.print(pen, block);
   TBUtils.print(pen, block2);
-</pre>
 ```
 
 we see output something like the following
@@ -210,7 +209,10 @@ choose to throw an exception if the underlying block is too large.
 e. Write a class, `BlockPair`, which implements `TextBlock` and
 represents two copies of the same block, side by side.  For example,
 if the third row of `block` is `"Hello"`, then the third row of
-`new BlockPair(block)` should be `"HelloHello"`.
+`new BlockPair(block)` should be `"HelloHello"`.  Similarly, if
+the third row of `block` is `"Hello   "` (e.g., because it's in a
+vertical composition), the third row of the corresponding `BlockPair`
+should be `"Hello   Hello   "`.
 
 ### Part B: Mutable text blocks
 
@@ -269,6 +271,25 @@ UPDATED
 RE-UPDATED
 *Something that indicates that there was an error, which may just be a missing line.*
 ```
+
+For clarity, here's the behavior we expect.
+
+* If the underlying block width changes, a `BoxedBlock` should stretch
+  or shrink to accommodate that change.
+* If the underlying block width changes, a `BlockPair` should stretch
+  or shrink to accommodate that change.
+* If any of the underlying block widths change, the width of a
+  `HComposition` or a `VComposition` should change.
+* The width of a `CenteredBlock` should not change.  However, you may
+  have to change how you center the underlying block.  If the width of
+  the underlying block is too large, you should either throw an exception,
+  truncate the lines of the underlying block, or create a string of
+  the correct width that indicates an error, such as `"?????"`.
+* Similarly, the width of a `RightJustified` should not change.  You
+  can use a similar approach to your `CenteredBlock`.
+* The width of a `TruncatedBlock` should not change.  Since these
+  blocks already truncate, they should continue to behave correctly,
+  even when the width of the underlying block changes.
 
 ### Part C: Modeling groceries
 
