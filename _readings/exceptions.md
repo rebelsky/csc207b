@@ -12,6 +12,7 @@ javadoc:
   - "[`java.io.BufferedReader`]({{ site.java_api }}/java/io/BufferedReader.html)"
 prereqs: |
   Java basics.  Conditionals.
+current: true
 ---
 
 Problems in programs
@@ -382,9 +383,8 @@ try {
 } // try/catch
 ```
 
-  It is then the custom for a method to indicate what particular
-  kinds of exceptions it may throw.
-  For `promptForInt`, we might write:
+It is then the custom for a method to indicate what particular kinds
+of exceptions it may throw.  For `promptForInt`, we might write:
 
 ```java
 public static int promptForInt(PrintWriter pw, BufferedReader br, String prompt) throws NumberFormatException, IOException {
