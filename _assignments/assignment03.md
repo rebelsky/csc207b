@@ -401,9 +401,6 @@ Here's a program fragment that shows some of these classes in action.
   // The customer adds three pounds of bananas to the cart
   cart.addItem(new BulkItem(bananas, Unit.POUNDS, 3);
 
-  // The customer adds a jar of 3 grams of saffron to the cart
-  cart.addItem(new BulkContainer("jar", saffron, Unit.GRAMS, 3);
-
   // The customer adds a bag of 1 gram of saffron to the cart
   cart.addItem(new BulkItem(saffron, Unit.GRAMS, 1);
 

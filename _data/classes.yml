@@ -130,6 +130,7 @@
     - page: /readings/subtype-polymorphism.html
   lab:
     - page: /labs/subtype-polymorphism.html
+  notes: ../eboards/eboard07
 
 - topic: Parametric polymorphism
   abbrev: generics
@@ -151,7 +152,7 @@
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap07.pdf
   lab:
     - page: /labs/generics.html
-  notes: ../eboards/eboard07
+  notes: ../eboards/eboard08
 
 - topic: Pause for Breath
   abbrev: pause01
@@ -163,6 +164,7 @@
     - Exceptions
   reading:
     - page: /readings/exceptions.html
+  notes: ../eboards/eboard09
 
 - topic: Inheritance
   abbrev: inheritance
@@ -177,6 +179,7 @@
     - page: /readings/inheritance.html
   lab:
     - page: /labs/inheritance.html
+  notes: ../eboards/eboard10
 
 - topic: List ADTs
   abbrev: list-adts
@@ -189,7 +192,7 @@
     - Java lists
     - Quick notes on implementation
   reminders:
-    - Moved to Wednesday because diving is Friday.
+    - Moved to Monday because diving is Friday.
 
 - topic: Linked linear structures
   abbrev: linked-structures
