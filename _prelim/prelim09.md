@@ -14,6 +14,7 @@ link: true
 * [Assignment 3](../assignments/assignment03) due Thursday night.
 * Reading for Friday:
     * [Inheritance](../readings/inheritance)
+    * Optional PM on Inheritance
 * No lab writeup.
 * Quiz Monday: Polymorphism and inheritance.
 
@@ -31,7 +32,8 @@ link: true
 
 #### Extra credit (Peer)
 
-* Conference Swim and Dive meet, 15-17 February 2019.  
+* Conference Swim and Dive meet, 15-17 February 2019.  Watch your classmate
+  fly!
 
 #### Extra credit (Wellness)
 
