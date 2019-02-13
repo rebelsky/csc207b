@@ -45,9 +45,10 @@ Preliminaries
 * [Assignment 2](../assignments/assignment02) due Thursday night.
 * Reading due before class Wednesday
     * Osera 3.1: Mental Models of Computation
-* Lab writeup: TBD
+* Lab writeup: Problem 1 from the Debugging Lab
     * To `csc207-01-grader@grinnell.edu`
     * Subject: **CSC 207.01 Writeup for Class 5 (Your names)**
+    * Submit the corrected code for the `removeAs` method.
 
 ### Extra credit
 
@@ -150,12 +151,6 @@ _Must `main` be static?_
 
 > Yes.
 
-Quiz
-----
-
-If you finish early, take the time to meditate quietly.  (Yes, you can also
-go off to the bathroom or get some water.)
-
 Lab: Testing
 ------------
 
@@ -171,6 +166,23 @@ public class Experiment {
   } // main
 } // class Experiment
 ```
+
+What's wrong with `c2f`?
+
+* The formula is backwards.
+* Integer division!
+
+What should we take from the sum example?
+
+* Good pre/posts are hard, particularly in languages with fixed precision.
+* Designing tests requires some thought.
+
+What should we take from the expt example?
+
+* There's a divide-and-conquer way to do exponentiation that is
+  significantly faster.
+* Tests with double values are a bit more complicated.
+* Loops help you do more comprehensive tests.
 
 Lab: Debugging
 --------------

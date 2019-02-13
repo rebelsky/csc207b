@@ -26,9 +26,10 @@ link: true
 * [Assignment 2](../assignments/assignment02) due Thursday night.
 * Reading due before class Wednesday
     * Osera 3.1: Mental Models of Computation
-* Lab writeup: TBD
+* Lab writeup: Problem 1 from the Debugging Lab
     * To `csc207-01-grader@grinnell.edu`
     * Subject: **CSC 207.01 Writeup for Class 5 (Your names)**
+    * Submit the corrected code for the `removeAs` method.
 
 ### Extra credit
 
