@@ -12,7 +12,6 @@ javadoc:
   - "[`java.io.BufferedReader`]({{ site.java_api }}/java/io/BufferedReader.html)"
 prereqs: |
   Java basics.  Conditionals.
-current: true
 ---
 
 Problems in programs
