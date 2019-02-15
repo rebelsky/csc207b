@@ -128,7 +128,7 @@ defaults:
         discussions when you submit the assignment.
       submitting: |
         Email your answer to <{{ site.grader_email }}>. The subject of your
-        email should be **[CSC151-{{ site.section_number }}] {{ page.title }}**
+        email should be **[CSC207.{{ site.section_number }}] {{ page.title }}**
         and should contain your answers to all parts of the assignment. Scheme
         code should be in the body of the message, not in an attachment.
 
