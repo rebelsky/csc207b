@@ -381,7 +381,7 @@ k. Summarize what you've learned from this exercise.
 
 ### Exercise 7: Bounded counters
 
-a. Create a subclass of `Counter` called `BoundedCounter` that includes
+a. Create a subclass of `BasicCounter` called `BoundedCounter` that includes
 
 * an `int` field named `bound`;
 * a constructor that takes two parameters: a starting value and
