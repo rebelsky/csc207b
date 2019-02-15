@@ -5,7 +5,6 @@ summary: |
   We explore some basic use of generic values in Java.
 prereqs: |
   Classes and interfaces.
-current: true
 ---
 
 Preparation
