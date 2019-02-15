@@ -3,6 +3,7 @@ title: Inheritance
 summary: |
   In today's laboratory, you will explore inheritance in Java by
   building and extending some simple classes.
+current: true
 ---
 Preparation
 -----------
@@ -18,9 +19,9 @@ the name of your group for `groupname`).
 package groupname.util;
 
 /**
- * BasicCounters.
+ * Things that count.
  */
-public interface BasicCounter {
+public interface Counter {
   /**
    * Count something.
    *
@@ -38,7 +39,7 @@ public interface BasicCounter {
    * Get the value of the counter.
    */
   public int get();
-} // interface BasicCounter
+} // interface Counter
 ```
 
 Exercises
@@ -52,14 +53,12 @@ to build objects that count things, starting at some value.
 
 The class should contain
 
-* Two `int` fields, 
-  `count` and `start`.
+* Two `int` fields, `count` and `start`.
 * One constructor that takes a starting value as a parameter.  The
-  constructor should initialize both `count` and
-  `start` to that value.
+  constructor should initialize both `count` and `start` to that value.
 * Four methods:
     * `increment()`, which adds 1 to `count`
-     (note that `increment` may throw an exception);
+      (note that `increment` may throw an exception);
     * `reset()`, which resets `count` to `start`;
     * `toString()`, which returns a string of the
         form `"[" + this.count + "]"`.
@@ -74,35 +73,35 @@ public void test() throws Exception {
   Counter alpha = new BasicCounter(0);
   Counter beta = new BasicCounter(123);
   Counter gamma = new BasicCounter(-5);
-  assertEquals("original alpha", 0, alpha.get());
-  assertEquals("original beta", 123, beta.get());
-  assertEquals("original gamma", -5, gamma.get());
-  for (int i = 0; i &lt; 10; i++) {
+  assertEquals(0, alpha.get(), "original alpha");
+  assertEquals(123, beta.get(), "original beta");
+  assertEquals(-5, gamma.get(), "original gamma");
+  for (int i = 0; i < 10; i++) {
     alpha.increment();
     beta.increment();
     gamma.increment();
   } // for
-  assertEquals("updated alpha", 10, alpha.get());
-  assertEquals("updated beta", 133, beta.get());
-  assertEquals("updated gamma", 5, gamma.get());
+  assertEquals(10, alpha.get(), "updated alpha");
+  assertEquals(133, beta.get(), "updated beta");
+  assertEquals(5, gamma.get(), "updated gamma");
   alpha.reset();
   beta.reset();
   gamma.reset();
-  assertEquals("reset alpha", 0, alpha.get());
-  assertEquals("reset beta", 123, beta.get());
-  assertEquals("reset gamma", -5, gamma.get());
+  assertEquals(0, alpha.get(), "reset alpha");
+  assertEquals(123, beta.get(), "reset beta");
+  assertEquals(-5, gamma.get(), "reset gamma");
 } // test()
 ```
 
 And here is an equally simple experiment.
 
 ```java
-import java.io.PrintWriter
+import java.io.PrintWriter;
 
 /**
  * A simple experiment to allow us to explore our counter classes.
  */
-public class CounterExpt {
+public class CounterExpt throws Exception {
   public static void main(String[] args) {
     // Set up output
     PrintWriter pen = new PrintWriter(System.out, true);
@@ -128,7 +127,7 @@ public class CounterExpt {
     // And we're done
     pen.close();
   } // main(String[])
-} // class BasicCounterExpt
+} // class CounterExpt
 ```
 
 ### Exercise 2: Tallys
@@ -165,8 +164,7 @@ value.  How can we do that?  With a slightly different constructor.
 Replace the constructor of `Tally` with the following.
 
 ```java
-public Tally() 
-{
+public Tally() {
   super(0);
 } // Tally()
 ```
@@ -177,7 +175,8 @@ g. Check your answer experimentally.
 
 h. As you might have predicted, Java issues an error message because
 you are calling the constructor with the wrong number of parameters.
-Rewrite the initialization to the following and predict the effect.
+Rewrite the initialization in `CounterExpt` to the following and
+predict the effect.
 
 ```java
   Counter alpha = new Tally();
@@ -217,11 +216,11 @@ should subtract one from the `count` field.
 f. What do you expect to happen if we add the following lines to our 
 test?
 
-```java
+e``java
     gamma.reset();
-    assertEquals("reset gamma", -5, gamma.get());
+    assertEquals(-5, gamma.get(), "reset gamma");
     gamma.decrement();
-    assertEquals("decremented gamma", -6, gamma.get());
+    assertEquals(-6, gamma.get(), "decremented gamma");
 ```
 
 g. Check your answer experimentally.
@@ -232,27 +231,27 @@ h. Change the declaration of `gamma` to
   DecrementableCounter gamma = new DecrementableCounter(-5);
 ```
 
-What effect do you expect this change to have?
+i. What effect do you expect this change to have?
 
-i. Check your answer experimentally.
+j. Check your answer experimentally.
 
-j. Change the initialization of `gamma` so that it reads
+k. Change the initialization of `gamma` so that it reads
 
 ```java
   DecrementableCounter gamma = new BasicCounter(-5);
 ```
 
-k. What effect to you expect this change to have?  
+l. What effect to you expect this change to have?  
 
-l. Check your answer experimentally.
+m. Check your answer experimentally.
 
-m. Restore the initialization of `gamma` to
+n. Restore the initialization of `gamma` to
 
 ```java
   DecrementableCounter gamma = new DecrementableCounter(-5);
 ```
 
-n. Summarize what you learned in this exercise.
+o. Summarize what you learned in this exercise.
 
 ### Exercise 4: Naming BasicCounters
 
@@ -300,7 +299,7 @@ i. Restore the constructor.
 
 j. Summarize what you've learned from this exercise.
 
-### Exercise 5: Named Counters
+### Exercise 5: Named counters, revisited
 
 a. What effect do you expect if we have `NamedCounter` extend
 `DecrementableCounter` instead of `BasicCounter`?  For example,
@@ -330,7 +329,7 @@ d. Check your answer experimentally.
 
 e. Summarize what you learned from this exercise.
 
-### Exercise 6: Double Counters
+### Exercise 6: Double counters
 
 a. Create a new class, `DoubleCounter`, that has the
 following form
@@ -380,22 +379,22 @@ j. Check your prediction experimentally.
 
 k. Summarize what you've learned from this exercise.
 
-### Exercise 7: Limited BasicCounters
+### Exercise 7: Bounded counters
 
-a. Create a subclass of `Counter` called `LimitedCounter` that includes
+a. Create a subclass of `Counter` called `BoundedCounter` that includes
 
-* an `int` field named `limit`;
+* an `int` field named `bound`;
 * a constructor that takes two parameters: a starting value and
-  an upper limit (that is, a value for the `limit` field); 
+  an upper bound (that is, a value for the `bound` field); 
   and
 * a modified `increment` method that throws an exception
-  when `count` exceeds limit.
+  when `count` exceeds the bound.
 
 b. In your test, determine the results of changing the initialization of 
 `gamma` to
 
 ```java
-  BasicCounter gamma = new LimitedCounter(-5,3);
+  BasicCounter gamma = new BoundedCounter(-5,3);
 ```
 
 c. Summarize what you've learned from this exercise.
