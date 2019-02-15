@@ -23,6 +23,7 @@ Preliminaries
 
 ### News / Etc.
 
+* _Sorry that I couldn't be in class today._
 * Quick survey: How long did HW3 take you?  
     * 4-6, 7-9, 10-12, 13+
     * Note I'm switching back to an Osera HW for HW4.
@@ -33,6 +34,7 @@ Preliminaries
 ### Upcoming work
 
 * [Assignment 4](../assignments/assignment04) due Thursday night.
+    * Partners distribruted via email.
 * No reading for Monday!
 * [Lab writeup](../writeups/writeup10): Exercise 7a
 )
@@ -40,6 +42,11 @@ Preliminaries
     * Subject: **CSC 207.01 Writeup for Class 8 (Your names)**
     * Please put your code in the body of the message.
 * Quiz Monday: Polymorphism 
+
+### Virtual Friday PSA
+
+* You're awesome.  Stay awesome.
+* Consent is absolutely necessary.
 
 ### Extra credit
 
@@ -53,9 +60,6 @@ Preliminaries
 
 #### Extra credit (Peer)
 
-* Conference Swim and Dive meet, 16-17 February 2019.  Watch your classmate
-  fly!
-
 #### Extra credit (Wellness)
 
 * HIIT training, 4:30 pm, Tuesday, Dance Studio, Bear.  (Cap of two EC units.)
@@ -67,6 +71,8 @@ Preliminaries
 #### Extra credit (Misc)
 
 * Lunar New Year Celebration, February 17, 6pm, Harris Gym
+* Conference Swim and Dive meet, 16-17 February 2019.  Watch someone
+  from section 1 fly!
 
 ### Other good things
 
