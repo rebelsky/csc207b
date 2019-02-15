@@ -10,6 +10,8 @@ prereqs: |
   [Subtype polymorphism](../readings/subtype-polymorphism).
 todo: 
   - Ernest says talk about multiple type variables.
+  - Sam says start with a simpler example.
+current: true
 ---
 Introduction
 ------------
@@ -263,7 +265,7 @@ that can hold two kinds of values.
 ```java
 public class Pair<T,U> {
   T val1;
-  T val2;
+  U val2;
 } // class Pair<T,U>
 ```
 
