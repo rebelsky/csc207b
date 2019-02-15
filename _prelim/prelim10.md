@@ -21,7 +21,7 @@ link: true
 * [Lab writeup](../writeups/writeup10): Exercise 7a
 )
     * To `csc207-01-grader@grinnell.edu`
-    * Subject: **CSC 207.01 Writeup for Class 8 (Your names)**
+    * Subject: **CSC 207.01 Writeup for Class 10 (Your names)**
     * Please put your code in the body of the message.
 * Quiz Monday: Polymorphism 
 
