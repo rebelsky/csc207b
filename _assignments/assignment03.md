@@ -21,7 +21,6 @@ submitting: |
 warning: |
   So that this assignment is a learning experience for everyone, we may
   spend class time publicly critiquing your work.
-current: true
 link: true
 ---
 Preparation
