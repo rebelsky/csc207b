@@ -216,7 +216,7 @@ should subtract one from the `count` field.
 f. What do you expect to happen if we add the following lines to our 
 test?
 
-e``java
+```java
     gamma.reset();
     assertEquals(-5, gamma.get(), "reset gamma");
     gamma.decrement();
