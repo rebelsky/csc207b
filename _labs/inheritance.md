@@ -101,8 +101,8 @@ import java.io.PrintWriter;
 /**
  * A simple experiment to allow us to explore our counter classes.
  */
-public class CounterExpt throws Exception {
-  public static void main(String[] args) {
+public class CounterExpt {
+  public static void main(String[] args) throws Exception {
     // Set up output
     PrintWriter pen = new PrintWriter(System.out, true);
 
