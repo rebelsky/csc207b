@@ -80,7 +80,6 @@ public class Person {
     ...;
   } // askQuestionOf(Person)
 } // class Person
-```
 
 public interface AdditionalInformation {
   ...
