@@ -4,7 +4,6 @@ number: 9
 section: eboards
 held: 2019-02-13
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 09:  Pause for Breath
 =============================================
