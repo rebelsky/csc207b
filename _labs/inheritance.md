@@ -53,7 +53,9 @@ to build objects that count things, starting at some value.
 
 The class should contain
 
-* Two `int` fields, `count` and `start`.
+* Two `int` fields, `count` and `start`.  Do *not* make them
+  `private` or `public`.  They can be `protected` or package 
+  (i.e., with no explicit modifier).
 * One constructor that takes a starting value as a parameter.  The
   constructor should initialize both `count` and `start` to that value.
 * Four methods:
@@ -381,7 +383,7 @@ k. Summarize what you've learned from this exercise.
 
 ### Exercise 7: Bounded counters
 
-a. Create a subclass of `Counter` called `BoundedCounter` that includes
+a. Create a subclass of `BasicCounter` called `BoundedCounter` that includes
 
 * an `int` field named `bound`;
 * a constructor that takes two parameters: a starting value and
