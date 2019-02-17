@@ -14,6 +14,7 @@ _Overview_
     * Notes and news
     * Upcoming work
     * Extra credit
+    * Friday PSA
     * Questions
 * Lab
 
@@ -23,20 +24,24 @@ Preliminaries
 ### News / Etc.
 
 * Quick survey: How long did HW3 take you?  
-    * 4-6, 7-9, 10-12, 13+
-    * Note I'm switching back to an Osera HW for HW4.
+    * 4-6 (0), 7-9 (5), 10-12 (6), 13+ (0)
+    * I apologize for a too-long HW.
+    * Note I'm switching back to an Osera/Vostinar HW for HW4.
 * Quick survey: Would you be willing to be partnered with someone
   from the other section?
 * We'll debrief from today's lab on Monday.
+* We may try to end class a few minutes early to give time for a guest
+  speaker for 151 to get set up.
 
 ### Upcoming work
 
 * [Assignment 4](../assignments/assignment04) due Thursday night.
+    * Partners distributed via email.
 * No reading for Monday!
 * [Lab writeup](../writeups/writeup10): Exercise 7a
 )
     * To `csc207-01-grader@grinnell.edu`
-    * Subject: **CSC 207.01 Writeup for Class 8 (Your names)**
+    * Subject: **CSC 207.01 Writeup for Class 10 (Your names)**
     * Please put your code in the body of the message.
 * Quiz Monday: Polymorphism 
 
@@ -69,7 +74,32 @@ Preliminaries
 
 ### Other good things
 
+### Friday PSA
+
+* You are awesome.  Continue to be so to yourselves and to others.
+
 ### Questions
 
 Lab
 ---
+
+*No GitHub repo!  Yay!*
+
+* Sam screwed up on the design of the experiment.  Sorry about that.
+  It's fixed now.
+* Subclasses can access the `public`, `protected`, and (sometimes) package 
+  fields of their superclasses, but not the `private` fields.
+* Important discoveries by one group
+    * If you get rid of the call to `super(start)` altogther, Java
+      won't compile the code.
+    * However, if you add a zero-parameter constructor to the superclass,
+      Java implicitly calls that if you *don't* write `super`.
+    * If you don't create any constructors in a class, Java creates a 
+      zero-param constructor.
+    * If you explicitly create any constructors in a class, Java does 
+      not add a zero-param constructor to that class.
+      constructor.
+* Java makes sure that methods exist at compile time, but determines
+  which implementation to use at run time.  (Sam will draw a diagram
+  on Monday.)
+
