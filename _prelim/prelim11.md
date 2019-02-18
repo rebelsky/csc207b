@@ -14,6 +14,7 @@ link: true
 * Today is a lecture/discussion/recitation day.  We'll be working on
   designing some abstract data types.
 * Did you cover implementing queues with arrays and wraparound in CSC 161?
+  Yes. Yay!
 
 ### Upcoming work
 
@@ -22,16 +23,11 @@ link: true
     * [Linear Structures](../readings/linear-structures)
     * [Stacks](../readings/stacks)
     * [Queues](../readings/queues)
-* [Lab writeup](../writeups/writeup11): TBD
-)
-    * To `csc207-01-grader@grinnell.edu`
-    * Subject: **CSC 207.01 Writeup for Class 11 (Your names)**
-    * Please put your code in the body of the message.
+* No lab writeup.
 
 ### Extra credit
 
 #### Extra credit (Academic/Artistic)
-
 
 * CS Table, Tuesday, Noon, JRC 224B,   Who Owns 3D Scans of Historic Sites?
   Readings available at the back of the room.
