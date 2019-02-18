@@ -5,6 +5,9 @@ summary: |
   types known as *linear structures*.  Linear structures permit you
   to collect information and retrieve one piece of information at
   a time.
+prereqs: |
+  [Designing ADTs](../readings/designing-adts).
+  [Interfaces](../readings/interfaces).
 ---
 
 Introduction: Collections
