@@ -7,7 +7,6 @@ summary: |
 prereqs: |
   Class basics.  
   [Subtype polymorphism](../readings/subtype-polymorphism).
-current: true
 ---
 
 Introduction: Reducing Coding Effort
