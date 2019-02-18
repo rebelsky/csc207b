@@ -11,7 +11,6 @@ prereqs: |
 todo: 
   - Ernest says talk about multiple type variables.
   - Sam says start with a simpler example.
-current: true
 ---
 Introduction
 ------------
