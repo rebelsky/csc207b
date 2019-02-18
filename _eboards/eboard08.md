@@ -4,7 +4,6 @@ number: 8
 section: eboards
 held: 2019-02-11
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 08:  Parametric polymorphism
 ====================================================

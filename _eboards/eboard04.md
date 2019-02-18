@@ -4,7 +4,6 @@ number: 4
 section: eboards
 held: 2019-02-01
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 04:  Objects and classes
 ================================================
