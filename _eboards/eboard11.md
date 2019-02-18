@@ -15,11 +15,13 @@ _Overview_
     * Upcoming work
     * Extra credit
     * Questions
+* Notes from Friday's class
 * The design of ADTs, revisited
 * Scheme lists
 * General lists
 * Java lists
 * Quick notes on implementation
+* Quiz
 
 Preliminaries
 -------------
@@ -76,6 +78,14 @@ Preliminaries
 
 ### Questions
 
+Notes from Friday's class
+-------------------------
+
+* On Friday, it is likely that you realized that Java determines whether
+  or not a method exists at compile time, but determines which implementation
+  to use at run time.
+* We'll go through some diagrams to help us understand the issues at play.
+
 The design of ADTs, revisited
 -----------------------------
 
@@ -93,3 +103,5 @@ Java lists
 Quick notes on implementation
 -----------------------------
 
+Quiz
+----
