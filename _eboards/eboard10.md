@@ -4,7 +4,6 @@ number: 10
 section: eboards
 held: 2019-02-15
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 10:  Inheritance
 ========================================
