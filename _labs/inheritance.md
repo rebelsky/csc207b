@@ -3,7 +3,6 @@ title: Inheritance
 summary: |
   In today's laboratory, you will explore inheritance in Java by
   building and extending some simple classes.
-current: true
 ---
 Preparation
 -----------
