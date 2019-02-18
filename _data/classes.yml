@@ -208,7 +208,8 @@
     - Implementing linear structures with arrays
     - Implementing linear structures as linked structures
   reading:
-    - page: /readings/linear-structures.html - page: /readings/stacks.html
+    - page: /readings/linear-structures.html 
+    - page: /readings/stacks.html
     - page: /readings/queues.html
   lab:
     - page: /labs/linear-structures.html
