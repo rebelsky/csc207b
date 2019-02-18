@@ -194,25 +194,24 @@
   reminders:
     - Moved to Monday because diving is Friday.
 
-- topic: Linked linear structures
+- topic: Linear structures
   abbrev: linked-structures
   summary: |
-    We consider linear structures, such as queues and stacks.
-    We explore ways in which simple linked objects can be used to implement
-    linear structures.
-  subjects: 
-    - Linear structures
-    - Stacks
-    - Queues
+    We consider linear structures, such as queues and stacks.  We
+    explore ways in which arrays and simple linked objects can be used to
+    implement linear structures.
+  subjects:
+    - Linear structures 
+    - Stacks 
+    - Queues 
     - Other linear structures
+    - Implementing linear structures with arrays
+    - Implementing linear structures as linked structures
   reading:
-    - page: /readings/linear-structures.html
-    - page: /readings/stacks.html
+    - page: /readings/linear-structures.html - page: /readings/stacks.html
     - page: /readings/queues.html
   lab:
-    - "TBD"
-  note:
-    - Cut out iterators
+    - page: /labs/linear-structures.html
 
 - topic: Array-based linear structures
   abbrev: array-based-structures
@@ -230,6 +229,7 @@
     - page: /labs/array-based-queues.html
   note:
     - Cut out iterators
+    - May need to rewrite to deal with priority queues (sorted arrays?, sorted linked structures?)
 
 - topic: Iterators
   abbrev: iterators
