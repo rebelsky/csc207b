@@ -193,6 +193,7 @@
     - Quick notes on implementation
   reminders:
     - Moved to Monday because diving is Friday.
+  notes: ../eboards/eboard11
 
 - topic: Linear structures
   abbrev: linked-structures
@@ -213,6 +214,7 @@
     - page: /readings/queues.html
   lab:
     - page: /labs/linear-structures.html
+  notes: ../eboards/eboard12
 
 - topic: Array-based linear structures
   abbrev: array-based-structures
@@ -231,6 +233,7 @@
   note:
     - Cut out iterators
     - May need to rewrite to deal with priority queues (sorted arrays?, sorted linked structures?)
+  notes: ../eboards/eboard13
 
 - topic: Iterators
   abbrev: iterators
