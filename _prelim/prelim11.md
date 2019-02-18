@@ -1,32 +1,8 @@
 ---
-title: Eboard 11  List ADTs
-number: 11
-section: eboards
-held: 2019-02-18
+title: Preliminaries for class 11
+section: prelim
 link: true
-current: true
 ---
-CSC 207.01 2019S, Class 11: List ADTs
-=====================================
-
-_Overview_
-
-* Preliminaries
-    * Notes and news
-    * Upcoming work
-    * Extra credit
-    * Questions
-* Notes from Friday's class
-* The design of ADTs, revisited
-* Scheme lists
-* General lists
-* Java lists
-* Quick notes on implementation
-* Quiz
-
-Preliminaries
--------------
-
 ### News / Etc.
 
 * _Welcome to any prospective students who may be here._
@@ -77,54 +53,3 @@ Preliminaries
 
 ### Other good things
 
-### Questions
-
-Notes from Friday's class
--------------------------
-
-* On Friday, it is likely that you realized that Java determines whether
-  or not a method exists at compile time, but determines which implementation
-  to use at run time.
-* We'll go through some diagrams to help us understand the issues at play.
-
-In case you've forgotten ...
-
-* `Counter` is an interface that specifies `increment`, `get`, and
-  `reset` methods.
-* `BasicCounter` is a simple implementation of `Counter`.
-* `DecrementableCounter` is a subclass of `BasicCounter` that adds
-  a `Decrement` method.
-* `NamedCounter` is a subclass of `BasicCounter` that overrides the
-  `toString` method.
-
-Let's consider some issues.
-
-`Counter a = new BasicCounter(5); a.increment();`
-
-`Counter b = new DecrementableCounter(5); b.increment();`
-
-`Counter c = new DecrementableCounter(5); c.decrement();`
-
-`DecrementableCounter d = new DecrementableCounter(5); d.decrement();`
-
-`BasicCounter e = new NamedCounter(5); e.toString();`
-
-The design of ADTs, revisited
------------------------------
-
-* Oh no, it's time for more PUMishment!
-
-Scheme lists
-------------
-
-General lists
--------------
-
-Java lists
-----------
-
-Quick notes on implementation
------------------------------
-
-Quiz
-----
