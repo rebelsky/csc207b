@@ -38,7 +38,7 @@ The `Organism` class is how you represent a single individual organism. This pro
 
 ## Cooperation
 
-You are going to use your artificial life simulation to study the dynamics of cooperation between bacteria of the same species. Your `Organism` classes will track the likelihood that it cooperates with other organisms, its *cooperation probability*.  When an organism has a chance to act, *i.e.* when its `update` method is called. You will use that cooperation probability number to determine if the organism cooperates with its neighbors. In this project, the cooperation probability will be either 1 (100%) or 0 (0%). If the organism's probability is 1, it will cooperate with organisms around it and if it is 0, it does not cooperate.
+You are going to use your artificial life simulation to study the dynamics of cooperation between bacteria of the same species. Your `Organism` classes will track the likelihood that it cooperates with other organisms, its *cooperation probability*.  When an organism has a chance to act, *i.e.* when its `update` method is called. You will use that cooperation probability number to determine if the organism cooperates with its neighbors. In this project, the cooperation probability will be between 1 (100%) or 0 (0%). If the organism's probability is 1, it will cooperate with organisms around it; if it is 0, it does not cooperate; and if it is somewhere between it cooperates with that probability.
 
 When an organism cooperates, it *loses one of its energy units* and in exchange it *gives eight other organisms an energy unit*.  (You will randomly select which other organisms to give energy to.)
 
@@ -142,6 +142,9 @@ so).
   population, replace the one with the least energy (or one of the ones
   with the least energy).
 * _Location sensitivity_: Treat the organisms as a grid with wrap-around (e.g., the right neighbor of the rightmost organism is the leftmost organism in the same row).  Organisms give energy to their neighbors, not to random other organisms.  If you're doing selective replacement, you should do so only in neighboring organisms.
+* _Visual display_: Show the type and energy of each organism visually,
+  in a way that helps the reader understand the overall state of the
+  system.
 
 ## The `Pair` class
 
