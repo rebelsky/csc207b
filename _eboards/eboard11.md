@@ -4,7 +4,6 @@ number: 11
 section: eboards
 held: 2019-02-18
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 11: List ADTs
 =====================================
