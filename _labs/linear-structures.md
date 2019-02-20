@@ -8,6 +8,8 @@ repo: <https://github.com/Grinnell-CSC207/linear-structures>
 todo:
   - Come up with some linked queue questions.
   - Consider how to address iterators.
+link: true
+current: true
 ---
 
 Preparation
