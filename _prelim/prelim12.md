@@ -12,7 +12,15 @@ link: true
     * You may see these strange things called `Iterator`s.  We'll
       discuss those on Monday.
 * You should be getting an email about the CPUS.  Let me know if you have
-  questions.
+  questions.  (Computing Peers for Understanding and Support)
+    * Informal program.
+    * Helps provide mentorship/social support from an upper-level student.
+    * Builds community.
+    * Can be helpful for people from underrepresented groups (first-gen, 
+      low-SES, gender minorities, people of color, etc.)
+    * Free food at Grill or Saints Rest!
+* Because assignment 3 was such a bear, I'm giving everyone full credit.
+  (Comments will come later.)
 
 ### Upcoming work
 
@@ -22,10 +30,10 @@ link: true
       (Not available until tomorrow night.)
     * [Priority queues](../readings/priority-queues)
       (Will be updated tonight.)
-* [Lab writeup](../writeups/writeup12): Exercise TBD
+* [Lab writeup](../writeups/writeup12): Exercise 6b
     * To `csc207-01-grader@grinnell.edu`
     * Subject: **CSC 207.01 Writeup for Class 12 (Your names)**
-    * Please put your code in the body of the message.
+    * Please put your code for `LinkedQueue` in the body of the message.
 
 ### Extra credit
 
