@@ -6,9 +6,10 @@ summary: |
   and linked structures.
 repo: <https://github.com/Grinnell-CSC207/linear-structures>
 todo:
-  - Update the repo.
   - Come up with some linked queue questions.
   - Consider how to address iterators.
+link: true
+current: true
 ---
 
 Preparation
@@ -25,26 +26,26 @@ Exercises
 
 ### Exercise 1: Basic experiments
 
-Read through `LSExpt.java` and `LinkedStackExpt.java`.  Summarize
-what the stack should look like at each step.  (A piece of paper
-might help.)  Note that the `info` method will print information
-on the stack (is it empty? is it full? what elements are in the
-stack) and the `clear` method will repeatedly call `get` until the
-stack is empty.
+Read through `LinearStructureExpt.java` and `LinkedStackExpt.java`.
+Summarize what the stack should look like at each step.  (A piece
+of paper might help.)  Note that the `info` method will print
+information on the stack (is it empty? is it full? what elements
+are in the structure?) and the `clear` method will repeatedly call
+`get` until the structure is empty.
 
 Run `LinkedStackExpt` and see if you get the output that
 you expect.
 
 ### Exercise 2: A wrapper class
 
-Skim through `ReportingLinearStructure.java`.  Summarize
-the main approach of the class.  What ideas from the class might you
-apply in other situations?  (Pick at least one or two.)
+Skim through `ReportingLinearStructure.java`.  Summarize the main
+approach of the class.  What ideas from the class might you apply
+in other situations?  (Pick at least one or two.)
 
 ### Exercise 3: A faulty implementation
 
-The file `ArrayBasedStack.java` has a significant bug.
-Identify and correct that bug.
+The file `ArrayBasedStack.java` has at least one significant bug.
+Identify and correct any bugs you identify.
 
 ### Exercise 4: Matching parens
 
@@ -64,13 +65,50 @@ If the stack is not empty, there are unmatched open or closed parens.
 ```
 
 Implement this algorithm.  (You might also add support for braces
-and angle  brackets.)  That is, write and experiment with a static
+and angle brackets.)  That is, write and experiment with a static
 method, `checkMatching(String str)`, that checks whether the parens,
 square brackets, and potentially, other characters, match correctly.
 
-### Exercise 5: Getting started with linked queues
+### Exercise 5: Exploring linked stacks
 
-_Forthcoming_.
+The strategy for implementing a linked stack is relatively straightforward.
+
+* We keep a reference to a node at the top of the stack.  
+* To add an element, we create a new node whose next element is 
+  the top of the stack, and then update the top of the stack.  
+* To remove an element, we save the value at the top and set the
+  top to the next element.  (This is Java; we don't have to explicitly 
+  free the node we no longer use.)
+
+There are a few more subtleties, but those are the basics.
+
+a. Sketch (that is, write down approximate code on paper, rather than
+writing code on the computer) the five basic method: `put`, `get`,
+`peek`, `isEmpty`, and `isFull`.
+
+b. The file `LinkedStack.java` provides an implementation of linked
+stacks.  Compare your notes to that one and suggest anything you've
+found by comparing the two.  (It may be that you realize you missed
+something.  It may be that you realize that our implementation is
+incorrect.)
+
+### Exercise 6: Getting started with linked queues
+
+The strategy for implementing a linked queue is also relatively 
+straightforward.
+
+* We keep two references: One to the front of the queue and one to the 
+  back of the queue.  
+* To add an element, we put it after the back and update the back reference.  
+* To remove an element, we save the value at the front of the queue and update 
+  the front reference to the next node.  
+
+a. Sketch (that is, write down approximate code on paper, rather than
+writing code on the computer) the five basic method: `put`, `get`,
+`peek`, `isEmpty`, and `isFull`.
+
+b. The file `LinkedQueue` has a partial implementation of this approach.
+Finish that implementation.
 
 For those with extra time
 -------------------------
