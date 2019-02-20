@@ -82,9 +82,10 @@ The strategy for implementing a linked stack is relatively straightforward.
 
 There are a few more subtleties, but those are the basics.
 
-a. Sketch (that is, write down approximate code on paper, rather than
-writing code on the computer) the five basic method: `put`, `get`,
-`peek`, `isEmpty`, and `isFull`.
+a. Sketch (that is, write down approximate code on paper, rather
+than writing code on the computer) implementations of the five basic
+linear-structure methods: `put`, `get`, `peek`, `isEmpty`, and
+`isFull`.
 
 b. The file `LinkedStack.java` provides an implementation of linked
 stacks.  Compare your notes to that one and suggest anything you've
@@ -103,9 +104,10 @@ straightforward.
 * To remove an element, we save the value at the front of the queue and update 
   the front reference to the next node.  
 
-a. Sketch (that is, write down approximate code on paper, rather than
-writing code on the computer) the five basic method: `put`, `get`,
-`peek`, `isEmpty`, and `isFull`.
+a. Sketch (that is, write down approximate code on paper, rather
+than writing code on the computer) implementations of the five basic
+linear-structure methods: `put`, `get`, `peek`, `isEmpty`, and
+`isFull`.
 
 b. The file `LinkedQueue` has a partial implementation of this approach.
 Finish that implementation.
