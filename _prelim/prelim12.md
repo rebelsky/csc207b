@@ -5,26 +5,40 @@ link: true
 ---
 ### News / Etc.
 
+* Whee!  More snow!
 * I brought food.  (No particular reason.)
-* Today is a lab day.  I *think* it's the right length.
+* Today is a lab day.  I *think* it's the right length.  (Morning
+  went pretty well.)
 * Today and Friday will mostly be a chance to re-explore some things
   you should have down in C, but in a slightly new context.
     * You may see these strange things called `Iterator`s.  We'll
       discuss those on Monday.
 * You should be getting an email about the CPUS.  Let me know if you have
-  questions.
+  questions.  (Computing Peers for Understanding and Support)
+    * Informal program.
+    * Helps provide mentorship/social support from an upper-level student.
+    * Builds community.
+    * Can be helpful for people from underrepresented groups (first-gen, 
+      low-SES, gender minorities, people of color, etc.)
+    * Free food at Grill or Saints Rest!
+* Because assignment 3 was such a bear, I'm giving everyone full credit.
+  (Comments will come later, perhaps much later.)
+* I _think_ I've set up the system so that our eboard auto-updates every
+  five minutes or so during class.
 
 ### Upcoming work
 
 * [Assignment 4](../assignments/assignment04) due Thursday night.
+    * Q&A below
 * Readings for Friday
     * [Wrapping objects and classes](../readings/wrappers)
       (Not available until tomorrow night.)
     * [Priority queues](../readings/priority-queues)
       (Will be updated tonight.)
-* [Lab writeup](../writeups/writeup12): Exercise TBD
+* Quiz Monday!  Inheritance, lists, linear structures.
+* [Lab writeup](../writeups/writeup12): Exercise 4
     * To `csc207-01-grader@grinnell.edu`
-    * Subject: **CSC 207.01 Writeup for Class 12 (Your names)**
+    * Subject: **CSC 207.02 Writeup for Class 12 (Your names)**
     * Please put your code in the body of the message.
 
 ### Extra credit
@@ -40,6 +54,7 @@ link: true
 #### Extra credit (Peer)
 
 * Indoor Track and Field, Friday and Saturday, at Monmouth.
+* Paint Younker Lounge, 7-0 pm, Friday night.
 
 #### Extra credit (Wellness)
 
@@ -57,4 +72,6 @@ link: true
 #### Extra credit (Misc)
 
 ### Other good things
+
+* Traveling Smithsonian Exhibit at Drake.
 

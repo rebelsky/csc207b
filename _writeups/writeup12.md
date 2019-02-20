@@ -1,7 +1,7 @@
 ---
 number: 10
 lab: /labs/linear-structures.html
-exercise: exercise TBD
+exercise: exercise 4
 link: true
 current: true
 ---
