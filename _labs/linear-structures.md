@@ -69,6 +69,13 @@ and angle brackets.)  That is, write and experiment with a static
 method, `checkMatching(String str)`, that checks whether the parens,
 square brackets, and potentially, other characters, match correctly.
 
+You may find the following information useful.
+
+* `'('` is character 40, `')'` is character 41.
+* `'<'` is character 60, `'>'` is character 62.
+* `'['` is character 91, `']'` is character 93.
+* `'{'` is character 123, `'}'` is character 125.
+
 ### Exercise 5: Exploring linked stacks
 
 The strategy for implementing a linked stack is relatively straightforward.
