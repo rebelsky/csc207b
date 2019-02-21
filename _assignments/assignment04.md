@@ -8,6 +8,11 @@ copyright_message: |
   <http://creativecommons.org/licenses/by-nc/4.0/>.
 link: true
 current: true
+notes:
+  - Add factories?  This is clearly an opportunity for them.
+  - Clarify citation to Anya.
+  - How does 1/3 work for experiments of size 100?
+  - Rethink use of Pair array, which adds complexity.  Back to a Map?
 ---
 [Artficial Life](https://en.wikipedia.org/wiki/Artificial_life) is
 a field of computer science that uses the power of computers to
