@@ -37,7 +37,7 @@ We might describe the interface for stacks as follows.
  *
  * @author Samuel A. Rebelsky
  */
-public interface Stack<T> {
+public interface Stack<T> extends LinearStructure<T> {
   /**
    * Add an element to the stack.
    *
