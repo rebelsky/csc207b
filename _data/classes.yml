@@ -226,8 +226,8 @@
     - Array-based queues
     - Priority queues and their implementation
   reading:
-    - page: /readings/wrappers.html
     - page: /readings/priority-queues.html
+    - page: /readings/wrappers.html
   lab:
     - page: /labs/array-based-queues.html
   note:
