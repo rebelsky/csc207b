@@ -1,30 +1,10 @@
 ---
-title: Eboard 13  Array-based linear structures
-number: 13
-section: eboards
-held: 2019-02-22
+title: Preliminaries for class 13
+section: prelim
 link: true
-current: true
 ---
-CSC 207.01 2019S, Class 13: Array-based linear structures
-==========================================================
-
-_Overview_
-
-* Preliminaries
-    * Notes and news
-    * Upcoming work
-    * Extra credit
-    * Friday PSA
-    * Questions
-* Lab 
-
-Preliminaries
--------------
-
 ### News / Etc.
 
-* Continue partners from Wednesday!
 * Beware!  Today is Friday the 13th (Class)
 * Today is a lab day.  I *think* it's the right length.
 * Recommended approach to starting homework (after reading)
@@ -72,10 +52,13 @@ Preliminaries
 * 30 Minutes of Mindfulness at SHACS every Monday 4:15-4:45
 * Any organized exercise.  (See previous eboards for a list.)
 * 60 minutes of some solitary self-care activities that are unrelated to 
-  academics or work.  Your email reflection must explain how
+  academics or work.  Examples include "read for pleasure" or "take a
+  walk" or "make snow angels".  Your email reflection must explain how
   the activity contributed to your wellness.
-* 60 minutes of some shared self-care activity with friends.  Your email 
-  reflection must explain how the activity contributed to your wellness.
+* 60 minutes of some shared self-care activity with friends, such as 
+  making a meal, having a snowball fight, or playing a board game.
+  Your email reflection must explain how the activity contributed to
+  your wellness.
 
 #### Extra credit (Misc)
 
@@ -86,9 +69,4 @@ Preliminaries
 Be good.  Be well.  Be true to yourself.
 
 Get consent.
-
-### Questions
-
-Lab
----
 

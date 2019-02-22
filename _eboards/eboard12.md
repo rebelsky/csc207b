@@ -4,7 +4,6 @@ number: 12
 section: eboards
 held: 2019-02-20
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 12:  Linear structures
 ==============================================
