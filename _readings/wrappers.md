@@ -240,7 +240,7 @@ takes only the class to be wrapped.
    */
   public ReportingCounter(Counter c) {
     this.pen = new PrintWriter(System.err, true);
-    this.name = c.getClass().getName() + '@' + Integer.toHexString(System.identityHashCode(c));
+    this.name = c.getClass().getName() + "@" + Integer.toHexString(System.identityHashCode(c));
     this.c = c;
   } // ReportingCounter(Counter)
 ```
@@ -289,7 +289,7 @@ public class ReportingBox<T> extends Box<T> {
   public ReportingBox(T val) {
     super(val);
     this.pen = new PrintWriter(System.err, true);
-    this.name = "Box@' + Integer.toHexString(System.identityHashCode(this));
+    this.name = "Box@" + Integer.toHexString(System.identityHashCode(this));
     // More generally, we could get the name of the superclass with 
     // this.getClass().getSuperClass().getName() 
   } // ReportingBox(T)

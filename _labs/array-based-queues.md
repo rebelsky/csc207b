@@ -164,11 +164,13 @@ class IntComparator implement Comparator<Integer> {
 a. Remind yourself of the methods specified by our `LinearStructure`
 interface.
 
-b. Read through the documentation on the standard Java implementation of priority queues, available at <{{ site.java_api }}/java/util/PriorityQueue.html>.
+b. Skim through the documentation on the standard Java implementation of priority queues, available at <{{ site.java_api }}/java/util/PriorityQueue.html>.
 
 c. Discuss with your partner how you would write an adapter class to make the built in priority queues match the desired behavior of our priority queue interface.
 
-d. Look at BuiltinPriorityQueue.java to see how our implementation matches your design. 
+d. Look at `BuiltinPriorityQueue.java` to see how our implementation matches your design. 
+
+e. Run your test suite.
 
 For those with extra time
 -------------------------
