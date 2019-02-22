@@ -10,6 +10,7 @@ link: true
 javadoc: 
   - "[`java.nio.ByteBuffer`]({{ site.java_api }}/java/nio/ByteBuffer.html)"
   - "[`java.security.MessageDigest`]({{ site.java_api }}/java/security/MessageDigest.html)"
+current: true
 ---
 Sequential structures are pervasive in all of computing.
 One of the most recent innovations in sequential structures is the [*blockchain*](https://en.wikipedia.org/wiki/Blockchain_(database)) which is a sequence of records built to be highly resistant to change.
