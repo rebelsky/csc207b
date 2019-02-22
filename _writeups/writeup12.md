@@ -1,5 +1,5 @@
 ---
-number: 10
+number: 12
 lab: /labs/linear-structures.html
 exercise: exercise 4
 link: true
