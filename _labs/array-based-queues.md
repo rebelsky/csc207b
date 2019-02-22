@@ -15,7 +15,7 @@ current: true
 Preparation
 -----------
 
-a. Open the [reading on linear structures](../readings/linear), the
+a. Open the [reading on linear structures](../readings/linear-structures), the
 [reading on queues](../readings/queues), the [reading on priority
 queues](../readings/linear), and the [reading on wrapper
 classes](../readings/wrapper) in new tabs.
