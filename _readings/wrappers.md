@@ -116,7 +116,7 @@ Here's a wrapper class that provides that functionality.
 
 ```java
 public class TalliedCounter implements Counter {
-  // The thing we wrapped
+  // The thing we wrap
   Counter c;
 
   // The things we count
