@@ -25,8 +25,15 @@ Preliminaries
 ### News / Etc.
 
 * Continue partners from Wednesday!
+* Mentor Session Sunday at 8 p.m.
 * Beware!  Today is Friday the 13th (Class)
 * Today is a lab day.  I *think* it's the right length.
+* Quiz 4 returned.
+    * Don't write `if ((val % this.div) == 0) { return true; } else { return false; }`
+      Write `return (val % this.div) == 0;`
+    * Subtype polymorphism and parameteric polymorphism don't always mix well.
+      If `C` implements `I`, you cannot assign a value of type
+      `Box<C>` to a variable of type `Box<I>`.
 * Recommended approach to starting homework (after reading)
     * Create a project in Eclipse, choosing an appropriate place for
       the directory.
@@ -38,7 +45,7 @@ Preliminaries
     * Add all the files Eclipse generates.
     * Push.
     * Share the repository with your partner and me.
-* Some of you are getting messages like **Integer type is not visible*
+* Some of you are getting messages like *Integer type is not visible*
   and *String type is not visible* in Eclipse.  I have no idea why and
   can't usually reproduce the issue.  I've found that creating a new repo
   and copying files into that often fixes it.  Once again, I'm not sure
@@ -54,7 +61,7 @@ Preliminaries
       (Not available until tomorrow night.)
     * [Anonymous inner classes](../readings/anonymous-inner-classes)
       (Not available until tomorrow night.)
-* [Lab writeup](../writeups/writeup13): Exercise TBD
+* [Lab writeup](../writeups/writeup13): Exercise 6
     * To `csc207-01-grader@grinnell.edu`
     * Subject: **CSC 207.01 Writeup for Class 13 (Your names)**
 
@@ -92,3 +99,56 @@ Get consent.
 Lab
 ---
 
+Remember that the debugger is your friend!
+
+Things you will likely want to fix/update, particularly as you implement
+wrap-around.
+
+* The calculation of `this.back()`.  See below for a thought question.
+* How to keep `this.front` in the range 0..`this.values.length`-1.  See
+  below for some notes.
+* The `isFull()` method.
+
+```text
+if (this.front is 5) and
+   (this.size is 6) and
+   (this.values.length is 8)
+what should this.back() return?
+```
+
+Ways to handle wrap-around with `this.front`
+
+* Strategy one: Always use `this.front % this.values.length`
+* Strategy two: When you increment `this.front`, mod by `this.values.length`.
+
+Sam thinks strategy two is much better.
+
+### Checking for exceptions
+
+Here's an example about testing for exceptions from
+[the JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/).
+It uses a feature that you don't quite know yet (the `() ->`), but just
+assume it's necessary syntax and we'll go from there.
+
+```java
+    @Test
+    void exceptionTesting() {
+        Exception exception = assertThrows(ArithmeticException.class, () ->
+            calculator.divide(1, 0));
+        assertEquals("/ by zero", exception.getMessage());
+    }
+```
+
+Here's how Sam traditionally tests for exceptions.
+
+```java
+    @Test
+    void testException() {
+      try {
+        calculator.divide(1,0);
+        fail("Division did not throw an exception");
+      } catch (ArithmeticException ae) {
+        assertEquals("/ by zero", ae.getMessage());
+      } // try/catch
+    } // testException
+```
