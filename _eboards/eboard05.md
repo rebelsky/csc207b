@@ -94,7 +94,7 @@ the user do so?_
 Quiz
 ----
 
-If you finish early, take the time to mediate quietly.  (Yes, you can also
+If you finish early, take the time to meditate quietly.  (Yes, you can also
 go off to the bathroom or get some water.)
 
 Lab: Testing
