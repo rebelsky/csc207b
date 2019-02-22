@@ -4,6 +4,7 @@ number: 13
 section: eboards
 held: 2019-02-22
 link: true
+current: true
 ---
 CSC 207.02 2019S, Class 13: Array-based linear structures
 ==========================================================
@@ -23,7 +24,27 @@ Preliminaries
 
 ### News / Etc.
 
+* Continue partners from Wednesday!
+* Beware!  Today is Friday the 13th (Class)
 * Today is a lab day.  I *think* it's the right length.
+* Recommended approach to starting homework (after reading)
+    * Create a project in Eclipse, choosing an appropriate place for
+      the directory.
+    * Add your primary package (if there is one).
+    * Create a repo on GitHub (no README)
+    * cd to that directory
+    * Follow the GitHub instructions for linking the directory to
+      the repo.
+    * Add all the files Eclipse generates.
+    * Push.
+    * Share the repository with your partner and me.
+* Some of you are getting messages like **Integer type is not visible*
+  and *String type is not visible* in Eclipse.  I have no idea why and
+  can't usually reproduce the issue.  I've found that creating a new repo
+  and copying files into that often fixes it.  Once again, I'm not sure
+  why.
+    * My suspicion: Some of the code came from copying-and-pasting from
+      Office365, and that sometimes inserts hidden characters.
 
 ### Upcoming work
 
@@ -51,13 +72,10 @@ Preliminaries
 * 30 Minutes of Mindfulness at SHACS every Monday 4:15-4:45
 * Any organized exercise.  (See previous eboards for a list.)
 * 60 minutes of some solitary self-care activities that are unrelated to 
-  academics or work.  Examples include "read for pleasure" or "take a
-  walk" or "make snow angels".  Your email reflection must explain how
+  academics or work.  Your email reflection must explain how
   the activity contributed to your wellness.
-* 60 minutes of some shared self-care activity with friends, such as 
-  making a meal, having a snowball fight, or playing a board game.
-  Your email reflection must explain how the activity contributed to
-  your wellness.
+* 60 minutes of some shared self-care activity with friends.  Your email 
+  reflection must explain how the activity contributed to your wellness.
 
 #### Extra credit (Misc)
 
@@ -70,6 +88,9 @@ Be good.  Be well.  Be true to yourself.
 Get consent.
 
 ### Questions
+
+_I'm going to try to skip questions today so that there's enough time for 
+lab._
 
 Lab
 ---
