@@ -9,7 +9,6 @@ todo:
   - Come up with some linked queue questions.
   - Consider how to address iterators.
 link: true
-current: true
 ---
 
 Preparation
