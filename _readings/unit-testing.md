@@ -4,6 +4,8 @@ summary: |
   We consider "unit testing", an approach to software development
   and to the verification of computer programs.  We also introduce
   JUnit, a unit testing framework for Java.
+todo: 
+  - Add something about testing for exceptions.
 ---
 
 Introduction
