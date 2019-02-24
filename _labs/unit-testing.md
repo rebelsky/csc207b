@@ -5,6 +5,8 @@ summary: |
   In this laboratory, you will explore the JUnit unit testing
   framework, Eclipse's facilities for using JUnit, and the basics
   of Unit testing.
+todo: 
+  - Add something on testing for exceptions.
 ---
 Preparation
 -----------

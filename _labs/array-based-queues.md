@@ -15,7 +15,7 @@ current: true
 Preparation
 -----------
 
-a. Open the [reading on linear structures](../readings/linear), the
+a. Open the [reading on linear structures](../readings/linear-structures), the
 [reading on queues](../readings/queues), the [reading on priority
 queues](../readings/linear), and the [reading on wrapper
 classes](../readings/wrapper) in new tabs.
@@ -140,8 +140,8 @@ class StringComparator implements Comparator<String> {
     // Safety check: If either string is null, compareTo may fail,
     // so we make sure neither is null.  We treat null as "smaller"
     // than any other string.
-    if (str1 == null) { return 1; }
-    if (str2 == null) { return -1; }
+    if (str1 == null) { return -1; }
+    if (str2 == null) { return 1; }
     // Finally, we can use the built-in `compareTo` method.
     return str1.compareTo(str2);
   } // compare(String, STring)
@@ -149,11 +149,11 @@ class StringComparator implements Comparator<String> {
 
 class IntComparator implement Comparator<Integer> {
   public int compare(Integer i, Integer j) {
-    // While this method sometimes gets implemented as j-i, that
+    // While this method sometimes gets implemented as i-j, that
     // implementation presents overflow risks, so we choose a
     // somewhat more verbose approach.
-    if (i < j) { return 1; }
-    else if (j < i) { return -1; }
+    if (i < j) { return -1; }
+    else if (j < i) { return 1; }
     else return 0;
   } // compare(Integer, Integer)
 } // IntegerComparator
