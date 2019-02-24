@@ -7,7 +7,6 @@ copyright_message: |
   4.0 International License.  To view a copy of this license, visit
   <http://creativecommons.org/licenses/by-nc/4.0/>.
 link: true
-current: true
 notes:
   - Add factories?  This is clearly an opportunity for them.
   - Clarify citation to Anya.
