@@ -1,11 +1,10 @@
 --- 
-title: Anonymous Inner Classes
+title: Anonymous inner classes
 summary: |
   We consider Java's "anonymous inner classes" as a programming
   technique.
 todo:
-  - Rewrite the main example!  
-  - Move iterator stuff to the iterator reading.
+  - Rewrite the main example!   (Or not)
 ---
 
 Introduction: A problem
@@ -456,3 +455,9 @@ added to Java long before things that resemble anonymous functions ("lambdas",
 in common Java parlance).  In a bit, you'll learn about lambdas in Java
 and when they can and cannot be used to replace anonymous inner classes.
 
+Acknowledgements
+----------------
+
+Most of this reading is closely based on
+[a similar reading from fall 2014](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2a014F/readings/anonymous-inner-classes.html).  I've reformatted
+the code and rewritten some text.
