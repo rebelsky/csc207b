@@ -327,3 +327,11 @@ are objects that allow the client to iterate the elements of a collection
 using `next` and `hasNext` or for-each loops.  Their complexities occur
 mostly in terms of how we implement those two operations and other
 optional operations.
+
+Acknowledgements
+----------------
+
+Most of this reading was newly written in spring 2019.  The section
+on anonymous iterators is closely based on a section in [the reading
+on anonymous inner classes from the fall 2014 version of CSC
+207](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/2014F/readings/anonymous-inner-classes.html).
