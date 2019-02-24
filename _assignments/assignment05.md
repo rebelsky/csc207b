@@ -6,10 +6,10 @@ copyright_message: |
   This work is licensed under a Creative Commons Attribution-NonCommercial
   4.0 International License.  To view a copy of this license, visit
   <http://creativecommons.org/licenses/by-nc/4.0/>.
-link: true
 javadoc: 
   - "[`java.nio.ByteBuffer`]({{ site.java_api }}/java/nio/ByteBuffer.html)"
   - "[`java.security.MessageDigest`]({{ site.java_api }}/java/security/MessageDigest.html)"
+link: true
 current: true
 ---
 Sequential structures are pervasive in all of computing.
