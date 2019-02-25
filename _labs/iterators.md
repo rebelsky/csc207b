@@ -33,9 +33,9 @@ As you may recall, the `LinkedQueue` class has two fields,
 `front` and `back`, each of which reference a node.
 
 a. Sketch (that is, make notes on but do not write the Java code for)
-an iterator for the `LinkedQueue` class.
+an iterator for the `ArrayBasedStack` class.
 
-b. Compare your answer to the iterator presented in `LinkedQueue.java`.
+b. Compare your answer to the iterator presented in `ArrayBasedStack.java`.
 
 ### Exercise 3: Iterating queues, revisited
 
