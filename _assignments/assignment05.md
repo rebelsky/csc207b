@@ -199,15 +199,15 @@ Furthermore, because of the architecture of the blockchain, it is sufficient to 
 
 ## The BlockChain program
 
-In this homework, we will write a program that simulates the development of a blockchain that records the transactions between two parties, call them Anna and Bob.
-Initially, Anna starts with a non-negative amount of cash and no new cash is injected into the system.
-Each transaction is represented by a single integer that represents a transfer of money between Anna and Bob.
+In this homework, we will write a program that simulates the development of a blockchain that records the transactions between two parties, call them Alice and Bob.
+Initially, Alice starts with a non-negative amount of cash and no new cash is injected into the system.
+Each transaction is represented by a single integer that represents a transfer of money between Alice and Bob.
 
-* A *negative* transaction amount corresponds to transferring money from Anna to Bob.
-* A *positive* transaction amount corresponds to transferring money from Bob to Anna.
+* A *negative* transaction amount corresponds to transferring money from Alice to Bob.
+* A *positive* transaction amount corresponds to transferring money from Bob to Alice.
 
-The first block of the chain stores the amount of money that Anna starts with (think of it as an initial transaction from Bob to Anna).
-Subsequent blocks of the chain only store the transactions between Anna and Bob rather than the overall amount in the system.
+The first block of the chain stores the amount of money that Alice starts with (think of it as an initial transaction from Bob to Alice).
+Subsequent blocks of the chain only store the transactions between Alice and Bob rather than the overall amount in the system.
 To tell if a new block is valid, we must not only check that its hashes are correct but also the transaction represents a legal exchange of cash given the history of blocks before it.
 For example, the following transaction chain is valid:
 
@@ -221,7 +221,7 @@ However, the following transaction chain is not valid:
 300 --> -150 -> -100 -> -100 --> 150
 ```
 
-Because Anna only has 50 units of money available when she tries to transfer an additional 100 units to Bob in the fourth transaction.
+Because Alice only has 50 units of money available when she tries to transfer an additional 100 units to Bob in the fourth transaction.
 In general, we must traverse the entire blockchain to determine if a new transaction is valid, checking that each transaction legally follows from the previous one.
 
 ### A Hash class
@@ -344,7 +344,7 @@ However `isValidBlockChain` must still ensure that the blocks of the chain repre
 
 Finally we'll create a program, `BlockChainDriver`, which allows us to interact with our `BlockChain`.
 `BlockChainDriver` should contain the `main` method of your program.
-Your program should take a single command-line argument that is the initial non-negative dollar amount that Anna starts with.
+Your program should take a single command-line argument that is the initial non-negative dollar amount that Alice starts with.
 It then allows the user to interactively manipulate the blockchain and mine for additional blocks through a text-driven interface.
 The program creates a blockchain with the initial dollar amount and then repeatedly:
 
