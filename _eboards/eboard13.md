@@ -4,7 +4,6 @@ number: 13
 section: eboards
 held: 2019-02-22
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 13: Array-based linear structures
 ==========================================================
