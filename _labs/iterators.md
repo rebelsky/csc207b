@@ -72,11 +72,11 @@ public ArrayBasedQueue<T> implements ... {
 
 public ArrayBasedQueueIterator<T> implements Iterator<T> {
   ArrayBasedQueue<T> abq;
-  int pos;
+  int i;
 
   public ArrayBasedQueueIterator(ArrayBasedQueue<T> abq) {
     this.abq = abq;
-    this.pos = ...;
+    this.i = 0;
   }
 
   // ... this.abq.values[this.pos] ...
