@@ -9,7 +9,6 @@ summary: |
 javadoc:
   - "[`java.util.Comparator`]({{ site.java_api }}/java/util/Comparator.html)"
   - "[`java.util.PriorityQueue`]({{ site.java_api }}/java/util/PriorityQueue.html)"
-current: true
 ---
 
 Preparation
