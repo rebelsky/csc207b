@@ -22,10 +22,16 @@ Exercises
 
 ### Exercise 1: Anonymous comparators
 
-Using either `java.util.PriorityQueue` or `BuiltinPriorityQueue`,
-create a priority queue of strings that is ordered by string length.
-(Two strings with equal length should be compared alphabetically.)
-Use an anonymous inner class to build the comparator.
+Write a new class with a `main` method that creates a priority queue
+of strings that is ordered by string length, adds a few strings,
+and then remove sthe strings.  
+
+You may use either `java.util.PriorityQueue` or `BuiltinPriorityQueue`
+for your priority queue.
+
+You should use an anonymous inner class to build the comparator for the
+priority queue.  If your `compare` method is presented with two 
+equal-length strings, it should compare them alphabetically.
 
 ### Exercise 2: Iterating queues
 
