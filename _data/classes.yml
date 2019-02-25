@@ -257,7 +257,7 @@
     - May need to write an iterator reading
     - For lab, may have them implement iterators
     - Note that there are some good questions about iterators at the start
-      of the arry-based-lists lab.
+      of the array-based-lists lab.
 
 - topic: Analyzing algorithms
   abbrev: analysis
@@ -266,6 +266,7 @@
     formal notation for describing that use.
   subjects:
     - Comparing algorithms
+    - Empirical analysis
     - Asymptotic analysis
     - Counting steps
     - Big-O, formalized
@@ -274,9 +275,22 @@
     - link: "Osera 4: Complexity"
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap04.pdf
   lab:
-    - page: /labs/complexity.html
+    - page: /labs/empirical-analysis.html
   reminders:
     - Copy PM's lab
+
+- topic: Analyzing algorithms, continued
+  abbrev: analysis-continued
+  summary: |
+    We continue our exploration of the analysis of algorithms.
+  subjects:
+    - Practice with Big-O
+    - Comparing Big-O and empirical approaches
+  reading:
+    - link: "Osera 4: Complexity"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap04.pdf
+  lab:
+    - page: /labs/complexity.html
 
 - topic:  Analyzing recursive algorithms
   abbrev: analysis-recursive
@@ -308,11 +322,6 @@
     - page: /labs/anonymous-functions.html
   reminders:
     - The reading does not yet exist and I don't want to use PM's
-
-- topic: Pause for breath
-  abbrev: pause02
-  summary: |
-    We pause to reflect on recent issues.
 
 - topic: Searching
   abbrev: searching
