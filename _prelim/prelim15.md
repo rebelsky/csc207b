@@ -8,13 +8,15 @@ link: true
 * I was dealing with conference work (stuffing bags) until 8:30 p.m. on
   Tuesday night.  I'm slowly catching up on email.
 * Be attentive to Prof. Vostinar.
+* Code file for today: [`MaxContiguousSubsequenceSum.java`](../files/MaxContiguousSubsequenceSum.java)
 
 ### Upcoming work
 
 * [Assignment 5](../assignments/assignment05) due Thursday night.
 * Exam 1 to be distributed Friday (or before).
-* Reading for Wednesday: 
+* Reading for Friday: 
   [Osera, Chapter 4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap04.pdf)
+    * Same as the reading for today.
 * Lab writeup: Printed, distributed in class.
 
 ### Extra credit
