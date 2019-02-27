@@ -4,7 +4,6 @@ number: 14
 section: eboards
 held: 2019-02-25
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 14:  Iterators
 ======================================
