@@ -9,7 +9,6 @@ javadoc:
   - "[`java.util.PriorityQueue`]({{ site.java_api }}/java/util/PriorityQueue.html)"
   - "[`java.util.Iterator`]({{ site.java_api }}/java/util/Iterator.html)"
   - "[`java.util.Iteratable`]({{ site.java_api }}/java/util/Iteratable.html)"
-current: true
 ---
 
 Preparation
