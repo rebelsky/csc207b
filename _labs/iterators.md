@@ -9,7 +9,6 @@ javadoc:
   - "[`java.util.PriorityQueue`]({{ site.java_api }}/java/util/PriorityQueue.html)"
   - "[`java.util.Iterator`]({{ site.java_api }}/java/util/Iterator.html)"
   - "[`java.util.Iteratable`]({{ site.java_api }}/java/util/Iteratable.html)"
-current: true
 ---
 
 Preparation
@@ -39,9 +38,9 @@ As you may recall, the `ArrayBasedStack` class has two fields, an
 array called `values` and an integer called `size`.
 
 a. Sketch (that is, make notes on but do not write the Java code for)
-an iterator for the `LinkedQueue` class.
+an iterator for the `ArrayBasedStack` class.
 
-b. Compare your answer to the iterator presented in `LinkedQueue.java`.
+b. Compare your answer to the iterator presented in `ArrayBasedStack.java`.
 
 ### Exercise 3: Iterating linked structures
 
