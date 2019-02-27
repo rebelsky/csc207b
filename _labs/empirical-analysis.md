@@ -1,8 +1,9 @@
 ---
 title: Empirical analysis
-link: true
 summary: |
   We practice comparing the running time of algorithm empirically.
+link: true
+current: true
 ---
 
 Today's lab is a handout.
