@@ -56,7 +56,6 @@
 
 - date: 2019-02-28
   due:
-    - page: /assignments/assignment05.html
 
 - date: 2019-03-01
   assigned:
@@ -64,15 +63,13 @@
 
 - date: 2019-03-04
   due:
+    - page: /assignments/assignment05.html
     - Quiz 6
 
 - date: 2019-03-07
   due:
-    - page: /exams/exam01.html
 
 - date: 2019-03-08
-  assigned:
-    - page: /assignments/assignment06.html
 
 - date: 2019-03-11
   due:
@@ -80,11 +77,11 @@
 
 - date: 2019-03-14
   due:
-    - page: /assignments/assignment06.html
+    - page: /exams/exam01.html
 
 - date: 2019-03-15
   assigned:
-    - page: /assignments/assignment07.html
+    - page: /assignments/assignment06.html
 
 - date: 2019-04-01
   due:
@@ -92,11 +89,11 @@
 
 - date: 2019-04-04
   due:
-    - page: /assignments/assignment07.html
+    - page: /assignments/assignment06.html
 
 - date: 2019-04-05
   assigned:
-    - page: /assignments/assignment08.html
+    - page: /assignments/assignment07.html
 
 - date: 2019-04-08
   due:
@@ -104,11 +101,11 @@
 
 - date: 2019-04-11
   due:
-    - page: /assignments/assignment08.html
+    - page: /assignments/assignment07.html
 
 - date: 2019-04-12
   assigned:
-    - page: /assignments/assignment09.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-04-15
   due:
@@ -116,7 +113,7 @@
 
 - date: 2019-04-18
   due:
-    - page: /assignments/assignment09.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-04-19
   assigned:
@@ -132,7 +129,7 @@
 
 - date: 2019-04-26
   assigned:
-    - page: /assignments/assignment10.html
+    - page: /assignments/assignment09.html
 
 - date: 2019-04-29
   due:
@@ -140,11 +137,11 @@
 
 - date: 2019-05-02
   due:
-    - page: /assignments/assignment10.html
+    - page: /assignments/assignment09.html
 
 - date: 2019-05-03
   assigned:
-    - page: /assignments/assignment11.html
+    - page: /assignments/assignment10.html
 
 - date: 2019-05-06
   due:
@@ -152,7 +149,7 @@
 
 - date: 2019-05-09
   due:
-    - page: /assignments/assignment11.html
+    - page: /assignments/assignment10.html
 
 - date: 2019-05-17
   message: Final Examination
