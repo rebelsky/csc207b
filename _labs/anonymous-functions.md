@@ -49,11 +49,11 @@ You will likely need to
 * Make a copy of the [`Person`](https://docs.oracle.com/javase/tutorial/java/javaOO/examples/Person.java) class associated with the reading, which is available at <https://docs.oracle.com/javase/tutorial/java/javaOO/examples/Person.java>.
 * Create a new class, `JTLambdaExperiment`, in which you will write
   the various experiments.
-* Add a `main` method to `JTExpermiment`.
-* In the `main` method of `JTExperiment`, create a list of `Person` objects.  (We'd recommend an `ArrayList`.)
+* Add a `main` method to `JTLambdaExpermiment`.
+* In the `main` method of `JTLambdaExperiment`, create a list of `Person` objects.  (We'd recommend an `ArrayList`.)
   You can see the `createRoster` method in `Person` for an example.
 * For each static method in the reading, add the method to
-  `JTEexperiment` and then add a call to that method to `main` to see 
+  `JTLambdaExperiment` and then add a call to that method to `main` to see 
   that the method behaves as expected.
 
 *Note*: If you are adding interfaces and classes, you should do so outside
@@ -61,17 +61,17 @@ the body of `JTExperiment`.
 
 ### Exercise 2: Selecting values
 
-a. Write a static generic method, `select(List<T> vals, Predicate<T>)`,
-that creates a new `ArrayList` that contains only the elements of
-`vals` for which the predicate holds.
+a. In `ListUtils`, rite a static generic method, `select(List<T>
+vals, Predicate<T> pred)`, that creates a new `ArrayList` that contains
+only the elements of `vals` for which the predicate holds.
 
-b. Write a program to select the values in `strings` (from the preparation) 
-whose length is at least five.  Make sure to define your predicate
-anonymously.
+b. In the `main` method of `LambdaExperiments`, select and print
+the values in `strings` (from the preparation) whose length is at
+least five.  Make sure to define your predicate anonymously.
 
-c. Write a program to select the values in `strings` which contain two 
-vowels in a row.  Once again, make sure to define your predicate
-anonymously.
+c. In the `main` method of `LambdaExperiments`, select the values
+in `strings` which contain two vowels in a row.  Once again, make
+sure to define your predicate anonymously.
 
 ### Exercise 3: Removing values
 
@@ -79,11 +79,11 @@ Rather than building a new list by selecting values, as in the
 previous problem, we could also write a method that mutates an
 existing list by removing values.
 
-a. Write a static generic method, `remove(List<T> vals, Predicate<T>)`,
-that removes from vals any values for which the predicate holds.  You
-may not use any existing methods in the `List` class other than
-`iterator`.  You can assume that the `remove` method is implemented
-in the given iterator.
+a. In `ListUtils, write a static generic method, `remove(List<T>
+vals, Predicate<T>)`, that removes from vals any values for which
+the predicate holds.  You may not use any existing methods in the
+`List` class other than `iterator`.  You can assume that the `remove`
+method is implemented in the given iterator.
 
 b. Extend your program to remove the values in `strings` whose length is 
 at least five.
