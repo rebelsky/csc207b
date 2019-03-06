@@ -218,7 +218,8 @@ These tests raise a host of errors.  Unfortunately, Ava is unsure
 of what's wrong.  Your instructor, Hugh DeWitt, tells you to correct
 the implementation of `average` so that it deals with overflow and
 underflow..  Your resulting method should use O(1) additional space
-and O(n) time.
+and O(n) time.  You may not convert the `long` values to another
+type, such as `BigInteger` or `double`.
 
 ### Problem 3: Linked priority queues
 
@@ -255,6 +256,18 @@ Make sure to finish that method, too.
 
 _Here you will find the questions students ask along the way and
 any answers I provide to those questions._
+
+### Problem 1
+
+Why do you want us to write a loop in our testing?
+  : Say you wanted to generate 100 different arrays as part of some
+    test.  Wouldn't you be better off writing those with a loop
+    than manually?
+
+### Problem 2
+
+Can we approximate the result?
+  : No.  The only approximate allowed is that given by integer division.
 
 ## Errata
 
