@@ -317,11 +317,10 @@
     - Anonymous functions in Java
     - Functional interfaces
   reading:
-    - page: /readings/anonymous-functions.html
+    - link: "The Java Tutorial: Lambda Expressions"
+      url: https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
   lab:
     - page: /labs/anonymous-functions.html
-  reminders:
-    - The reading does not yet exist and I don't want to use PM's
 
 - topic: Searching
   abbrev: searching
