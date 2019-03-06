@@ -134,6 +134,17 @@ The _Java Tutorials_ page for lambdas notes that
 
 Determine what improvements have been added in later releases.
 
+### Extra 2: Other functional interfaces
+
+Find at least two other functional interfaces and describe use cases
+for those interfaces.
+
+### Extra 3: Iterators
+
+Lambda provide a nice alternative to anonymous inner classes, with
+a bit less syntax.  Can we use lambda to implement iterators?  Why
+or why not?
+
 ## Acknowledgements
 
 Some problems on this lab were inspired by [a lab on anonymous procedures
