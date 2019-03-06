@@ -61,17 +61,17 @@ the body of `JTExperiment`.
 
 ### Exercise 2: Selecting values
 
-a. Write a static generic method, `select(List<T> vals, Predicate<T>)`,
-that creates a new `ArrayList` that contains only the elements of
-`vals` for which the predicate holds.
+a. In `ListUtils`, rite a static generic method, `select(List<T>
+vals, Predicate<T> pred)`, that creates a new `ArrayList` that contains
+only the elements of `vals` for which the predicate holds.
 
-b. Write a program to select the values in `strings` (from the preparation) 
-whose length is at least five.  Make sure to define your predicate
-anonymously.
+b. In the `main` method of `LambdaExperiments`, select and print
+the values in `strings` (from the preparation) whose length is at
+least five.  Make sure to define your predicate anonymously.
 
-c. Write a program to select the values in `strings` which contain two 
-vowels in a row.  Once again, make sure to define your predicate
-anonymously.
+c. In the `main` method of `LambdaExperiments`, select the values
+in `strings` which contain two vowels in a row.  Once again, make
+sure to define your predicate anonymously.
 
 ### Exercise 3: Removing values
 
@@ -79,11 +79,11 @@ Rather than building a new list by selecting values, as in the
 previous problem, we could also write a method that mutates an
 existing list by removing values.
 
-a. Write a static generic method, `remove(List<T> vals, Predicate<T>)`,
-that removes from vals any values for which the predicate holds.  You
-may not use any existing methods in the `List` class other than
-`iterator`.  You can assume that the `remove` method is implemented
-in the given iterator.
+a. In `ListUtils, write a static generic method, `remove(List<T>
+vals, Predicate<T>)`, that removes from vals any values for which
+the predicate holds.  You may not use any existing methods in the
+`List` class other than `iterator`.  You can assume that the `remove`
+method is implemented in the given iterator.
 
 b. Extend your program to remove the values in `strings` whose length is 
 at least five.
