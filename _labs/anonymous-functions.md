@@ -46,14 +46,18 @@ nine approaches works as described.
 
 You will likely need to 
 
+* Make a copy of the [`Person`](https://docs.oracle.com/javase/tutorial/java/javaOO/examples/Person.java) class associated with the reading, which is available at <https://docs.oracle.com/javase/tutorial/java/javaOO/examples/Person.java>.
 * Create a new class, `JTLambdaExperiment`, in which you will write
   the various experiments.
-* Make a copy of the [`Person`](https://docs.oracle.com/javase/tutorial/java/javaOO/examples/Person.java) class associated with the reading.
-* Add a `main` method.
-* Create a list of `Person` objects.  (We'd recommend an `ArrayList`.)
+* Add a `main` method to `JTExpermiment`.
+* In the `main` method of `JTExperiment`, create a list of `Person` objects.  (We'd recommend an `ArrayList`.)
   You can see the `createRoster` method in `Person` for an example.
-* For each static method in the reading, add the method and then add
-  a call to that method to see that it behaves as expected.
+* For each static method in the reading, add the method to
+  `JTEexperiment` and then add a call to that method to `main` to see 
+  that the method behaves as expected.
+
+*Note*: If you are adding interfaces and classes, you should do so outside
+the body of `JTExperiment`.
 
 ### Exercise 2: Selecting values
 
