@@ -269,6 +269,10 @@ Why do you want us to write a loop in our testing?
 Can we approximate the result?
   : No.  The only approximate allowed is that given by integer division.
 
+What do you mean by O(1) extra space? _[2019-03-06, 12:30 p.m.]_
+  : You can create as many variables as you want as long as the number
+    of variables is independent of the size of the array.
+
 ## Errata
 
 _Here you will find corrections to the examination, each of which
