@@ -2,7 +2,6 @@
 title: Anonymous functions
 summary: |
   We explore the use of anonymous functions in Java.
-current: true
 ---
 ## Preparation
 
@@ -61,7 +60,7 @@ the body of `JTExperiment`.
 
 ### Exercise 2: Selecting values
 
-a. In `ListUtils`, rite a static generic method, `select(List<T>
+a. In `ListUtils`, write a static generic method, `select(List<T>
 vals, Predicate<T> pred)`, that creates a new `ArrayList` that contains
 only the elements of `vals` for which the predicate holds.
 
