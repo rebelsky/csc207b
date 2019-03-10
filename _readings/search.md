@@ -9,7 +9,6 @@ summary: |
   ways in which object-oriented design (and its instantiation in
   the Java programming language) may lead us to think about searching
   in slightly different ways.
-current: true
 ---
 Introduction
 ------------
