@@ -1,6 +1,7 @@
 ---
 title: Sorting
 link: true
+current: true
 ---
 There are two readings on sorting
 

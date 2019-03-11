@@ -1,7 +1,6 @@
 ---
 title: Loop invariants
 link: true
-current: true
 ---
 There are two readings on loop invariants
 
