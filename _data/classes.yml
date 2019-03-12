@@ -367,7 +367,8 @@
     - Generic sorts
   reading:
     - page: /readings/sorting.html
-    - "Osera 8.4: Generic Constraints"
+    - link: "Osera 8.4: Generic Constraints"
+      url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
   reminders:
     - Some class time talking about tests
 
