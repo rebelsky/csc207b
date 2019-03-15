@@ -12,8 +12,6 @@ copyright_message: |
 link: true
 current: true
 ---
-In this lab, you will implement merge sort, a recursive sorting procedure that performs better than the previous sorts we have seen so far.
-
 ## Overview of the algorithm
 
 Merge sort over an input list can be pithily described as follows:
