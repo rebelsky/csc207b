@@ -397,7 +397,7 @@
   subjects:
     - A quick introduction to Quicksort
     - Partitioning
-    - Partitioning with invarians
+    - Partitioning with invariants
     - Key ideas from Quicksort
   reading:
     - page: /readings/quicksort.html
