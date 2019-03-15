@@ -127,10 +127,11 @@ defaults:
         discuss this assignment with anyone, provided you credit such 
         discussions when you submit the assignment.
       submitting: |
-        Email your answer to <{{ site.grader_email }}>. The subject of your
-        email should be **[CSC151-{{ site.section_number }}] {{ page.title }}**
-        and should contain your answers to all parts of the assignment. Scheme
-        code should be in the body of the message, not in an attachment.
+        Share your GitHub repo with csc207-grader. Then send
+        an email to <{{ site.grader_email }}> with the address of
+        your repository.  The subject of your
+        email should be **[CSC207-{{ site.section_number }}] {{ page.title }}**
+        and should contain your answers to all parts of the assignment. 
 
   - scope:
       path: ""
