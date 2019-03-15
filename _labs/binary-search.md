@@ -5,7 +5,6 @@ summary: |
   search in Java.  Along the way, you will not only consider the
   search algorithms, but explore some program design issues
   in Java.
-current: true
 ---
 Preparation
 -----------
