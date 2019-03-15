@@ -19,7 +19,7 @@ In addition to placing your code in a private GitHub repository, you should also
 
 ## Problem 1: Contains
 
-Write a static method `contains` that takes three parameters---an array of doubles, a double value _eps_, and a double _d<sub>1</sub>_---and returns `true` if there is a element _d<sub>2</sub>_ in the array such that _|d<sub>1</sub> - d<sub>2</sub>| < eps_.
+Write a static method `contains` that takes three parameters---an array of doubles `dubs`, a double value `eps`, and a double `d`_---and returns `true` if there is a element `dubs[i]` in the array such that `abs(dubs[i] - d) < eps`.
 
 Once you have written the `contains` method, analyze its *worst-case* complexity.
 Choose an appropriate set of operations to count, define the input of your model, describe what the worst-case scenario is for this method, and give a model _T_ of the time complexity of your method.
