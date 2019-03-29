@@ -1,7 +1,6 @@
 ---
 title: Merge sort
 link: true
-current: true
 ---
 There are two readings on merge sort.
 

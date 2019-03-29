@@ -12,8 +12,6 @@ copyright_message: |
 link: true
 current: true
 ---
-In this lab, you will implement merge sort, a recursive sorting procedure that performs better than the previous sorts we have seen so far.
-
 ## Overview of the algorithm
 
 Merge sort over an input list can be pithily described as follows:
@@ -80,7 +78,24 @@ We can finally copy the elements of the scratch list back into the original list
 
 ## Invariants, revisited
 
-Draw a picture of the invariants.
+Draw a picture of the invariants.  It should look something like
+the following (with variable names instead of the X's, and notes
+about the content of the different sections of the arrays).
+
+```text
++---   ---+---------+---------+---------+---------+---   ---+
+|  . . .  |         |         |         |         |  . . .  |
++---   ---+---------+---------+---------+---------+---   ---+
+|         |         |         |         |         |         |
+0         X         X         X         X         X         length
+
++-------------+-------------------------+
+|             |                         |
++-------------+-------------------------+
+|             |                         |
+0             X                         X
+```
+
 
 ## Implementing merge
 

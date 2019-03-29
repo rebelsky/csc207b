@@ -397,12 +397,22 @@
   subjects:
     - A quick introduction to Quicksort
     - Partitioning
-    - Partitioning with invarians
+    - Partitioning with invariants
     - Key ideas from Quicksort
   reading:
     - page: /readings/quicksort.html
     - link: "Osera 8.3: Quicksort"
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
+
+- topic: Pause for breath
+  abbrev: pause04
+  summary: | 
+    We pause to discuss the first examination and to explore current
+    complexities and confusions
+  subjects:
+    - Testing
+    - Linked structures and iterators
+    - Additional issues
 
 - topic: Array-based lists
   abbrev: array-lists
@@ -565,11 +575,6 @@
     - Buckets and chaining
   lab:
     - page: /labs/hash-table-chained.html
-
-- topic: Pause for breath
-  abbrev: pause04
-  summary: | 
-    We pause to explore any remaining complexities.
 
 - topic: Priority queues, heaps, and heap sort
   abbrev: heaps
