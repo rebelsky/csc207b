@@ -4,7 +4,6 @@ number: 21
 section: eboards
 held: 2019-03-13
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 21:  Sorting
 ====================================

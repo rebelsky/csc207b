@@ -4,7 +4,6 @@ number: 17
 section: eboards
 held: 2019-03-04
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 17:   Analyzing recursive algorithms
 ============================================================

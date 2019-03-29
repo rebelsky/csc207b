@@ -4,7 +4,6 @@ number: 18
 section: eboards
 held: 2019-03-06
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 18:  Anonymous functions
 ================================================
