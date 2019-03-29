@@ -19,7 +19,7 @@ In addition to placing your code in a private GitHub repository, you should also
 
 ## Problem 1: Contains
 
-Write a static method `contains` that takes three parameters---an array of doubles `dubs`, a double value `eps`, and a double `d`_---and returns `true` if there is a element `dubs[i]` in the array such that `abs(dubs[i] - d) < eps`.
+Write a static method `contains` that takes three parameters---an array of doubles `dubs`, a double value `eps`, and a double `d`---and returns `true` if there is a element `dubs[i]` in the array such that `abs(dubs[i] - d) < eps`.
 
 Once you have written the `contains` method, analyze its *worst-case* complexity.
 Choose an appropriate set of operations to count, define the input of your model, describe what the worst-case scenario is for this method, and give a model _T_ of the time complexity of your method.
@@ -30,7 +30,7 @@ Finally, summarize the model with a tight upper bound characterization of _T_ us
 Write a method `fastModExp` that takes three integers, _x_, _y_, and _m_ and returns _x<sup>y</sup>_ mod _m_.
 Your method should take advantage of two important identities.
 
-* _x_<sup>_y_</sup> mod _m_ = (_x_<sup>2</sup> mod _m_)<sup>(_y_/2)</sup> when _y_ is even.
+* _x_<sup>_y_</sup> mod _m_ = (_x_<sup>2</sup> mod _m_)<sup>(_y_/2)</sup> mod _m_ when _y_ is even.
 * _x_<sup>_y_</sup> mod _m_ = (_x_ * (_x_<sup>(_y_-1)</sup> mod _m_)) mod _m_ when _y_ is odd.
 
 Once you have written the `fastModExp` method, analyze its complexity, assuming that the input _y_ is a power of two.
