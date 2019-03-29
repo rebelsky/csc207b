@@ -1,6 +1,6 @@
 ---
 number: 15
-lab: /labs/empirical-analysis.html
+lab: /labs/empirical-analysi.html
 exercise: all the exercises
 link: true
 ---

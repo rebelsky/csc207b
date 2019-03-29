@@ -4,7 +4,6 @@ number: 15
 section: eboards
 held: 2019-02-27
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 15:  Analyzing algorithms
 =================================================
