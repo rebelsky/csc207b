@@ -83,7 +83,9 @@
   assigned:
     - page: /assignments/assignment06.html
 
-- date: 2019-04-01
+- date: 2019-04-03
+  assigned:
+    - page: /exams/makeup01.html
   due:
     - Quiz 8
 
@@ -91,21 +93,17 @@
   due:
     - page: /assignments/assignment06.html
 
-- date: 2019-04-05
-  assigned:
-    - page: /assignments/assignment07.html
-
 - date: 2019-04-08
   due:
     - Quiz 9
 
 - date: 2019-04-11
   due:
-    - page: /assignments/assignment07.html
+    - page: /exams/makeup01.html
 
 - date: 2019-04-12
   assigned:
-    - page: /assignments/assignment08.html
+    - page: /assignments/assignment07.html
 
 - date: 2019-04-15
   due:
@@ -113,7 +111,7 @@
 
 - date: 2019-04-18
   due:
-    - page: /assignments/assignment08.html
+    - page: /assignments/assignment07.html
 
 - date: 2019-04-19
   assigned:
@@ -129,7 +127,7 @@
 
 - date: 2019-04-26
   assigned:
-    - page: /assignments/assignment09.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-04-29
   due:
@@ -137,11 +135,11 @@
 
 - date: 2019-05-02
   due:
-    - page: /assignments/assignment09.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-05-03
   assigned:
-    - page: /assignments/assignment10.html
+    - page: /assignments/assignment09.html
 
 - date: 2019-05-06
   due:
@@ -149,7 +147,7 @@
 
 - date: 2019-05-09
   due:
-    - page: /assignments/assignment10.html
+    - page: /assignments/assignment09.html
 
 - date: 2019-05-17
   message: Final Examination
