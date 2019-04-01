@@ -29,12 +29,12 @@ private static int partition(int[] arr, int lo, int hi, int pivotIndex)
 
 The partition operation takes a sub-array (like merge sort, denoted by a `lo` and a `hi` bound) and the index of an element, `pivotIndex` in that sub-array as input. Let's walk through the general steps involved in this operation.
 
-Let's assume the array we want to partition has the shape below. Following the partition operation, we want the modified array to have the following properties (1) all the elements *less than* the pivot are to the left of the pivot, and (2) all the elements *greater than* the pivot are to the right.
+Let's assume the array we want to partition has the shape below. Following the partition operation, we want the modified array to have the following properties (1) all the elements *less than* the pivot are to the left of the pivot, and (2) all the elements *greater than or equal to* the pivot are to the right.
 
 ```text
-[       ][ ][       ]
+[       ][ ][        ]
         pivot
-[< pivot][ ][> pivot]
+[< pivot][ ][>= pivot]
         pivot
 ```
 
@@ -48,9 +48,10 @@ To perform this operation in linear time, we will employ a *two-fingered* approa
 
 To start, you may choose the midpoint of the array to be the pivot.
 Let's say we choose the element 6 as our pivot. Because we are
-sorting the array *in-place*, we want to first swap the pivot 6 with
-the last element of the array. Now we can consider partitioning
-every element but the last of the array according to the pivot.
+sorting the array *in-place*, we want to first swap the pivot 6
+with the last element of the array (or the sub-array, if we're using
+it within Quicksort). Now we can consider partitioning every element
+but the last of the array according to the pivot.
 
 ```text
 [3, 9, 2, 8, 5, 4, 1, 7, 6]
@@ -80,19 +81,25 @@ Now we will repeatedly compare elements on the left- and right-hand sides of the
 We will maintain the following loop invariant in our program design:
 
 ```text
-[ <pivot ][    ][    ][ >pivot ][ ]
-           ^        ^          pivot
+[ <pivot ][    ][    ][ >=pivot ][ ]
+           ^        ^           pivot
 ```
 
 ### Step 4: Termination
 
 What would be an appropriate condition to terminate the loop body?
 
-### Step 5 Test cases
+### Step 5: Wrapping up
+
+When you're done, you should swap the pivot into the location it
+belongs (in this version, at the left of the >= elements).  You will
+thenreturn the index of the pivot.
+
+### Step 6 Test: cases
 
 And now to test our code! Test your code with common-case as well as edge-case scenarios. Does your code return the correct partitioning if the pivot is set to the smallest or the largest element in the list?
 
-## Recursion
+## Writing `quickSort`
 
 Now that we have implemented the partition operation, all that remains is to recursively apply the partition operation on our input array! Write an implementation of Quicksort that has the following definition:
 
@@ -101,6 +108,10 @@ private static void quickSort(int[] arr)
 ```
 
 Note that we will also need to write a helper quickSort implementation which would take in the array bounds to recursively sort through the left and right sub-arrays.
+
+```java
+private static void quickSort(int[] arr, int lb, int ub) 
+```
 
 ### Testing
 
