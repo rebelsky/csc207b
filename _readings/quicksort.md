@@ -62,6 +62,7 @@ Algorithm: sort(A, lb, ub, order)
           A[i] <= A[mid] < A[j]
      sort(A, lb, mid)
      sort(A, mid+1, ub)</literallayout>
+```
 
 How do we identify the smaller and larger elements?  How do we identify
 the midpoint?  Ideally, we would identify the median value of the
