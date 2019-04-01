@@ -4,7 +4,6 @@ subtitle: ADTs, Algorithms, and Object-Oriented Design
 submitting: |
   See the instructions below.
 link: true
-current: true
 ---
 ## Preliminaries
 
