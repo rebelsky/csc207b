@@ -403,6 +403,8 @@
     - page: /readings/quicksort.html
     - link: "Osera 8.3: Quicksort"
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap08.pdf
+  lab:
+    - page: /labs/quicksort.html
 
 - topic: Pause for breath
   abbrev: pause04
