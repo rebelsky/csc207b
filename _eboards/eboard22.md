@@ -4,7 +4,6 @@ number: 22
 section: eboards
 held: 2019-03-15
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 22:  Merge sort
 =======================================
