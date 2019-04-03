@@ -407,7 +407,7 @@
     - page: /labs/quicksort.html
 
 - topic: Pause for breath
-  abbrev: pause04
+  abbrev: pause02
   summary: | 
     We pause to discuss the first examination and to explore current
     complexities and confusions
@@ -415,6 +415,15 @@
     - Testing
     - Linked structures and iterators
     - Additional issues
+
+- topic: Pause for breath
+  abbrev: pause03
+  summary:
+    We continue to discuss the first examination and to explore
+    current complexities and confusions
+  subjects:
+    - Array-based queues
+    - More testing
 
 - topic: Array-based lists
   abbrev: array-lists
@@ -435,21 +444,6 @@
       url: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.Iteratorhtml
   lab:
     - page: /labs/array-based-lists.html
-
-- topic: Linked lists
-  abbrev: linked-lists
-  summary: |
-    We explore how to implement lists as linked structures.
-  subjects:
-    - A Node class
-    - Wrapping the Node class
-  reading:
-    - page: /readings/linked-lists.html
-  lab:
-    - page: /labs/linked-lists.html
-  reminders:
-    - Need to write the damn reading.
-    - My lab or PM's? (Mine)
 
 - topic: Doubly-linked lists
   abbrev: doubly-linked-lists
