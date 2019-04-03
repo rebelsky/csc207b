@@ -4,7 +4,6 @@ number: 23
 section: eboards
 held: 2019-03-30
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 23:  Quicksort
 ======================================
