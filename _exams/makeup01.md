@@ -112,10 +112,48 @@ You must present your exam to me in two forms, physically and electronically. If
 * Make sure that the tar file contains the appropriate contents using 
   the command "`tar tf username-makeup-01.tgz`" (once again, substitute
   your own username). For example, if I were to check my tarball, I might 
-  see something like the following.
+  see something like the following.  (Note: To make things easier, I have
+  allowed you to include `.class` files.)
 
 ```shell
 $ tar tf rebelsky-makeup01.tgz
+rebelsky-makeup-01/
+rebelsky-makeup-01/.classpath
+rebelsky-makeup-01/.project
+rebelsky-makeup-01/bin/
+rebelsky-makeup-01/src/
+rebelsky-makeup-01/src/problem1/
+rebelsky-makeup-01/src/problem2/
+rebelsky-makeup-01/src/problem3/
+rebelsky-makeup-01/src/problem4/
+rebelsky-makeup-01/src/utils/
+rebelsky-makeup-01/src/utils/TestUtils.java
+rebelsky-makeup-01/src/problem4/Directory.java
+rebelsky-makeup-01/src/problem4/Entry.java
+rebelsky-makeup-01/src/problem3/LinkedStack.java
+rebelsky-makeup-01/src/problem3/Node.java
+rebelsky-makeup-01/src/problem2/Experiment.java
+rebelsky-makeup-01/src/problem2/QuicksortDNF.java
+rebelsky-makeup-01/src/problem1/Example1.java
+rebelsky-makeup-01/src/problem1/Example2.java
+rebelsky-makeup-01/src/problem1/FilteredIterator.java
+rebelsky-makeup-01/bin/problem1/
+rebelsky-makeup-01/bin/problem2/
+rebelsky-makeup-01/bin/problem3/
+rebelsky-makeup-01/bin/problem4/
+rebelsky-makeup-01/bin/utils/
+rebelsky-makeup-01/bin/utils/TestUtils.class
+rebelsky-makeup-01/bin/problem4/Directory$1.class
+rebelsky-makeup-01/bin/problem4/Directory$2.class
+rebelsky-makeup-01/bin/problem4/Directory.class
+rebelsky-makeup-01/bin/problem4/Entry.class
+rebelsky-makeup-01/bin/problem3/LinkedStack.class
+rebelsky-makeup-01/bin/problem3/Node.class
+rebelsky-makeup-01/bin/problem2/Experiment.class
+rebelsky-makeup-01/bin/problem2/QuicksortDNF.class
+rebelsky-makeup-01/bin/problem1/Example1.class
+rebelsky-makeup-01/bin/problem1/Example2.class
+rebelsky-makeup-01/bin/problem1/FilteredIterator.class
 ```
 
 *Code*: In many problems, I ask you to write code. Unless I specify
