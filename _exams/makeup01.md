@@ -193,6 +193,14 @@ project.
 
 ### Obtaining the exam code
 
+You can download [a tarball of the starter code for the 
+examination](../files/username-makeup-01.tgz).  You can unpack
+that file with "`tar xvzf username-makeup-01.tgz`".
+
+Once you have downloaded the code, you should import that top-level
+directory into Eclipse.  You should see a project named "Makeup 1
+(Your Name)".
+
 ## Problems
 
 ### Problem 1: Filtered iterators
