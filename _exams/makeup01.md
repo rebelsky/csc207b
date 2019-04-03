@@ -6,14 +6,14 @@ submitting: |
 link: true
 current: true
 ---
-**This examination is in draft form.  It is likely to change substantially.
-If you happen to find it online, you may not discuss it with anyone.**
+**This examination is now released.  You may not discuss it with anyone
+(other than Samuel A. Rebelsky).**
 
 ## Preliminaries
 
 _Some students did not seem to understand the level of detail and
 correctness I expect on my exams.  So, in spite of my general "no
-redos" policy, I am giving a makeup exam for exam 1.  Each problem
+makeups" policy, I am giving a makeup exam for exam 1.  Each problem
 replaces the corresponding problem number on exam 1.  That is,
 problem 1 on the makeup will replace problem 1 on exam 1, problem 
 2 on the makeup will replace problem 2 on exam 1, and so on and
