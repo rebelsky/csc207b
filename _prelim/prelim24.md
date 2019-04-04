@@ -10,6 +10,7 @@ link: true
     * Do you prefer the PM/AV-style labs or the SR-style labs?
 * I will *not* post the answers we develop in class today.  (I may
   post the tests.)
+* Oreos: Up to three
 
 ### Upcoming work
 
@@ -17,7 +18,7 @@ link: true
     * This is an individual assignment, rather than a group assignment.
     * You may consult with anyone you wish, provided you cite them.
 * Readings for Friday: Lots!
-    * [List ADTs](../readings/list-adts)
+    * [List ADTs](../readings/list-adts) (may get updated)
     * "[Lists with 'current' considered harmful](http://csis.pace.edu/~bergin/papers/ListsWithCurrent.html)"
     * [java.util.List](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html)
     * [java.util.ListIterator](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ListIterator.html)

@@ -34,6 +34,7 @@ Preliminaries
     * Do you prefer the PM/AV-style labs or the SR-style labs?
 * I will *not* post the answers we develop in class today.  (I may
   post the tests.)
+* Oreos: Up to three
 
 ### Upcoming work
 
@@ -41,7 +42,7 @@ Preliminaries
     * This is an individual assignment, rather than a group assignment.
     * You may consult with anyone you wish, provided you cite them.
 * Readings for Friday: Lots!
-    * [List ADTs](../readings/list-adts)
+    * [List ADTs](../readings/list-adts) (may get updated)
     * "[Lists with 'current' considered harmful](http://csis.pace.edu/~bergin/papers/ListsWithCurrent.html)"
     * [java.util.List](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html)
     * [java.util.ListIterator](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ListIterator.html)
@@ -104,6 +105,10 @@ double mean(double[] ary) {
 }
 ```
 
+* What works for `double` may not work for `long`.
+* This still has an overflow problem.
+* The comments on this solution even say that it has an overflow problem.
+
 Taken from <http://www.java2novice.com/data-structures-in-java/queue/dynamic-array-impl/>
 
 
@@ -150,6 +155,48 @@ Issues
 
 Testing SLPQs
 -------------
+
+* Key things
+    * Try to think expansively
+    * Practice, practice, practice
+    * Take advantage of randomness - it can help you catch things
+      you've never thought of
+* Particular issues in SLPQs
+    * Keep the queue in sorted order
+    * Remove
+* Writing a randomized test
+    * Start with an ordered array of integers, generated randomly
+        values[i] = values[i] + rand.nextInt(3);
+    * Make a copy
+    * Permute the copy
+        for (int i = 0; i < copy.length; i++) {
+          swap(copy, i, rand.nextInt(copy.length));
+        }
+    * Add to the sorted queue
+    * Compare to the order array of integers
+        Iterator<Integer> it = slpq.iterator();
+        for (int i = 0; i < values.length; i++) {
+          assertTrue(it.hasNext());
+          assertEquals(values[i], it.next());
+        }
+        assertFalse(it.hasNext());
+    * Remove some values (even)
+        Iterator<Integer> it = slpq.iterator();
+        while (it.hasNext()) {
+          if (it.next() % 2 == 0) {
+            it.remove();
+          } // if
+        } // while
+    * Check that it worked
+        for (int i = 0; i < values.length; i++) {
+          if (values[i] %2 == 1) {
+            assertTrue(it.hasNext());
+            assertEquals(values[i], it.next());
+          } // if
+        } // for
+        assertFalse(it.hasNext());
+    * Add the even values back in
+    * And check
 
 SLPQs
 -----
