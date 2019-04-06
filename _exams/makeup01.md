@@ -493,7 +493,7 @@ expand the array.  When you expand, you should double the size.
 Fortunately, Ann, O, and Ying are not in class during this discussion,
 so no one suggests that you need to worry about 
 `ConcurrentModificationException`s.  However, you do still need to
-worry about `IllegalStateException`s.
+worry about `IllegalStateException`s (and about the `remove` method).
 
 ## Questions and Answers
 
@@ -502,15 +502,57 @@ any answers I provide to those questions._
 
 ### Problem 1
 
+It feels like I have to call the underlying iterator's `next` within 
+`hasNext`.  Won't I lose that value?
+
+> Not if you keep track of it.
+
 ### Problem 2
+
+What should we use as the pivot?
+
+> I'm happy if you use the middle element of the subarray.  You can
+  also choose to use a randomly selected element, the median of three,
+  or whatever else you think is reasonable.
 
 ### Problem 3
 
 ### Problem 4
+
+Do we have to implement `remove`?
+
+> Yes.  For both iterators.
+
+Where do we implement binary search?
+
+> In the `find` method.
+
+Can we make the `set` method O(_n_ log<sub>2</sub> _n_)?
+
+> Nope.  It should be no more than O(_n_), and it should be 
+  O(log<sub>2</sub> _n_) it the screen name is already in the
+  directory.
+
+What is the hardest part of this problem?
+
+> In my case, it was getting binary search right so that I knew where
+  to either look or shift from.
 
 ## Errata
 
 _Here you will find corrections to the examination, each of which
 earns everyone a modicum of extra credit (until a cap of five points
 is reached)._
+
+1\. In the `LinkedStack` class, the `isEmpty` method appears as
+
+    public boolean isEmpty() {
+      return this.top != null;
+    } // isEmpty()
+
+It should be
+
+    public boolean isEmpty() {
+      return this.top == null;
+    } // isEmpty()
 
