@@ -1,7 +1,6 @@
 ---
 title: Quicksort
 link: true
-current: true
 ---
 There are two readings on Quicksort.
 
