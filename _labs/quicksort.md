@@ -9,7 +9,6 @@ copyright_message: |
   4.0 International License.  To view a copy of this license, visit
   <http://creativecommons.org/licenses/by-nc/4.0/>.
 link: true
-current: true
 ---
 In this lab we will implement the Quicksort algorithm. As a reference, refer to the readings in §8.3 from the schedule.
 
