@@ -37,6 +37,7 @@ Preliminaries
     * [Doubly and circularly linked lists](../readings/doubly-linked-lists)
 * [Makeup exam 1](../exams/makeup01) due Thursday the 11th
     * You can bring your printed version to class on Friday
+* Lab writeup: Exercise 6b
 
 ### Extra credit
 
@@ -60,6 +61,8 @@ Preliminaries
 
 #### Extra credit (Misc)
 
+* "State of SHAW" talk Thursday at 11am in JRC 101.
+    * When did SHACS get renamed?
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * You'll need to build your sculpture in advance
 * Wednesday the 10 at 4pm on Mac Field: Giant Laurel Leaf.  (Free t-shirt!)
@@ -74,5 +77,15 @@ Preliminaries
 Lab
 ---
 
+When implementing `set` with `previous`, you may find it useful to
+have a variable that keeps track of the index of the element to set 
+or remove.  (Set it to something like -1 or Int.MIN_VALUE if you can't
+set or remove.)
+
+Writeup: Exercise 6b
+
 Debrief
 -------
+
+Moral: Adding and removing elements is likely to be expensive.  So
+be careful about using ArrayLists when you need an expandable list.
