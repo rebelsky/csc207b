@@ -23,7 +23,7 @@ link: true
 
 #### Extra credit (Academic/Artistic)
 
-* CS Table Tomorrow - The Autocrats New Toolkit
+* CS Table Tomorrow - The Autocrat's New Toolkit
 
 #### Extra credit (Peer)
 
