@@ -60,7 +60,7 @@ g. Can we set an element immediately after creating a new list iterator?
 h. Can we add an element when `hasNext` is false?  If so, where is
 the element added?  If not, why not?
 
-i. Can we set an element when `hsNext` is false?  If so, which element
+i. Can we set an element when `hasNext` is false?  If so, which element
 is set?
 
 j. Can we remove an element when `hasNext` is false?  Never?  Sometimes?
@@ -100,9 +100,7 @@ position of the value to be returned by the next call to `next()`.
 
 a. Sketch how you would implement the `next` method.
 
-b. Compare your answer to that in the code.  You can ignore the
-  call to `failFast`.  We'll come back to that
-  in another exercise.
+b. Compare your answer to that in the code.  
 
 c. Sketch how you would implement the ``hasNext`()` method.
 
@@ -196,7 +194,7 @@ method we defined earlier.
 a. Write an experiment that checks whether `set` works correctly
 after `previous`.
 
-b. If you discover that it does not work correclty, fix that method.
+b. If you discover that `set` does not work correctly, fix it.
 
 For those with extra time
 -------------------------
@@ -211,3 +209,17 @@ Implement the `remove` method.
 ### Extra 2: Failing fast
 
 What does it mean for a list iterator to have a "Fail Fast" policy?
+
+### Extra 3: Refactoring
+
+At this point, your code likely has a number of sections that might
+be better arranged as helper methods, such as a method to expand
+the underlying array, one to shift elements right, and one to
+shift elements left.  Write those helper methods.
+
+Acknowledgements
+----------------
+
+This lab is closely based on one from CSC 207 2014F.  The extra problems
+are all new.  There are some new questions about list iterators in
+problem 1.  A section on failing fast was removed.
