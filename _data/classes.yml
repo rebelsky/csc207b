@@ -455,11 +455,10 @@
     - Circularly-linked lists
     - Other list issues
   reading:
+    - page: /readings/list-iterators.html
     - page: /readings/doubly-linked-lists.html
   lab:
     - page: /labs/doubly-linked-lists.html
-  reminders:
-    - No readings may exist yet. Agh!
 
 - topic: The Map ADT
   abbrev: maps
