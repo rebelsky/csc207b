@@ -1,6 +1,6 @@
 ---
 title: Implementing Lists with Arrays
-repo: <https://github.com/Grinnell-CSC207/lab-array-based-lists>.
+repo: <https://github.com/Grinnell-CSC207/lab-array-based-lists-2019>.
 summary: |
   We extend our understanding of a list ADT by considering an
   implementation of lists in which the values are stored in an
@@ -18,7 +18,7 @@ current: true
 Preparation
 -----------
 
-a. Fork and clone the repository at 
+a. Fork and clone the repository.
 
 b. In separate windows or tabs, open the documentation for
 [`Iterator`]({{ site.java_api }}/java/util/Iterator.html) and
@@ -30,12 +30,12 @@ Exercises
 ### Exercise 1: Understanding Iterators
 
 Skim through the documentation for "[`java.util.Iterator`]({{
-site.java_api }}/java/util/Iterator.html)" "[`java.util.ListIterator`]({{
-site.java_api }}/java/util/ListIterator.html)" You should identify
-the primary methods and their meanings and any other subtleties.
+site.java_api }}/java/util/Iterator.html)" and "[`java.util.ListIterator`]({{
+site.java_api }}/java/util/ListIterator.html)".  You should identify
+the primary methods, their meanings, and any other subtleties.
 Make sure that you can answer the following questions.
 
-a. Where, conceptually, is an iterator relative to the elements of
+a. Where, conceptually, is a list iterator relative to the elements of
 a list?
 
 b. What element does `remove` remove?
@@ -57,15 +57,24 @@ iterator?
 
 g. Can we set an element immediately after creating a new list iterator?
 
-h. Suppose we've created two list iterators, `lit1` and `lit2` for
+h. Can we add an element when `hasNext` is false?  If so, where is
+the element added?  If not, why not?
+
+i. Can we set an element when `hsNext` is false?  If so, which element
+is set?
+
+j. Can we remove an element when `hasNext` is false?  Never?  Sometimes?
+Always?
+
+k. Suppose we've created two list iterators, `lit1` and `lit2` for
 the list [a,b,c], and both are between the a and the b in the list.
 If we call `lit1.add(d)`, what should `lit2.next()` return?
 
-i. Suppose we've created two list iterators, `lit1` and `lit2` for
+l. Suppose we've created two list iterators, `lit1` and `lit2` for
 the list [a,b,c], and both are between the a and the b in the list.
 If we call `lit1.remove()`, what should `lit2.next()` return?
 
-j. Are there any other subtleties that you noticed about these
+m. Are there any other subtleties that you noticed about these
 two kinds of iterators?
 
 ### Exercise 2: A simple experiment
@@ -111,7 +120,7 @@ a. Write a small experiment that will let you check if `set` works.
 For example, you might create a list of five values and set values
 0, 2, and 4 to other values.  Don't bother checking the extreme
 edge cases, such as what happens when there has not been a prior
-call to `next` or `prev`.
+call to `next` or `previous`.
 
 b. Here's a simple strategy for implementing `set`.  Since `pos`
 represents the location of the value to be returned by `next`,
@@ -130,7 +139,7 @@ such cases.
 
 e. As you may have noted, a possible flaw in this implementation
 is that, while it works when we move forward with `next`, it will
-likely fail when we use `prev`.  Sketch a strategy for dealing
+likely fail when we use `previous`.  Sketch a strategy for dealing
 with this problem.
 
 <!--
@@ -182,7 +191,12 @@ You'll note that the `previous` method is not implemented.  Implement it.
 ### Exercise 6: Revisiting `set`
 
 Once we implement `previous`, we are likely to break the `set`
-method we defined earlier.  Fix that method.
+method we defined earlier.  
+
+a. Write an experiment that checks whether `set` works correctly
+after `previous`.
+
+b. If you discover that it does not work correclty, fix that method.
 
 For those with extra time
 -------------------------
@@ -190,3 +204,10 @@ For those with extra time
 _If you find that you have extra time, you may want to try one or more
 of the following exercises._
 
+### Extra 1: Removing elements
+
+Implement the `remove` method.
+
+### Extra 2: Failing fast
+
+What does it mean for a list iterator to have a "Fail Fast" policy?
