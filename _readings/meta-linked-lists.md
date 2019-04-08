@@ -1,6 +1,7 @@
 ---
 title: Linked lists
 link: true
+current: true
 ---
 There are two readings for today.
 
