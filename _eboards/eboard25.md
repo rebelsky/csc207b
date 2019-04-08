@@ -4,7 +4,6 @@ number: 25
 section: eboards
 held: 2019-04-05
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 25:  Pause for breath
 =============================================
