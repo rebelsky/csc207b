@@ -41,6 +41,7 @@ public class Node2<T> {
   Node2<T> prev;
   Node2<T> next;
 } // Node2<T>
+```
 
 On paper, we often draw these nodes horizontally, as follows.  
 
