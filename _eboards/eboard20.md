@@ -362,6 +362,11 @@ In Mathglish,
 * For all j, _ <= j < _, ?
 * For all k, _ <= k < _, ?
 
+**The prior invariant turns out not to work well.  So we switch
+to the following one.  Note that that one also includes clear
+steps for maintaining the invariant while decreasing the size of
+the unknown section.**
+
 ```text
 +----------------+--------------+-------------+--------------+
 |   red          |  white       |  unknown    |   blue       |
