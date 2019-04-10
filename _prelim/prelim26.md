@@ -46,6 +46,7 @@ link: true
     * When did SHACS get renamed?
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * You'll need to build your sculpture in advance
+    * <https://bit.ly/kineticsculpture19>
 * Wednesday the 10 at 4pm on Mac Field: Giant Laurel Leaf.  (Free t-shirt!)
 * Scarlet and Give Back Day next Wednesday/Thursday (I think).  If you
   don't have money to donate, let me know and I will give you $5 to donate

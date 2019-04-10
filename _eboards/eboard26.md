@@ -4,7 +4,6 @@ number: 26
 section: eboards
 held: 2019-04-08
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 26: Array-based lists
 =============================================
