@@ -1,7 +1,6 @@
 ---
 title: Lists
 link: true
-current: true
 ---
 There are four readings for today.
 
