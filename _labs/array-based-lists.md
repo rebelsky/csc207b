@@ -13,7 +13,6 @@ prereqs: |
 javadoc:
   - "[`java.util.Iterator`]({{ site.java_api }}/java/util/Iterator.html)"
   - "[`java.util.ListIterator`]({{ site.java_api }}/java/util/ListIterator.html)"
-current: true
 ---
 Preparation
 -----------
@@ -44,37 +43,54 @@ c. Suppose we have a list iterator, `lit`, and call `lit.add(x)`
 and then immediately after call `lit.add(y)`.  In what order will
 `x` and `y` appear in the list?
 
-d. Suppose we have a list iterator, `lit`, between the a and b in
-the list [a,b,c].  Suppose we then call `lit.remove()` and then
+d. Suppose we have a list iterator, `lit`, between the b and c in
+the list [a,b,c] and that it reached the current position through
+a call to `next`.  
+Suppose we then call `lit.remove()` and then
 immediately after call `lit.remove()` again.  What can or should
 happen?
 
-e. Can we add an element immediately after creating a new list
+e. Suppose we have a list iterator, `lit`, between the b and c in
+the list [a,b,c] and that it reached the current position through
+a call to `next`.  What should happen if we call `set(x)` and then
+`set(y)`?
+
+f. Suppose we have a list iterator, `lit`, between the b and c in
+the list [a,b,c] and that it reached the current position through
+a call to `next`.  What should happen if we call `lit.set(x)` and then
+`lit.remove()`?
+
+g. Suppose we have a list iterator, `lit`, between the b and c in
+the list [a,b,c] and that it reached the current position through
+a call to `next`.  What should happen if we call `lit.remove()` and then
+`lit.set(y)`?
+
+h. Can we add an element immediately after creating a new list
 iterator?
 
-f. Can we remove an element immediately after creating a new list
+i. Can we remove an element immediately after creating a new list
 iterator?
 
-g. Can we set an element immediately after creating a new list iterator?
+j. Can we set an element immediately after creating a new list iterator?
 
-h. Can we add an element when `hasNext` is false?  If so, where is
+k. Can we add an element when `hasNext` is false?  If so, where is
 the element added?  If not, why not?
 
-i. Can we set an element when `hasNext` is false?  If so, which element
+l. Can we set an element when `hasNext` is false?  If so, which element
 is set?
 
-j. Can we remove an element when `hasNext` is false?  Never?  Sometimes?
+m. Can we remove an element when `hasNext` is false?  Never?  Sometimes?
 Always?
 
-k. Suppose we've created two list iterators, `lit1` and `lit2` for
+n. Suppose we've created two list iterators, `lit1` and `lit2` for
 the list [a,b,c], and both are between the a and the b in the list.
 If we call `lit1.add(d)`, what should `lit2.next()` return?
 
-l. Suppose we've created two list iterators, `lit1` and `lit2` for
+o. Suppose we've created two list iterators, `lit1` and `lit2` for
 the list [a,b,c], and both are between the a and the b in the list.
 If we call `lit1.remove()`, what should `lit2.next()` return?
 
-m. Are there any other subtleties that you noticed about these
+p. Are there any other subtleties that you noticed about these
 two kinds of iterators?
 
 ### Exercise 2: A simple experiment
