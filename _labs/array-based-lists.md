@@ -13,7 +13,6 @@ prereqs: |
 javadoc:
   - "[`java.util.Iterator`]({{ site.java_api }}/java/util/Iterator.html)"
   - "[`java.util.ListIterator`]({{ site.java_api }}/java/util/ListIterator.html)"
-current: true
 ---
 Preparation
 -----------
