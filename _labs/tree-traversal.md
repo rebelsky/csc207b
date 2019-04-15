@@ -92,7 +92,7 @@ public void print(PrintWriter pen) {
   remaining.push(this.root);
   // Invariants: 
   //   remaining only contains Strings or Nodes
-  //   All valuess in the tree are either
+  //   All values in the tree are either
   //     (a) already printed
   //     (b) in remaining
   //     (c) in or below a node in remaining
