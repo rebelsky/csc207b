@@ -1,7 +1,7 @@
 ---
 title: Assignment 6
 subtitle: Complexity analysis
-copyright:  Copyright &copy; Peter-Michael Osera and Samuel A. Rebelsky.
+copyright:  Copyright &copy; Peter-Michael Osera, Anya Vostinar, and Samuel A. Rebelsky.
 copyright_message: |
   This work is licensed under a Creative Commons Attribution-NonCommercial
   4.0 International License.  To view a copy of this license, visit

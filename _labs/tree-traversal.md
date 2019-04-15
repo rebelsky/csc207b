@@ -1,17 +1,20 @@
 ---
 title: Tree Traversal
-repo: <https://github.com/Grinnell-CSC207/tree-traverssal>
+repo: <https://github.com/Grinnell-CSC207/lab-tree-traversal-2019>
 summary: |
   In this laboratory, you will explore the traversal of trees.
   Although tree traversal can be used for all sorts of trees, you
   will ground your exploration in binary search trees.
+current: true
 ---
 Preparation
 -----------
 
 a. Fork and clone the specified respository.
 
-b. Skim the code to make sure that you understand the structure of
+b. Import the repository into Eclipse.
+
+c. Skim the code to make sure that you understand the structure of
 the tree data structure.
 
 Exercises
@@ -21,11 +24,20 @@ Exercises
 
 Consider the following set of instructions.  
 
-FORTHCOMING
+```java
+    String[] strings = {"aardvark", "billygoat", "chinchilla", "dingo", "emu",
+        "frog", "gnu", "hippo", "iguana", "jackalope", "koala", "llama"};
+    BinaryTree<String> tree = new BinaryTree<String>(strings);
+```
 
 a. What tree do you expect these instructions to produce?
 
-b. Write a program to check your answer experimentally.
+b. Run `BinaryTreeExperiment` to check your answer.
+
+c. What do you expect to happen to the tree if we use an array with two
+more animals?
+
+d. Check your answer experimentally.
 
 ### Exercise 2: Alternate output
 
@@ -33,18 +45,33 @@ Suppose instead of printing the tree in the deeply nested form, we
 want to print the elements of the tree on a single (very long) line,
 but in more or less the same order that we get from `dump`.
 
-```
-FORTHCOMING
+```text
+gnu dingo billygoat aardvark chinchilla frog emu jackalope iguana hippo llama koala
 ```
 
-Clearly, we could just modify the wonderfully recursive `dump`
-procedure to get this output.  But `dump` is recursive.  What if
-we can't use recursion?
+a. Write a procedure, `elements01(PrintWriter pen)`, that creates that output.
+
+b. In what order does that method traverse the tree?
+
+c. Suppose we traversed the tree using a depth-first, left-to-right, 
+in-order traversal.  What output would you expect?
+
+d. Write a new procedure, `elements02(PrintWriter pen)`, that prints
+the tree using a depth-first, left-to-right, in-order traversal.
+
+### Exercise 3: Avoiding recursion
+
+You have likely written recursive procedures to generate that output.
+What if we can't use recursion?  For example, if we're implementing
+an iterator, it will be almost impossible to stop the recursion at
+each stage.
 
 Sketch, but do not implement, an algorithm to print all the values 
-in the tree without using explicit recursion.
+in the tree without using explicit recursion.  You can use either
+depth-first, left-to-right, preorder traversal or depth-first,
+left-to-right, in-order traversal.
 
-### Exercise 3: Printing elements
+### Exercise 4: Printing elements
 
 Consider the following potential solution to the previous exercise.
 
@@ -60,27 +87,26 @@ public void print(PrintWriter pen) {
   remaining.push(this.root);
   // Invariants: 
   //   remaining only contains Strings or Nodes
-  //   All key/value pairs in the tree are either
+  //   All valuess in the tree are either
   //     (a) already printed
   //     (b) in remaining
   //     (c) in or below a node in remaining
   while (!remaining.isEmpty()) {
     Object next = remaining.pop();
-    if (next instanceof String) {
+    if (next instanceof BinaryTreeNode<?>) {
+      @SuppressWarnings("unchecked")
+      BinaryTreeNode<T> node = (BinaryTreeNode<T>) next;
+      if (node.right!= null) {
+        remaining.push(node.right);
+      } // if (node.right!= null)
+      if (node.left != null) {
+        remaining.push(node.left);
+      } // if (node.left != null)
+      remaining.push(node.value);
+    } else {
       pen.print(next);
       pen.print(" ");
-    } else {
-      // next must be a Node
-      @SuppressWarnings("unchecked")
-      TreeNode node = (TreeNode) next;
-      if (node.larger != null) {
-        remaining.push(node.larger);
-      } // if (node.larger != null)
-      if (node.smaller != null) {
-        remaining.push(node.smaller);
-      } // if (node.smaller != null)
-      remaining.push(node.value);
-    } // if it's a node
+    } // if/else
   } // while
   pen.println();
 } // print(PrintWriter)
@@ -94,40 +120,44 @@ b. In what order do you expect it to print the values in the tree?
 c. Add this code to your program and verify that it works.  If it
 does not, fix it.
 
-### Exercise 4: Other Orderings
+### Exercise 5: Other orderings
 
-The traversal strategy current implemented in `print` is what is
-typically called *preorder, depth-first, left-to-right traversal*.
-It is "preorder" because we print/visit a node before we visit its
-children.  It is "depth-first" because we go deep down into the
-tree before we go across a particular level.  And it is "left-to-right"
-for obvious reasons.
+The `print` method prints the tree using a depth-first, left-to-right,
+pre-order strategy.
 
-Suppose we want to do *inorder* traversal, in which we print the
-value of a node between the children.  (That is, we print the left
-subtree, then the node, then the right subtree.)
+a. What changes would you have to make in order to have the `print`
+method traverse the tree using a depth-first, left-to-right, in-order
+strategy?
 
-a. In what order would you expect to see the values printed?  (You
-only need list the first six or so.)
+b. Check your answer experimentally.
 
-b. What changes do we have to make to the code to achieve that goal?
+c. What changes would you have to make in order to have the `print`
+method traverse the tree using a depth-first, left-to-right, postorder
+strategy?
 
-c. Check your answer experimentally.
+d. Check your answer experimentally.
 
-d. What changes do we need to make in order to achieve *postorder*
-traversal, in which we print the value of a node after the children?
+e. What changes would you have to make in order to have the `print
+method traverse the tree using a depth-first, right-to-left, inorder
+strategy?
 
-e. What changes do we need to make in order to achieve right-to-left
-traversal?
+f. Check your answer experimentally.
 
-### Exercise 5: Breadth-first traversal
+### Exercise 6: Iterating trees
+
+Using the ideas from the `print` method, implement the `iterator`
+method.  (You should not implement `remove`.)
+
+You may iterate the tree in any order you consider reasonable.
+
+### Exercise 7: Breadth-first traversal
 
 So far, we've only explored depth-first traversal.  But what if we
 want to do *breadth-first* traveral, wherein we visit/print all of
 the values at a particular level before going on to the next level?
 
 a. Sketch what changes you would make to `print` to get it to print
-the values in a top-down, postorder, left-to-right, breadth-first
+the values in a top-down, preorder,  left-to-right, breadth-first
 traversal.  (Hint: You probably don't want to use a stack any more.)
 
 b. Implement those changes.
@@ -135,8 +165,8 @@ b. Implement those changes.
 For those with extra time
 -------------------------
 
-If you find that you have extra time, try any of the following
-problems.
+_If you find that you have extra time, try any of the following
+problems._
 
 ### Extra 1: Numbering levels
 
