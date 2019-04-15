@@ -115,7 +115,7 @@
 
 - date: 2019-04-19
   assigned:
-    - page: /exams/exam02.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-04-22
   due:
@@ -123,11 +123,11 @@
 
 - date: 2019-04-25
   due:
-    - page: /exams/exam02.html
+    - page: /assignments/assignment08.html
 
 - date: 2019-04-26
   assigned:
-    - page: /assignments/assignment08.html
+    - page: /exams/exam02.html
 
 - date: 2019-04-29
   due:
@@ -135,7 +135,7 @@
 
 - date: 2019-05-02
   due:
-    - page: /assignments/assignment08.html
+    - page: /exams/exam02.html
 
 - date: 2019-05-03
   assigned:
