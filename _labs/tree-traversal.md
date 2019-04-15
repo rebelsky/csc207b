@@ -71,6 +71,11 @@ in the tree without using explicit recursion.  You can use either
 depth-first, left-to-right, preorder traversal or depth-first,
 left-to-right, in-order traversal.
 
+If you get stuck after two minutes, look at the notes at the end of
+this lab.
+
+Spend no more than five minutes on this problem!
+
 ### Exercise 4: Printing elements
 
 Consider the following potential solution to the previous exercise.
@@ -87,7 +92,7 @@ public void print(PrintWriter pen) {
   remaining.push(this.root);
   // Invariants: 
   //   remaining only contains Strings or Nodes
-  //   All valuess in the tree are either
+  //   All values in the tree are either
   //     (a) already printed
   //     (b) in remaining
   //     (c) in or below a node in remaining
@@ -189,3 +194,8 @@ Your breadth-first traversal algorithm should start at the top and work
 its way down.  Rewrite the algorithm so that it prints the tree from
 the bottom up.
 
+Notes
+-----
+
+If you need to simulate a recursive method without recursion, the most
+common strategy is to use a stack.
