@@ -8,7 +8,6 @@ prereqs: |
   [Generics](../readings/generics).
   [Anonymous inner classes](../readings/anonymous-inner-classes).
   [Iterating lists](../readings/list-iterators).
-current: true
 ---
 Preparation
 -----------
