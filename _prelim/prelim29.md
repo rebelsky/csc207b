@@ -6,6 +6,8 @@ link: true
 ### News / Etc.
 
 * _Please_ make sure that you've installed the Google Style Sheet in Eclipse.
+* If you haven't yet submitted your epilogue for the makeup, please do so
+  ASAP.
 
 ### Upcoming work
 

@@ -33,7 +33,7 @@ Preliminaries
 
 * Readings for Wednesday
     * [Osera 10.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
-    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
+    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf)
 * [Assignment 7](../assignments/assignment07) due Thursday the 18th
 * Lab Writeup: TBD
 
@@ -45,6 +45,8 @@ Preliminaries
 * **New**: Student research extravaganza (any one event)
 
 #### Extra credit (Peer)
+
+* Track and Field home meet, Saturday.  Race times tbd.
 
 #### Extra credit (Wellness)
 
@@ -65,6 +67,8 @@ Preliminaries
 
 #### Extra credit (Misc)
 
+* **New**: CS Internshp Hour, Thurday, 6:30-7:30 p.m., Noyce 3821. 
+  Free pizza.
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * <https://bit.ly/kineticsculpture19>
     * You'll need to build your sculpture in advance
@@ -81,6 +85,26 @@ Preliminaries
 ### Questions
 
 _I hear that there are some questions about removal.  Please ask them._
+
+How do we tell what to remove?
+
+> Semantics: Remove what was returned by the most recent call to
+  `previous` or `next`.
+
+> We must therefore have a field that stores the information about
+  which direction we just moved.
+
+> Option 1: `int dir; // Use pos for forward and neg for backwards.`
+
+> Option 2: Keep a pointer to the thing we will remove or set when
+  we call remove or set.  
+
+> In (all) options, we will still need to update the state of the
+  iterator.  If we remove the previous element (because we just
+  called `next`), we'll need to decrement the position in the list.
+  If we are using a linked structure, we will likely need to change
+  the `prev` link.
+
 
 Quiz
 ----
