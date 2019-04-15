@@ -26,6 +26,8 @@ Preliminaries
 ### News / Etc.
 
 * _Please_ make sure that you've installed the Google Style Sheet in Eclipse.
+* If you haven't yet submitted your epilogue for the makeup, please do so
+  ASAP.
 
 ### Upcoming work
 
@@ -82,6 +84,10 @@ _I hear that there are some questions about removal.  Please ask them._
 
 Quiz
 ----
+
+_Sam needs an editor (no, not `vi`).  The first line of problem 1 says
+"each of the two primary list iterations"; it means "each of the two
+primary list *implementations*._
 
 Tree traversal
 --------------
