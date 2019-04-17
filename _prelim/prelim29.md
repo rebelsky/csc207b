@@ -6,23 +6,28 @@ link: true
 ### News / Etc.
 
 * _Please_ make sure that you've installed the Google Style Sheet in Eclipse.
+* If you haven't yet submitted your epilogue for the makeup, please do so
+  ASAP.
 
 ### Upcoming work
 
 * Readings for Wednesday
     * [Osera 10.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
-    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
+    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf)
 * [Assignment 7](../assignments/assignment07) due Thursday the 18th
-* Lab Writeup: TBD
+* No lab writeup for today.
 
 ### Extra credit
 
 #### Extra credit (Academic/Artistic)
 
-* The Magic Flute, April 18, 7:00 p.m. Sebring-Lewis
+* The Magic Flute, Thursday, April 18, 7:00 p.m. Sebring-Lewis
 * **New**: Student research extravaganza (any one event)
 
 #### Extra credit (Peer)
+
+* Track and Field home on Saturday.  (30 min suffice; your peer runs
+  around noon.)
 
 #### Extra credit (Wellness)
 
@@ -43,6 +48,8 @@ link: true
 
 #### Extra credit (Misc)
 
+* **Tonight**: Prairie Burn, Grimes Farm, tonight at 7:30ish.  See 
+  Facebook events and random email.
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * <https://bit.ly/kineticsculpture19>
     * You'll need to build your sculpture in advance
