@@ -13,7 +13,7 @@ link: true
 
 * Readings for Wednesday
     * [Osera 10.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
-    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap10.pdf)
+    * [Osera 11.4](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf)
 * [Assignment 7](../assignments/assignment07) due Thursday the 18th
 * Lab Writeup: TBD
 
@@ -25,6 +25,8 @@ link: true
 * **New**: Student research extravaganza (any one event)
 
 #### Extra credit (Peer)
+
+* Track and Field home meet, Saturday.  Race times tbd.
 
 #### Extra credit (Wellness)
 
@@ -45,6 +47,8 @@ link: true
 
 #### Extra credit (Misc)
 
+* **New**: CS Internship Hour, Thurday, 6:30-7:30 p.m., Noyce 3821. 
+  Free pizza.
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * <https://bit.ly/kineticsculpture19>
     * You'll need to build your sculpture in advance

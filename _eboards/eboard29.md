@@ -17,7 +17,6 @@ _Overview_
     * Extra credit
     * Questions
 * Quiz
-* Tree traversal
 * Lab
 
 Preliminaries
@@ -67,7 +66,7 @@ Preliminaries
 
 #### Extra credit (Misc)
 
-* **New**: CS Internshp Hour, Thurday, 6:30-7:30 p.m., Noyce 3821. 
+* **New**: CS Internship Hour, Thurday, 6:30-7:30 p.m., Noyce 3821. 
   Free pizza.
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * <https://bit.ly/kineticsculpture19>
@@ -105,6 +104,60 @@ How do we tell what to remove?
   If we are using a linked structure, we will likely need to change
   the `prev` link.
 
+What happens when we remove in an array-based list?
+
+> Traditionally, we shift everything to the left.
+
+> If the thing we remove is before the cursor/iterator, we should
+  decrement the position by 1.
+
+Did you inform the people who didn't format correctly?
+
+> Thu: Yes.  Sun: No.
+
+Should we turn in new epilogues if we took advantage of the free extension?
+
+> Yes.  Your times probably changed.  Maybe you learned something else.
+
+Where does `pos` start?
+
+> It depends on the interpretation of the pos.  I generally use pos as
+  "position of the next element".  I would therefore start it at 0.
+
+> Some folks take the "between elements" way to seriously and start it
+  at -0.5.
+
+_How do we remove in a doubly-linked list?_
+
+> Conceptual: The cursor refers to previous and next, for convenience.
+
+> We know which element to remove because we've stored that information.
+  Suppose it's the previous element (because we've called `next`).
+
+> We are going to update the list, so we may need to update the cursor's
+  prev link.
+
+        prev = update.prev;
+
+> We need to change the surrounding pointers.
+
+        update.prev.next = update.next;
+        update.next.prev = update.prev
+
+> We may want to clear the pointers (helps avoid later problems)
+
+        update.prev = null
+        update.next = null;
+
+> If we're keeping track of the position (and we should) we decrement
+  it by 1.
+
+> Set `update` to null so that we don't allow subsequent updates.
+
+> Special case: If we removed the first element in the list, we need
+  to update front.
+
+> The code seems to mimic this approach.
 
 Quiz
 ----
@@ -113,13 +166,7 @@ _Sam needs an editor (no, not `vi`).  The first line of problem 1 says
 "each of the two primary list iterations"; it means "each of the two
 primary list *implementations*._
 
-Tree traversal
---------------
-
-_How many different systematic orders can we use to traverse a tree?_
-
-_Suppose you wanted to build an `Iterator` for a tree.  What would it
-look like?  (You can choose the traversal order.)_
-
 Lab
 ---
+
+
