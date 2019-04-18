@@ -514,8 +514,6 @@
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap11.pdf
   lab:
     - page: /labs/binary-search-trees.html
-  reminders:
-    - Use Osera's BST lab.
 
 - topic: Binary search trees II
   abbrev: bst2
@@ -524,9 +522,7 @@
   subjects:
     - Deletion in BSTs.
   lab:
-    - page: /labs/binary-search-trees.html
-  reminders:
-    - Check to see if we need a separate lab.
+    - page: /labs/binary-search-trees-continued.html
 
 - topic: Hash tables
   abbrev: hash-tables
