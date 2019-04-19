@@ -47,21 +47,22 @@ removeHelper(node, key)
   if node == null
     cache = null;
     return null;
-  compare key to node.key
-  cache = node.value;
-  case equal:
-    if node is a leaf
-      return null;
-    else if node.left is null
-      return node.right;
-    else if node.right is null;
-       return node.left;
-    otherwise
-      do something complicated
-  case less:
-    node.left = remove(node.left, key);
-  case greater:
-    node.right = remove(node.right, key);
+  else
+    cache = node.value;
+    compare key to node.key
+    case equal:
+      if node is a leaf
+        return null;
+      else if node.left is null
+        return node.right;
+      else if node.right is null;
+         return node.left;
+      otherwise
+        do something complicated
+    case less:
+      node.left = remove(node.left, key);
+    case greater:
+      node.right = remove(node.right, key);
 ```
 
 a. Implement this sketch, leaving the "do something complicated"
@@ -85,15 +86,22 @@ One inefficient approach that some people take is to reinsert all of
 the values in the left and right subtrees into the tree.  But we should
 be able to do better than that.
 
-If you think about it for a moment, you'll realize that everything in
-the right subtree is greater than everything in the left subtree.  We
+If you think about it for a moment, you'll realize that every key in
+the right subtree is greater than every key in the left subtree.  We
 can take advantage of that fact to handle removal.  In particular, we
 can safely put the right subtree at the far right end of the left
 subtree and then return the left subtree.  (Alternately, we can
 safely put the left subtree at the far left end of the right subtree
 and return the right subtree.)
 
-Implement and check that strategy.
+We also know that the rightmost key in the left subtree is larger
+than everything else in the left subtree and smaller than everything
+else in the right subtree.  Hence, we could remove the rightmost
+key/value pair from the left subtree and then make a new node
+whose left subtree is the modified left subtree and whose right
+subtree is the right subtree.
+
+Implement and check one of those strategies.
 
 ### Exercise 5: More systematic experimentation
 
