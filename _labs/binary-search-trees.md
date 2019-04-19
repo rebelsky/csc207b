@@ -4,7 +4,6 @@ repo: <https://github.com/Grinnell-CSC207/lab-bsts-2019>
 summary: |
   We explore binary search trees and their use in implementing the
   Map ADT.
-current: true
 ---
 Preparation
 -----------
@@ -119,3 +118,57 @@ If you need to simulate a recursive method without recursion, the most
 common strategy is to use a stack.
 
 The typical way to do breadth-first iteration is with a queue.
+
+If you are assigned the iterative version of `set`, here's pseudocode
+
+```text
+if (root is null)
+  set the root to a new node
+else
+  set current to root
+  while (...) 
+    compare key to current.key
+    case =:
+      replace the value
+      return the old value
+    case <:
+      if there is a left subtree, 
+        current = left
+      otherwise
+        current.left = new node
+        add 1 to size
+        return null
+    case >:
+      if there is a right subtree, 
+        current = right
+      otherwise
+        current.right = new node
+        add 1 to size
+        return null
+```
+
+If you are assigned the recursive version of `set, here's pseudocode.
+
+```text
+function set(key, value)
+  root = setHelper(root, key, value)
+  return cache
+
+function setHelper(node, key, value)
+  if node == null
+    set cache to null
+    add 1 to size
+    return a new node
+  else
+    compare key to node.key
+    case =:
+      set cache to value in node
+      update value in node
+      return node
+    case <:
+      node.left = setHelper(node.left, key, value);
+      return node;
+    else
+      node.right = setHelper(node.right, key, value);
+      return node;
+``
