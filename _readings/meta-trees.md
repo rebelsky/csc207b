@@ -1,7 +1,6 @@
 ---
 title: Trees and tree traversal
 link: true
-current: true
 ---
 There are a variety of readings for today
 
