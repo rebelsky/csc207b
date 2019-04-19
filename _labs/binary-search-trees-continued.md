@@ -48,9 +48,9 @@ removeHelper(node, key)
     cache = null;
     return null;
   compare key to node.key
+  cache = node.value;
   case equal:
     if node is a leaf
-      cache = node.value;
       return null;
     else if node.left is null
       return node.right;
