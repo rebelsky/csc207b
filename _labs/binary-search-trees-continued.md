@@ -60,9 +60,10 @@ removeHelper(node, key)
       otherwise
         do something complicated
     case less:
-      node.left = remove(node.left, key);
+      node.left = removeHelper(node.left, key);
     case greater:
-      node.right = remove(node.right, key);
+      node.right = removeHelper(node.right, key);
+    return node;
 ```
 
 a. Implement this sketch, leaving the "do something complicated"
