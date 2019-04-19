@@ -520,7 +520,7 @@
   summary: |
     We continue our exploration of binary search trees.
   subjects:
-    - Deletion in BSTs.
+    - Deletion in BSTs
   lab:
     - page: /labs/binary-search-trees-continued.html
 
