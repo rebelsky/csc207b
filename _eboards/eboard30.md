@@ -4,7 +4,6 @@ number: 30
 section: eboards
 held: 2019-04-17
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 30:  Binary search trees I
 ==================================================
