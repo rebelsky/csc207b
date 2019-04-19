@@ -4,7 +4,6 @@ number: 29
 section: eboards
 held: 2019-04-15
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 29:  Trees and tree traversal
 =====================================================
