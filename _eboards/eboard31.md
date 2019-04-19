@@ -102,3 +102,18 @@ log2 n algorithm.
 
 Lab
 ---
+
+Question: Do we need a special case for the leaf in remove?
+
+        if (node.left == null) && (node.right == null) {
+          return null;
+        } else if (node.left == null) {
+          return node.right;
+        } else if (node.right == null) {
+          return node.left;
+        } else {
+          ...
+        } //
+
+Note: BSTs *will* be on the exam.  Make sure to save your code and share
+it with your partner.

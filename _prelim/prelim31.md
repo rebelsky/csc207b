@@ -17,7 +17,7 @@ link: true
 ### Upcoming work
 
 * Reading for Monday: [chapter 12 of Osera](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap12.pdf)
-* [Assignment 8](../assignments/assignment07) due Thursday the 25th
+* [Assignment 8](../assignments/assignment08) due Thursday the 25th
     * Your partner is your partner from today's lab.
     * If you worked alone, find a partner.
 * Lab writeup for today: TBD
