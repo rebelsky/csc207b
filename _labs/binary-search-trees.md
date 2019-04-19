@@ -147,7 +147,7 @@ else
         return null
 ```
 
-If you are assigned the recursive version of `set, here's pseudocode.
+If you are assigned the recursive version of `set`, here's pseudocode.
 
 ```text
 function set(key, value)
