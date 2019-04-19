@@ -10,7 +10,6 @@ summary: |
   We revisit issues of sorting by creating a variety of tools for understanding
   our sorting algorithms.
 link: true
-current: true
 ---
 
 *(This assignment is inspired by the work of [Timo Bingmann](http://panthema.net/2013/sound-of-sorting/) and [Casey Rule](http://www.caseyrule.com/projects/sounds-of-sorting/)!)*
