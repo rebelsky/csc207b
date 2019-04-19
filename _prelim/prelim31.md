@@ -11,7 +11,7 @@ link: true
 * **New policy** If your code is not formatted according to Google 
   style guidelines, neither the mentor nor I will help you.
 * Do *not* use ArrayLists to implement queues.  That turns 
-  `dequeue` into an O(1) algorithm.  I've provied a simple
+  `dequeue` into an O(n) algorithm.  I've provied a simple
   queue implementation that should suffice.
 
 ### Upcoming work
@@ -32,6 +32,8 @@ link: true
 
 #### Extra credit (Peer)
 
+* True West, downtown Community Arts Theatre, Friday, Saturday, Sunday
+  (sold out, but you could be on the waiting list)
 * Track and Field home on Saturday.  
 
 #### Extra credit (Wellness)
@@ -59,4 +61,8 @@ link: true
 ### Other good things
 
 * **New** ISO Cultural Show, Saturday 7:00-9:00, Harris Gym
+
+### Friday PSA
+
+* Hopefully your weekend goes better than the start of class.
 

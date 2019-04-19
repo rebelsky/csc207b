@@ -29,13 +29,13 @@ Preliminaries
 * **New policy** If your code is not formatted according to Google 
   style guidelines, neither the mentor nor I will help you.
 * Do *not* use ArrayLists to implement queues.  That turns 
-  `dequeue` into an O(1) algorithm.  I've provied a simple
+  `dequeue` into an O(n) algorithm.  I've provied a simple
   queue implementation that should suffice.
 
 ### Upcoming work
 
 * Reading for Monday: [chapter 12 of Osera](https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap12.pdf)
-* [Assignment 8](../assignments/assignment07) due Thursday the 25th
+* [Assignment 8](../assignments/assignment08) due Thursday the 25th
     * Your partner is your partner from today's lab.
     * If you worked alone, find a partner.
 * Lab writeup for today: TBD
@@ -50,6 +50,8 @@ Preliminaries
 
 #### Extra credit (Peer)
 
+* True West, downtown Community Arts Theatre, Friday, Saturday, Sunday
+  (sold out, but you could be on the waiting list)
 * Track and Field home on Saturday.  
 
 #### Extra credit (Wellness)
@@ -78,7 +80,25 @@ Preliminaries
 
 * **New** ISO Cultural Show, Saturday 7:00-9:00, Harris Gym
 
+### Friday PSA
+
+* Hopefully your weekend goes better than the start of class.
+
 ### Questions
+
+Skip lists
+----------
+
+Linked list, with values in order (using comparator).
+
+Nodes have multiple next links, depending on their "height"
+
+Approximately 1/2 have only one next link
+
+Approximately 1/2 of the remaining ones have only two next links
+
+If the heights are relatively evenly distributed, this should be a
+log2 n algorithm.
 
 Lab
 ---
