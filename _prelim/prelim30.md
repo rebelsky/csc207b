@@ -7,13 +7,14 @@ link: true
 
 * We're going to do two days with binary search trees.  You'll have
   the same partner for both labs.
-* Each group should have received an "R" or an "I" card.
+* Each group should have received an "R" (purple) or an "I" (yellow) card.  
+  I'll explain what those mean in a bit.
 
 ### Upcoming work
 
 * No additional readings for Friday
 * [Assignment 7](../assignments/assignment07) due Thursday the 18th
-* Lab writeup for today: TBD
+* Lab writeup for today: Exercise 4 (Class 30)
 
 ### Extra credit
 
@@ -23,12 +24,16 @@ link: true
 * The Magic Flute, Thursday, April 18, 7:00 p.m. Sebring-Lewis
 * **New**: Dartanyan Brown discussion, 4pm Wednesday April 24, HSSC S3325
 * **New**: Dartanyan Brown concert, 7:30 pm Wednesday April 24, Sebring-Lewis
+    * Read more in Rootstalk
 
 #### Extra credit (Peer)
 
 * Track and Field home on Saturday.  
+* ISO Cultural Show, Saturday 7:00-9:00, Harris Gym
 
 #### Extra credit (Wellness)
+
+* Bubble day
 
 #### Extra credit (Wellness, Regular)
 
@@ -42,7 +47,7 @@ link: true
 
 #### Extra credit (Misc)
 
-* **New**: CS Internship Hour, Thursday, 6:30-7:30 p.m., Noyce 3821. 
+* Internship Hour, Thursday, 6:30-7:30 p.m., Noyce 3821. 
   _Free Pizza_.
 * Participate in Kinetic Sculpture Competition: Saturday the 27th
     * <https://bit.ly/kineticsculpture19>
