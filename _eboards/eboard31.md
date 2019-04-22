@@ -4,7 +4,6 @@ number: 31
 section: eboards
 held: 2019-04-19
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 31:  Binary search trees II
 ===================================================
