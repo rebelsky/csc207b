@@ -539,11 +539,6 @@
   reading:
     - link: "Osera 12: Hashing"
       url: https://www.cs.grinnell.edu/~rebelsky/Courses/CSC207/osera/chap12.pdf
-  lab:
-    - page: /labs/hash-tables.html
-  reminders:
-    - Lots of this lab can be moved to other days.
-    - Have them write a hash function for our good old fraction class.
 
 - topic: Probing in hash tables
   abbrev: probing
@@ -556,6 +551,9 @@
     - Quadratic probing
   lab:
     - page: /labs/hash-table-probing.html
+  reminders:
+    - Lots of this lab can be moved to other days.
+    - Have them write a hash function for our good old fraction class.
 
 - topic: Chaining in hash tables
   abbrev: chaining
