@@ -5,7 +5,6 @@ summary: |
   In this laboratory, you will explore the traversal of trees.
   Although tree traversal can be used for all sorts of trees, you
   will ground your exploration in binary search trees.
-current: true
 ---
 Preparation
 -----------
