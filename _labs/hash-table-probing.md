@@ -39,24 +39,26 @@ c. If you'd like, you can start with the following simple set of
 experiments.
 
 ```java
-        dict.reportBasicCalls(true);
-        dict.set("alpha", "alpha");
-        dict.dump(pen);
-        dict.set("beta", "beta");
-        dict.dump(pen);
-        dict.set("bravo", "bravo");
-        dict.dump(pen);
-        dict.set("beta", "bravo");
-        dict.dump(pen);
-        dict.reportBasicCalls(false);
+    htab.reportBasicCalls(true);
+    htab.set("alpha", "alpha");
+    htab.dump(pen);
+    htab.set("beta", "beta");
+    htab.dump(pen);
+    htab.set("bravo", "bravo");
+    htab.dump(pen);
+    htab.set("beta", "bravo");
+    htab.dump(pen);
+    htab.reportBasicCalls(false);
+    getExpt(pen, htab, "beta");
+    pen.println();
 ```
 
 d. Correct the bug.
 
 ### Exercise 2: Verifying that keys match
 
-As you may have noted, the code assumes that `find`
-returns a cell with a matching key.  
+As you may have noted, the code assumes that `find` returns a cell that
+has a pair with a matching key.
 
 a. Is that the case?  Why or why not?
 
