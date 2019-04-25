@@ -3,7 +3,6 @@ title: Probing in hash tables
 repo: <https://github.com/Grinnell-CSC207/lab-hashtables-2019>.
 summary: |
   We explore the consequences of probing in hash tables.
-current: true
 ---
 Preparation
 -----------
