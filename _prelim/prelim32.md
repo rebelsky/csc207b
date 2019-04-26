@@ -8,10 +8,11 @@ link: true
 * Today is a talk day.  Sit where you would like.
 * Apologies for continuing to be behind.  I'm still not perfectly well,
   and sleep is trumping other issues.
+* Copies of the skip list reading are available at the back of the room.
 
 ### Upcoming work
 
-* No additional reading! 
+* No additional reading!   (But you may ant to review.)
 * [Assignment 8](../assignments/assignment08) due Thursday the 25th
 * No lab writeup for today
 
@@ -20,12 +21,15 @@ link: true
 #### Extra credit (Academic/Artistic)
 
 * **New**: CS Table, Tomorrow, "The Cathedral and the Bazaar"
+* **New**: "Plan your CS Major with WGMC", Tuesday, 7pm, CS Commons
+    * People of all genders welcome.
 * PBK Convo, Thursday, 11am: "Antievolutionism in Historical Perspective"
 * **New**: McKibben lecture, Thursday, 4:15 p.m., JRC 101
+* **New**: Math/Stats seminar tomorrow at 11am in 2517.
 
 #### Extra credit (Peer)
 
-* **New/Questionable**: Track and Field at Drake Relays and/or Grand View
+* **New/Questionable**: Track and Field at Grand View on Friday.
 
 #### Extra credit (Wellness)
 
@@ -42,7 +46,7 @@ link: true
 #### Extra credit (Misc)
 
 * **TONIGHT** Public speaking workshop - April 22 at 7pm in HSSC S3325, with
-  Kathy Clemons-Beasley '05.
+  Kathy Clemons-Beasley '05.  Please register.
 
 ### Other good things
 
