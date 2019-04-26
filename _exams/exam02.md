@@ -128,20 +128,45 @@ is due to discuss any general questions you have on the exam.
 
 ### Obtaining the exam code
 
-Fork the repository at <https://github.com/Grinnell-CSC207/exam-02-2019S>.
-Make sure to make your fork private.
+_It is a bit complicated to make a private fork of a public repo, but
+you should be able to get it done._
 
-Rename it to `username-exam-02`, substituting your own username for
-`username`.
+1. Create a new private repository at
+<https://github.com/Username/username-exam-02>.  You should, of
+course, substitute your GitHub username for `Username` and your
+Grinnell username for `username`.
 
-Share the repository with me.
+2. Share that repository with me.
 
-Clone the repository to your machine.
+3. In the terminal, make a bare clone of the exam repository with
+the following command.
 
-Once you have cloned the repository, you should import that top-level
+        git clone --bare https://github.com/Grinnell-CSC207/exam-02-2019S.git
+
+  That should create a new directory named `exam-02-2019S.git`.
+
+4. In the terminal, type the following incantation to copy code from
+the cloned repo back to your private repo.
+
+        cd exam-02-2019S
+        git push --mirror https://github.com/Username/username-exam-02.git
+
+5. The cloned repo is no longer necessary.  Remove it.
+
+        cd ..
+        rm -rf exam-02-2019S.git
+
+6. Clone your new repository.
+
+7. Try pulling from the master (see the instructions below).  If you
+get an error, contact me.
+
+8. Once you have cloned the repository, you should import that top-level
 directory into Eclipse.  You should see a project named "Exam 2
 (Your Name)".  Change the "Your Name" to your name.  Commit and
 push the change.
+
+### Updating the code
 
 I expect to make a few additional changes to the code and will send
 you a notification when I do so.  You can pull the changes into your
@@ -301,17 +326,15 @@ _Do you have a recommended strategy for detecting concurrenct modifications?_
 
 > Note: This approach is unlikely to be thread safe.  
 
-## Errata
-
-_Here you will find corrections to the examination, each of which
-earns everyone a modicum of extra credit (until a cap of five points
-is reached)._
-
 ## Acknowledgements
 
 Some of the words in the sample trie were taken from [the Wikipedia
 article on tries](https://en.wikipedia.org/wiki/Trie).
 
+The instructions for making a private "fork" of a repo are based on those
+at <https://help.github.com/en/articles/duplicating-a-repository>.
+
 The instructions for pulling from the upstream repo were based on
 those found at <https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork>.
+
 
