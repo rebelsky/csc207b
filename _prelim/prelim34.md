@@ -9,6 +9,7 @@ link: true
   discuss student wellness.  I'm hoping to share some of the extra credit
   reports you've submitted (anonymously).  Let me know if you object to
   me sharing yours.
+* Alternate final time: Thursday (morning section or afternoon section).
 
 ### Upcoming work
 
@@ -16,7 +17,7 @@ link: true
 * Today's lab writeup: Exercise TBD (Class 34)
 * [Exam 2](../exams/exam02) due next Thurday
     * Prologue due Monday night.
-* Today's lab writeup: TBD
+* Today's lab writeup: Corrected `set` method (after exercise 4)
 
 ### Extra credit
 
@@ -31,15 +32,17 @@ link: true
 #### Extra credit (Peer)
 
 * **Today**: Track at Grand View on Friday.  (Attend class first!)
-* **Tomorrow**: Kinetic Sculpture Competition, Saturday 1-3pm in Central Park.
+* **Tomorrow**: Kinetic Sculpture Competition, Saturday 1-3pm at the Stew.
 * **Tomorrow**: YGB, 4pm Saturday in Sebring-Lewis.
 * Sunday at 1pm Food Recovery Network Award and Presentation with EPA Science Person (JRC 226)
 * **Tonight**: Swing/Contra with Live Band Friday at 8:00-10:30 in Loose Lounge
 * **Tomorrow**: Titular Head Saturday.
+* **New**: Gardner Concert next Friday.
+* **New**: Grinnellian next week.
 
 #### Extra credit (Wellness)
 
-* **Today/Tomorrow*: Guided Movement Meditations, 12:15 Friday and Saturday, 
+* **Tomorrow**: Guided Movement Meditations, 12:15 Friday and Saturday, 
   Flanagan Theatre.  Also between performances of the show.
 * **New/Today**: Hand-pulled noodle workshop, Apr. 26, 4:30-5:30 pm, 
   Chinese House. RSVP by signing up on the form posted in faculty house.
@@ -69,4 +72,6 @@ JRC 227
 N1130
 
 ### Friday PSA
+
+* I care about you.  I'm lucky to teach you.  Take care of yourselves.
 
