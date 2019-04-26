@@ -5,13 +5,16 @@ link: true
 ---
 ### News / Etc.
 
+* **The computer ate today's eboard.  Sorry.  Look at [the eboard
+  from CSC 207.02](../../02/eboards/eboard32) for similar details.**
 * Today is a talk day.  Sit where you would like.
 * Apologies for continuing to be behind.  I'm still not perfectly well,
   and sleep is trumping other issues.
+* Copies of the skip list reading are available at the back of the room.
 
 ### Upcoming work
 
-* No additional reading! 
+* No additional reading!   (But you may ant to review.)
 * [Assignment 8](../assignments/assignment08) due Thursday the 25th
 * No lab writeup for today
 

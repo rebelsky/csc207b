@@ -5,7 +5,7 @@ section: eboards
 held: 2019-04-22
 link: true
 ---
-CSC 207.01 2019S, Class 2^5:  Hash tables
+CSC 207.02 2019S, Class 2^5:  Hash tables
 =========================================
 
 _Overview_
@@ -15,9 +15,12 @@ _Overview_
     * Upcoming work
     * Extra credit
     * Questions
+* Quiz
 * Hash tables: Key ideas
-* From objects to integers
 * An exercise: A simple hash function
+* Analyzing efficiency
+* From objects to integers
+* Improving our hash function
 * Complexities
 
 Preliminaries
@@ -25,13 +28,16 @@ Preliminaries
 
 ### News / Etc.
 
+* **The computer ate today's eboard.  Sorry.  Look at [the eboard
+  from CSC 207.02](../../02/eboards/eboard32) for similar details.**
 * Today is a talk day.  Sit where you would like.
 * Apologies for continuing to be behind.  I'm still not perfectly well,
   and sleep is trumping other issues.
+* Copies of the skip list reading are available at the back of the room.
 
 ### Upcoming work
 
-* No additional reading! 
+* No additional reading!   (But you may ant to review.)
 * [Assignment 8](../assignments/assignment08) due Thursday the 25th
 * No lab writeup for today
 
@@ -68,14 +74,40 @@ Preliminaries
 
 ### Questions
 
+Quiz
+----
+
 Hash tables: Key ideas
 ----------------------
+
+
+An exercise: A simple hash function
+-----------------------------------
+
+```text
+A:1,  B:2,  C:3,  D:4,  E:5,  F:6,  G:7,  H:8,  I:9,  J:10, K:11, L:12, M:13, 
+N:14, O:15, P:16, Q:17, R:18, S:19, T:20, U:21, V:22, W:23, X:24, Y:25, Z:26
+
+0:                              10:                     20:
+1:                              11:                     21:
+2:                              12:                     22:
+3:                              13:                     23:
+4:                              14:                     24:
+5:                              15:                     25:
+6:                              16:                     26:
+7:                              17:                     27:
+8:                              18:                     28:
+9:                              19:                     29:
+```
+
+Hash tables; Assessing costs
+----------------------------
 
 From objects to integers
 ------------------------
 
-An exercise: A simple hash function
------------------------------------
+Improving that hash function
+----------------------------
 
 Complexities
 ------------
