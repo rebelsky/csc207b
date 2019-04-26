@@ -4,7 +4,6 @@ number: 33
 section: eboards
 held: 2019-04-24
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 33:  Probing in hash tables
 ===================================================
