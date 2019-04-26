@@ -66,7 +66,7 @@ experiments.
     htab.set("beta", "bingo");
     htab.dump(pen);
     htab.reportBasicCalls(false);
-    getExpt(pen, htab, "beta");
+    checkGet(pen, htab, "beta");
     pen.println();
 ```
 
