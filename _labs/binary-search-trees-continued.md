@@ -4,7 +4,6 @@ repo: <https://github.com/Grinnell-CSC207/lab-bsts-2019>
 summary: |
   We continue to explore binary search trees and their use in 
   implementing the Map ADT.
-current: true
 ---
 Preparation
 -----------

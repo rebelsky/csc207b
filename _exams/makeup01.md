@@ -4,7 +4,6 @@ subtitle: ADTs, Algorithms, and Object-Oriented Design
 submitting: |
   See the instructions below.
 link: true
-current: true
 ---
 **This examination is now released.  You may not discuss it with anyone
 (other than Samuel A. Rebelsky).**
