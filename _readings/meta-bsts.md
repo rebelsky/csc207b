@@ -1,7 +1,6 @@
 ---
 title: Binary search trees
 link: true
-current: true
 ---
 
 Read the following two sections of Osera.
