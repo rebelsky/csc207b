@@ -117,15 +117,15 @@ Here's a sketch of a technique some students use to expand the table.
     if (REPORT_BASIC_CALLS && (reporter != null)) {
       reporter.report("Expanding to " + newSize + " elements.");
     } // if reporter != null
+    // Remember the old table
+    Object[] oldBuckets = this.buckets;
     // Create a new table of that size.
-    Object[] newBuckets = new Object[newSize];
+    this.buckets = new Object[newSize];
     // Move all buckets from the old table to their appropriate
     // location in the new table.
-    for (int i = 0; i < this.buckets.length; i++) {
-      newBuckets[i] = this.buckets[i];
+    for (int i = 0; i < oldBuckets.length; i++) {
+      this.buckets[i] = oldBuckets[i];
     } // for
-    // And update the table
-    this.buckets = newBuckets;
   } // expand()
 ```
 
@@ -139,19 +139,7 @@ works successfully.
 
 c. Correct any errors that you've identified.
 
-### Exercise 6: Checking for keys
-
-The `containsKey` method is implemented a bit strangely.
-
-a. Read the code for `containsKey`.
-
-b. Do you expect this approach to work?  Why or why not?
-
-c. Conduct a few experiments to check your conclusion.
-
-d. Rewrite `containsKey` to use a more sensible approach.
-
-### Exercise 7: Removing elements
+### Exercise 6: Removing elements
 
 We're making good progress in our implementation of hash tables.  What's
 next?  We should add support for removing elements.  Unfortunately,
@@ -165,6 +153,73 @@ we remove elements.
 b. Sketch a strategy for removing elements.
 
 c. Implement that strategy.
+
+### Exercise 7: Checking for keys
+
+The `containsKey` method is implemented a bit strangely.
+
+a. Read the code for `containsKey`.
+
+b. Do you expect this approach to work?  Why or why not?
+
+c. Conduct a few experiments to check your conclusion.
+
+d. Rewrite `containsKey` to use a more sensible approach.
+
+### Exercise 8: Removing elements, revisited
+
+Consider the following experiment for the `remove` method.
+
+```java
+  public static void multipleRemoveExpt(PrintWriter pen,
+      HashTable<String, String> htab) {
+    // Populate the table
+    htab.clear();
+    multipleSetExpt(pen, htab);
+
+    // Remove words one by one.
+    for (int i = 0; i < words.length; i++) {
+      htab.remove(words[i]);
+      // Make sure that it's removed
+      boolean removed = false;
+      try {
+        htab.get(words[i]);
+      } catch (Exception e) {
+        removed = true;
+      } // try/catch
+      if (!removed) {
+        pen.println("Failed to remove " + words[i]);
+        htab.dump(pen);
+        return;
+      } // if
+
+      // Make sure that the remaining elements are still there.
+      for (int j = i + 1; j < words.length; j++) {
+        try {
+          String str = htab.get(words[j]);
+          if (!str.equals(words[j])) {
+            pen.println("After removing " + words[i] + ", " + words[j]
+                + " now maps to " + str);
+            htab.dump(pen);
+            return;
+          } // if
+        } catch (Exception e) {
+          pen.println("After removing " + words[i] + ", " + words[j]
+              + " is no longer present");
+          htab.dump(pen);
+          return;
+        } // try catch
+      } // for j
+    } // for i
+  } // multipleRemoveExpt(PrintWriter, HashTable)
+```
+
+a. Explain what this experiment appears to be doing.
+
+b. Run the experiment.
+
+c. If the experiment identifies any issues with your `remove` method,
+correct them.
 
 For those with extra time
 -------------------------
