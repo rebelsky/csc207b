@@ -4,6 +4,7 @@ subtitle: Trees and other linked structures
 submitting: |
   See the instructions below.
 link: true
+current: true
 ---
 ## Preliminaries
 
@@ -284,6 +285,22 @@ any answers I provide to those questions._
 
 ### Problem 4
 
+_Do you have a recommended strategy for detecting concurrenct modifications?_
+
+> In the main structure, keep a counter of the number of modifications.
+
+> Each time you create an iterator, copy that counter.
+
+> Each time you modify in the struture, update the counter in the structure.
+
+> If the iterator's counter does not match the structure's, we have 
+  identified a concurrent modification, and should throw an exception.
+
+> Each time you modify in an iterator, update the counter in both the
+  structure and the iterator.
+
+> Note: This approach is unlikely to be thread safe.  
+
 ## Errata
 
 _Here you will find corrections to the examination, each of which
@@ -294,3 +311,7 @@ is reached)._
 
 Some of the words in the sample trie were taken from [the Wikipedia
 article on tries](https://en.wikipedia.org/wiki/Trie).
+
+The instructions for pulling from the upstream repo were based on
+those found at <https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork>.
+
