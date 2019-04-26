@@ -221,6 +221,11 @@ b. Run the experiment.
 c. If the experiment identifies any issues with your `remove` method,
 correct them.
 
+### Exercise 9: Testing
+
+Run the tests and correct any errors they identify (other than those
+having to do with the lack of an iterator).
+
 For those with extra time
 -------------------------
 
