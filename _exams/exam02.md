@@ -131,8 +131,7 @@ is due to discuss any general questions you have on the exam.
 _It is a bit complicated to make a private fork of a public repo, but
 you should be able to get it done._
 
-1. Create a new private repository at
-<https://github.com/Username/username-exam-02>.  You should, of
+1. Create a new private repository at <https://github.com/Username/username-exam-02>.  You should, of
 course, substitute your GitHub username for `Username` and your
 Grinnell username for `username`.
 
@@ -143,7 +142,7 @@ the following command.
 
         git clone --bare https://github.com/Grinnell-CSC207/exam-02-2019S.git
 
-  That should create a new directory named `exam-02-2019S.git`.
+    That should create a new directory named `exam-02-2019S.git`.
 
 4. In the terminal, type the following incantation to copy code from
 the cloned repo back to your private repo.
