@@ -296,8 +296,11 @@ if there is concurrent modification.
 8:30 a.m., Friday, 26 April 2019
   : Relased first version of code.
 
-5:30 p.m., Friday, 26 April 206
+5:30 p.m., Friday, 26 April 2019
   : Released corrected version of Trie dump code.
+
+11:59 p.m., Friday, 26 April 2019
+  : Released some new tests and a vareity of minor updates.
 
 ## Questions and Answers
 
