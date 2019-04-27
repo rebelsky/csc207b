@@ -147,7 +147,7 @@ the following command.
 4. In the terminal, type the following incantation to copy code from
 the cloned repo back to your private repo.
 
-        cd exam-02-2019S
+        cd exam-02-2019S.git
         git push --mirror https://github.com/Username/username-exam-02.git
 
 5. The cloned repo is no longer necessary.  Remove it.
