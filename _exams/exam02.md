@@ -231,25 +231,25 @@ the child links until either (a) you fall off the end of the tree
 or (b) you reach the end of the string and the node you've reached
 has a key and a value.
 
-Consider the following trie, which is built from the keys "a",
-"an", "ant", "art", "tar", "tea", and "tent".  We've shown an
-uppercase version of the key to represent the end of a key
-and an asterisk to represent "not a key".
+Consider the following trie, which is built from the keys "a", "an",
+"ant", "art", "i", "tar", "tea", "tent, and "test"".  We've shown
+an uppercase version of the key to represent the end of a key and
+an asterisk to represent "not a key".
 
 ```text
-                     _*_
-                  a/     \t
-                  /       \
-                 A         *
-               n/ \r     a/ \e
-               /   \     /   \
-              AN    *   *     *
-            t/      |t  |r  a/ \n
-            /       |   |   /   \
-          ANT      ART TAR TEA   *
-                                 |t
-                                 |
-                               TENT
+                    __*__
+                  a/  |i \t
+                  /   |   \
+                 A    I    *__
+               n/ \r     a/   \e 
+               /   \     /     \
+              AN    *   *     __*__
+            t/      |t  |r  a/  |n \s
+            /       |   |   /   |   \
+          ANT      ART TAR TEA  *    *
+                                |t    \t
+                                |      \
+                                TENT   TEST
 ```
 
 Suppose we look up "art".  We follow the edge labeled
@@ -309,6 +309,10 @@ any answers I provide to those questions._
 
 ### Problem 1
 
+_I assume we are supposed to call setHelper and removeHelper in the set and remove methods which currently just return null? Is this the only thing we have to do beside implement these helpers?_
+
+> You probably need to take the results of those helpers and wrap them in a new tree structure.
+
 ### Problem 2
 
 _Do I have to deal with concurrent modifications in this problem?_
@@ -323,7 +327,24 @@ _Will you write some unit tests?_
 
 > If I can spare the time.
 
+_If I have a list 1, 2, 3, I call next and get 1, call next and get 2, then should previous return 1 or 2?_
+
+> What does the documentation on `ListIterator` say?  Alternately, what
+happens when you use `ArrayList` objects?
+
 ### Problem 3
+
+_To clarify, the diagram shows each node having two edges/next nodes, but in reality each node has 27 edges?_
+
+> Yes, that's correct.  I've added some extra edges to make that clear.
+
+_What is the difference between the key and the value of a trie node? The key is the word stored there, so what is the value?_
+
+> We store both the key and the value there.  It's the key/value we'd have in a map.  (I just draw the key in the diagram.)
+
+_If key is not in the trie when get or remove are called, should I throw an exception or return null?_
+
+> What does the documentation for `SimpleMap` say?
 
 ### Problem 4
 
