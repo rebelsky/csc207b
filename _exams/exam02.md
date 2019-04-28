@@ -42,7 +42,7 @@ how long each one took me.)
 
 ### Prologue
 
-This examination has a required prologue that must be completed by 10:30 p.m. on Sunday, 28 April 2019.  The prologue is intended to help you get started thinking about the examination.  Failure to turn in the prologue by the deadline will result in a penalty of 1/3 letter grade on the exam.
+This examination has a required prologue that must be completed by 10:30 p.m. on Monday, 29 April 2019.  The prologue is intended to help you get started thinking about the examination.  Failure to turn in the prologue by the deadline will result in a penalty of 1/3 letter grade on the exam.
 
 Send a message to rebelsky@grinnell.edu entitled **CSC 207 Exam 2 Prologue (Your Name)**, substituting your name for "Your Name".  In that message, include the following.
 
@@ -310,6 +310,18 @@ any answers I provide to those questions._
 ### Problem 1
 
 ### Problem 2
+
+_Do I have to deal with concurrent modifications in this problem?_
+
+> Nope.
+
+_Does `add` add before or after the cursor?_
+
+> You should know the answer from having done [the first lab on lists](../labs/array-based-lists).  I believe question 1c was about just that issue.  But you can also read [the documentation on list iterators](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ListIterator.html) or conduct an experiment using `ArrayList` objects.
+
+_Will you write some unit tests?_
+
+> If I can spare the time.
 
 ### Problem 3
 
