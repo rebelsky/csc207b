@@ -302,6 +302,10 @@ if there is concurrent modification.
 11:59 p.m., Friday, 26 April 2019
   : Released some new tests and a vareity of minor updates.
 
+9:45 p.m., Sunday, 28 April 2019
+  : Updated the tests for Tries.
+  : Added tests for Circular DLLs.
+
 ## Questions and Answers
 
 _Here you will find the questions students ask along the way and
