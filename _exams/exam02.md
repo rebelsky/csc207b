@@ -38,7 +38,7 @@ moderate rate should have little trouble completing the exam in a
 reasonable amount of time. In particular, this exam is likely to
 take you about six hours, depending on how well you've learned the
 topics and how fast you work. (When I do the problems, I will report
-how long each one took me.) 
+how long each one took me.)
 
 ### Prologue
 
@@ -79,7 +79,7 @@ Because different students may be taking the exam at different times, you are no
 You must include both of the following statements on the cover sheet of the examination.
 
 * I have neither received nor given inappropriate assistance on this examination.
-* I am not aware of any other students who have given or received inappropriate assistance on this examination. 
+* I am not aware of any other students who have given or received inappropriate assistance on this examination.
 
 Please sign and date each statement. Note that the statements must be true; if you are unable to sign either statement, please talk to me at your earliest convenience. You need not reveal the particulars of the dishonesty, simply that it happened. Note also that inappropriate assistance is assistance from (or to) anyone other than Professor Rebelsky (that's me).
 Presenting Your Work
@@ -215,7 +215,7 @@ that you don't need to worry about the case in which the `next` or
 able to use only one reference for each iterator and (b) you can
 avoid a host of `if` statements.
 
-**Finish the associated implementation of such lists.** 
+**Finish the associated implementation of such lists.**
 
 You should be able to do without any new conditionals.  (That is,
 all the necessary conditionals should be in the file.)
@@ -241,7 +241,7 @@ an asterisk to represent "not a key".
                   a/  |i \t
                   /   |   \
                  A    I    *__
-               n/ \r     a/   \e 
+               n/ \r     a/   \e
                /   \     /     \
               AN    *   *     __*__
             t/      |t  |r  a/  |n \s
@@ -275,7 +275,7 @@ a valid key.
 
 Suppose we look up "an".  We follow the edge labeled "a", then
 the edge labeled "n".  We've now run out of string.  Although there
-are still edges out of the node, the node is marked as having a 
+are still edges out of the node, the node is marked as having a
 key of "an", and we've found the key.
 
 **Finish the implementation of tries.**
@@ -283,7 +283,7 @@ key of "an", and we've found the key.
 ### Problem 4: Iterating hash tables
 
 When we implemented chained hash tables, we did not get around to
-implementing the primary iterator.  
+implementing the primary iterator.
 
 **Implement that iterator.**
 
@@ -316,6 +316,103 @@ any answers I provide to those questions._
 _I assume we are supposed to call setHelper and removeHelper in the set and remove methods which currently just return null? Is this the only thing we have to do beside implement these helpers?_
 
 > You probably need to take the results of those helpers and wrap them in a new tree structure.
+
+_Can you explain what you mean by "you only need to change the nodes along
+the path to the new node"_
+
+> Consider the following tree, in which I've added a "node number". (The numbers have no particular meaning; they are just a way of uniquely identifying each node.)
+
+>```text
+     03:F
+      /   \
+  04:C   21:H
+    / \     \
+23:A 18:D 17:M
+            / \
+        01:J  18:N
+```
+
+> Suppose I add a "B" to this tree.  That will require creating a new node
+to replace node 23.
+
+>```text
+32:A
+    \
+  31:B
+```
+
+> Now, node 04 needs to be replaced by one that has node 32 as its left
+child.  (If we simply changed the link, we would have mutated the tree.)
+However, the new node can still use the same right subtree.
+
+>```text
+  33:C
+    / \
+32:A 18:D
+    \
+  31:B
+```
+
+> Finally, node 3 needs to be replaced by one that has node 33 as its left
+child.  However, that new node can still use the right subtree rooted
+at node 21.
+
+>```text
+     34:F
+      /   \
+  33:C   21:H
+    / \     \
+32:A 18:D 17:M
+    \       / \
+  31:B  01:J  18:N
+```
+
+> We've changed the nodes above B (the new node) in the tree, but not
+any of the other nodes.
+
+> Similarly, suppose we decided to remove the "J" from the tree.
+We'll need to build a replacement for node 17 that does not have a
+left child, but retains node 17's right child.
+
+
+>```text
+          41:M
+              \
+              18:N
+```
+
+> Now we need to build a replacement for node 21 that has that new
+node as its right child.  (If node 21 has a left child, we'd use
+that as the left child of the new node.
+
+```text
+         42:H
+            \
+          41:M
+              \
+              18:N
+```
+
+> Finally, we need to build a replacement for node 34 at the root that
+uses the new node as its right child.  However, the new root retains the
+left subtree.
+
+>```text
+     43:F
+      /   \
+  33:C   42:H
+    / \     \
+32:A 18:D 41:M
+    \         \
+  31:B        18:N
+```
+
+> Once again, we've only needed to build new nodes along the path to the
+node we've changed (in this case, removed).
+
+> If we remove within the tree, we'll have a slightly more complicated
+set of steps, but they will be of similar cost.  (In that case, we
+will also have to traverse a bit further, but only along one path.)
 
 ### Problem 2
 
@@ -360,13 +457,13 @@ _Do you have a recommended strategy for detecting concurrenct modifications?_
 
 > Each time you modify in the struture, update the counter in the structure.
 
-> If the iterator's counter does not match the structure's, we have 
+> If the iterator's counter does not match the structure's, we have
   identified a concurrent modification, and should throw an exception.
 
 > Each time you modify in an iterator, update the counter in both the
   structure and the iterator.
 
-> Note: This approach is unlikely to be thread safe.  
+> Note: This approach is unlikely to be thread safe.
 
 ## Acknowledgements
 
