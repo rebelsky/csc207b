@@ -4,7 +4,6 @@ number: 34
 section: eboards
 held: 2019-04-26
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 34:  Chaining in hash tables
 ====================================================
