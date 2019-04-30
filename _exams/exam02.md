@@ -306,6 +306,9 @@ if there is concurrent modification.
   : Updated the tests for Tries.
   : Added tests for Circular DLLs.
 
+9:00 p.m., Monday, 29 April 2019
+  : Re-updated the tests for tries.
+
 ## Questions and Answers
 
 _Here you will find the questions students ask along the way and
@@ -385,7 +388,7 @@ left child, but retains node 17's right child.
 node as its right child.  (If node 21 has a left child, we'd use
 that as the left child of the new node.
 
-```text
+>```text
          42:H
             \
           41:M
