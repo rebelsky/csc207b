@@ -417,6 +417,10 @@ node we've changed (in this case, removed).
 set of steps, but they will be of similar cost.  (In that case, we
 will also have to traverse a bit further, but only along one path.)
 
+_Speaking of that, how do we remove an interior node in the tree?_
+
+> Do what we did in the remove method on the lab.  (Either (a) put the right subtree at the right end of the left subtree, (b) put the left subtree at the left end of the right subtree; (c) promote the rightmost value in the left subtree; or (d) promote the leftmost value in the right subtree.)
+
 ### Problem 2
 
 _Do I have to deal with concurrent modifications in this problem?_
