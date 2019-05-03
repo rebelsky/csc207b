@@ -75,21 +75,33 @@ You can use depth-first search or breadth-first search.
 indicate that you've printed them out (or otherwise processed them)
 so that you don't process them a second time.
 
-### Exercise 5: What can I reach? revisited
-
-Write a procedure, `pathsFrom(PrintWriter pen, int vertex)`, that
-prints out all the vertices reachable from a vertex *and* a path to
-each vertex.  (There may be multiple paths to each vertex; you should
-only print out one.)
-
-### Exercise 6: What can I reach? re-revisited
+### Exercise 5: What can I reach? re-revisited
 
 Write a procedure, `Iterator<Integer> reachable(int vertex)`,
 that returns an iterator of all the vertices reachable from a vertex.
 
+You need only implement the `hasNext` and `next` methods.  You need
+not worry about `ConcurentModificationException`s.
+
+### Exercise 6: What can I reach? revisited
+
+Write a procedure, `pathsFrom(PrintWriter pen, int vertex)`, that
+prints out all the vertices reachable from a vertex *and* a path to
+each vertex.  (There may be multiple paths to each vertex; you should
+only print out one.)  For example, your output might look something
+like the following, showing that `a` can reach `b`, `c`, `d`, and
+`e`, using the paths shown.
+
+```text
+a -> b
+a -> b -> c
+a -> d
+a -> b -> c -> e
+```
+
 ### Exercise 7: What can I reach? re-re-revisited
 
-Write a variant of `reachableFrom` that uses whichever searching
+Write a variant of `pathsFrom` that uses whichever searching
 strategy you did not use in the original version.  (If you used
 breadth-first search, implement depth-first search.  If you used
 depth-first search, implement breadth-first search.)
