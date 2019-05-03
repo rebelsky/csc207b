@@ -615,10 +615,7 @@
   reading:
     - page: /readings/tree-traversal.html
   lab: 
-    - page: /labs/tree-traversal.html
-  reminders:
-    _ Damn, I probably have to write this unless I have them from a
-      really old 207.
+    - page: /labs/graph-traversal.html
 
 - topic: Minimum spanning trees
   abbrev: mst
