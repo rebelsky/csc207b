@@ -46,7 +46,21 @@ b. Run the experiment to see that the correct graphs are built.
 c. Add a few experiments of your own to explore the trouble spots
 you identified in the prior problems.
 
-### Exercise 2: What can I reach?
+### Exercise 2: Improved dumping
+
+You will note that there is a `dump` procedure in the `Graph` class.
+That procedure prints out vertices and edges using vertex numbers.
+Write a new version of `dump` that prints out vertices and edges
+using vertex names.
+
+### Exercise 3: Reading graphs
+
+Write a procedure, `readGraph(String fName)`, that reads in a graph
+from a file.  You can assume that the each row of the file is a
+pair of vertex names that represent an edge from the first to the
+second.
+
+### Exercise 4: What can I reach?
 
 Write a procedure, `reachableFrom(PrintWriter pen, int vertex)`, that
 prints out a list of all the vertices reachable from a starting
@@ -57,40 +71,28 @@ Conduct a few experiments to see if your procedure works correctly.
 
 You can use depth-first search or breadth-first search.
 
-*Note*: You will likely need to find a way to mark nodes.
+*Note*: You will likely need to find a way to mark vertices to
+indicate that you've printed them out (or otherwise processed them)
+so that you don't process them a second time.
 
-### Exercise 3: What can I reach? revisited
+### Exercise 5: What can I reach? revisited
 
 Write a procedure, `pathsFrom(PrintWriter pen, int vertex)`, that
 prints out all the vertices reachable from a vertex *and* a path to
 each vertex.  (There may be multiple paths to each vertex; you should
 only print out one.)
 
-### Exercise 4: What can I reach? re-revisited
+### Exercise 6: What can I reach? re-revisited
 
 Write a procedure, `Iterator<Integer> reachable(int vertex)`,
 that returns an iterator of all the vertices reachable from a vertex.
 
-### Exercise 5: What can I reach? re-re-revisited
+### Exercise 7: What can I reach? re-re-revisited
 
 Write a variant of `reachableFrom` that uses whichever searching
 strategy you did not use in the original version.  (If you used
 breadth-first search, implement depth-first search.  If you used
 depth-first search, implement breadth-first search.)
-
-### Exercise 6: Improved dumping
-
-You will note that there is a `dump` procedure in the `Graph` class.
-That procedure prints out vertices and edges using vertex numbers.
-Write a new version of `dump` that prints out vertices and edges
-using vertex names.
-
-### Exercise 7: Reading graphs
-
-Write a procedure, `readGraph(String fName)`, that reads in a graph
-from a file.  You can assume that the each row of the file is a
-pair of vertex names that represent an edge from the first to the
-second.
 
 For those with extra time
 -------------------------
