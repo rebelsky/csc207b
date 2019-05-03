@@ -3,7 +3,6 @@ title: Chaining in hash tables
 repo: <https://github.com/Grinnell-CSC207/lab-hashtables-2019>.
 summary: |
   We consider the implications of chaining in hash tables.
-current: true
 ---
 Preparation
 -----------
