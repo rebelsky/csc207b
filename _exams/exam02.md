@@ -306,6 +306,9 @@ if there is concurrent modification.
   : Updated the tests for Tries.
   : Added tests for Circular DLLs.
 
+9:00 p.m., Monday, 29 April 2019
+  : Re-updated the tests for tries.
+
 ## Questions and Answers
 
 _Here you will find the questions students ask along the way and
@@ -385,7 +388,7 @@ left child, but retains node 17's right child.
 node as its right child.  (If node 21 has a left child, we'd use
 that as the left child of the new node.
 
-```text
+>```text
          42:H
             \
           41:M
@@ -413,6 +416,10 @@ node we've changed (in this case, removed).
 > If we remove within the tree, we'll have a slightly more complicated
 set of steps, but they will be of similar cost.  (In that case, we
 will also have to traverse a bit further, but only along one path.)
+
+_Speaking of that, how do we remove an interior node in the tree?_
+
+> Do what we did in the remove method on the lab.  (Either (a) put the right subtree at the right end of the left subtree, (b) put the left subtree at the left end of the right subtree; (c) promote the rightmost value in the left subtree; or (d) promote the leftmost value in the right subtree.)
 
 ### Problem 2
 

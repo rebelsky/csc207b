@@ -597,10 +597,6 @@
     - Implementing graphs with adjacency matrices
     - Implementing graphs with adjacency lists
     - Implementing graphs with edge tables
-  reading:
-    - TBD
-  lab:
-    - TBD
   reminders:
     - Readings?  Neither PM nor I seem to have any.  Anya used Skiena.
     - http://www.cs.grinnell.edu/~rebelsky/Courses/CS152/2006S/EBoards/graphs.txt
@@ -618,9 +614,8 @@
     - Depth-first traversal
   reading:
     - page: /readings/tree-traversal.html
-    - page: /readings/graph-traversal.html
   lab: 
-    - TBD
+    - page: /labs/tree-traversal.html
   reminders:
     _ Damn, I probably have to write this unless I have them from a
       really old 207.
@@ -636,7 +631,10 @@
     - Prim's algorithm
     - Greed as an approach to algorithm design
   reading:
-    - TBD
+    - link: "Wikipedia: Prim's Algorithm"
+      url: https://en.wikipedia.org/wiki/Prim%27s_algorithm
+    - link: "Wikipedia: Kruskal's Algorithm"
+      url: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
   lab:
     - TBD
 
