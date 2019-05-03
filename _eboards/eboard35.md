@@ -4,7 +4,6 @@ number: 35
 section: eboards
 held: 2019-04-29
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 35:  Priority queues, heaps, and heap sort
 ==================================================================
