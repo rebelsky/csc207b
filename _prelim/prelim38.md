@@ -10,7 +10,8 @@ link: true
     * Some lost folks points.  (Hence the "resubmit".)
     * However, most are just general issues.
 * Since I'm bringing food to the CSC 151 students' presentations, I brought 
-  some extra for you.
+  some for you too.  (You get melon and poptarts; they get PB&J and other
+  fruit, plus your leftovers.)
 
 ### Upcoming work
 
