@@ -633,7 +633,7 @@
     - link: "Wikipedia: Kruskal's Algorithm"
       url: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
   lab:
-    - /labs/minimum-spanning-trees.html
+    - /labs/minimum-spanning-tree.html
 
 - topic: Shortest paths in graphs
   abbrev: shortest-path
