@@ -4,7 +4,6 @@ number: 36
 section: eboards
 held: 2019-05-01
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 36:  A Graph ADT
 ========================================

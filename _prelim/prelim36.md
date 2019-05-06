@@ -34,7 +34,7 @@ link: true
   An Exploration of Torsion of Elliptic Curves over Cubic and Quartic Fields.
 * Watch your peer compete in one third of a triathalon on Saturday.
   8:30 a.m. Saturday.
-* Sunday, May 5, 2pm, Herrick (?),
+* Sunday, May 5, 2pm, Herrick,
   Grinnell Singers and the Grinnell Orchestra
 * Wednesday, May 8, 2pm, 
   Science 2022 - ECDLP: Frey-Ruck Attack
