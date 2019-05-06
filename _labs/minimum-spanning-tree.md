@@ -11,6 +11,7 @@ Preparation
 If you have not done so already, fork and clone the repository.
 Import it into Eclipse.
 
+<!--
 If you have already forked and cloned the repository, pull the
 recent changes
 
@@ -20,14 +21,20 @@ git pull https://github.com/Grinnell-CSC207/graphs-2019S
 
 You may have to resolve some conflicts.
 
+-->
+
 Exercises
 ---------
+
+<!--
 
 ### Exercise 0: Review new code
 
 We've added a new new features to the Graphs class: A set of functions
 for marking nodes, a new `dump` method, and ....  Review those to make
 sure that you understand them.
+
+-->
 
 ### Exercise 1: Priority queues
 
@@ -41,6 +48,11 @@ a. Identify an appropriate implementation of priority queues in Java.
 b. Sketch how you will use that implementation to order edges by weight.
 
 ### Exercise 2: From directed to undirected
+
+As you may recall, Prim's algorithm is intended to work with undirected
+graphs, rather than directed graphs.  
+
+How will you accommodate that issue in your code?
 
 ### Exercise 3: Parts of Prim's algorithm
 
@@ -88,6 +100,11 @@ If you find that you have extra time, implement Kruskal's MST algorithm.
 Suggested strategies
 --------------------
 
+* To deal with non-directional edges, we can just make sure that we
+  always add pairs of edges (both directions).  Once an edge is in
+  the MST, it doesn't matter what it's direction is.
+    * Option 1: Add an `addUndirectedEdge` method.
+    * Option 2: Subclass the Graph class and override `addEdge`.
 * You can use a `PriorityQueue` of `Edge` objects to keep track of which edges
   remain.  You'll need to supply an edge comparator, which will look
   something like the following:
