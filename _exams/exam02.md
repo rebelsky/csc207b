@@ -4,7 +4,6 @@ subtitle: Trees and other linked structures
 submitting: |
   See the instructions below.
 link: true
-current: true
 ---
 ## Preliminaries
 

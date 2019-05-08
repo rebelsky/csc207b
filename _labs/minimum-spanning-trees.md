@@ -3,7 +3,6 @@ title: Minimum spanning trees
 repo: <https://github.com/Grinnell-CSC207/graphs-2019S>
 summary: |
   We explore techniques for building minimum spanning trees
-current: true
 ---
 Preparation
 -----------
