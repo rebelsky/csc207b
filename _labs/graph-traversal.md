@@ -3,7 +3,6 @@ title: Graph traversal
 repo: <https://github.com/Grinnell-CSC207/graphs-2019S>
 summary: |
   We explore techniques for traversing graphs.
-current: true
 ---
 Preparation
 -----------
