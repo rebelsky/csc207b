@@ -268,21 +268,28 @@ for (int i = 0; i < n; i++) {
 Notes
 -----
 
-I plan that the final examination will have a form very much like this exam.
-That is, 
+In case you haven't obserted it already, this exam contains five different
+kinds of sample problems that suggest possible kinds of problems on the
+final.
 
-* Problem 1 will ask you to write an interator or a list iterator
+* As in problem 1, I may ask you to write an interator or a list iterator
   for a structure (e.g., list, stack, queue, graph, tree, heap).
-* Problem 2 will ask you to write tests for an algorithm (e.g., sort,
+* As in problem 2, I may ask you to write tests for an algorithm (e.g., sort,
   search, hash, a tree or graph algorithm) or structure (e.g., map,
-  priority queue, queue, stack, graph, tree).
-* Problem 3 will ask you to draw some structure (e.g., heap, sorted
+  priority queue, queue, stack, graph, tree, hash table).
+* As in problem 3, I may ask you to draw some structure (e.g., heap, sorted
   list, skip list, linked stack, array-based equeue, doubly-linked
-  list, graph, tree).
-* Problem 4 will ask you to draw a graph and apply some graph algorithm
+  list, graph, tree, hash table).
+* As in problem 4, I may ask you to draw a graph and apply some graph algorithm
   (Kruskal's, Dijkstra's, Prim's, BFS, DFS, others I may specify).
-* Problem 5 will ask you to solve a recurrence relation and find a
+* As in problem 5, I may ask you to solve a recurrence relation and find a
   tight bound on an algorithm or loop.
+
+There are, of course, other kinds of problems that I may include.  For
+example, I might choose to have you implement an algorithm similar to
+ones we have already seen, such as a new sorting algorithm, a related
+graph algorithm, or perhaps one of the hash table algorithms, such as
+adding in a probed hash table.
 
 Acknowledgements
 ----------------
