@@ -16,7 +16,7 @@ link: true
 ### Upcoming work
 
 * Reading for Wednesday
-    * [Wikipedia: Dijkstras Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+    * [Wikipedia: Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * No lab writeup today.
 * [Exam 2](../exams/exam02) due last night.   (Tuesday is also acceptable.)
     * Don't forget your epilogue!

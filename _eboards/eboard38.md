@@ -4,7 +4,6 @@ number: 38
 section: eboards
 held: 2019-05-06
 link: true
-current: true
 ---
 CSC 207.01 2019S, Class 38:  Minimum spanning trees
 ===================================================
@@ -39,7 +38,7 @@ Preliminaries
 ### Upcoming work
 
 * Reading for Wednesday
-    * [Wikipedia: Dijkstras Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+    * [Wikipedia: Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 * No lab writeup today.
 * [Exam 2](../exams/exam02) due last night.   (Tuesday is also acceptable.)
     * Don't forget your epilogue!
@@ -155,18 +154,22 @@ return new Type(...);
 
 There's generally not a need to name something that you only use once.
 
-Some exceptions: 
-
-* Sometimes it helps with debugging.  
-* Sometimes you realize that you want to factor out the return statement
-  in a set of set of nested conditionals.
-
 This issue comes up because I saw a lot of the following.
 
 ```java
 ImmutableNode<K,V> newNode = new ImmutableNode<K,V>(...);
 return newNode;
 ```
+
+Some reasons to choose the latter: 
+
+* It may make your code more readable.
+* One doesn't know a better approach.
+* Sometimes it helps with debugging.  - You can see the value of newNode
+  in the midst of the code.
+* There may have been more code, or you want the opportunity for more code.
+* Sometimes you realize that you want to factor out the return statement
+  in a set of set of nested conditionals.
 
 ### Repeated code
 
@@ -177,14 +180,104 @@ there's a reason there's a `find` utility in `Trie.java`.
 Minimum spanning trees
 ----------------------
 
+* Smallest tree that connects every vertex in the graph.
+    * "Smallest" = "smallest sum of edges"
+* Not every graph has an MST because not every graph is connected.
+  (We only find MSTs for connected graphs; failure to find an MST is
+  also a signal that the graph is not connected.)
+* Directed or undirected?  We generally do MSTs in undirected graphs.
+  (We may need to play with the directed graph implementation a bit to
+  deal with undirected graphs.)
+
 Kruskal's algorithm
 -------------------
+
+* Repeatedly take the unused edge with the lowest weight
+    * Creates a cycle: Throw it away
+    * Doesn't create a cycle: Add it to MST
+* Proof of correctness?
+    * Sam!  Math 208/218 is not a prereq for this course!
+    * One Idea: It can't have fewer edges.  But do we know that they
+      are the smallest set of oedges.
+    * Proof by contradiction: Assume it's not the smallest.  Look at
+      the "first" edge that's in the smallest, but not in the one we
+      built; we make some argument about it.  (This is easier if we
+      don't allow duplicate edge weights.)
+* Important step: Determine if adding an edge creates a cycle 
+  (think/pair/share).
+* Idea: Treat each unconnected component as a set.  Find some what to
+  union the sets.
+* Idea: Do a BFS or DFS in the MST from one vertex of the new edge.
+  If we find the otehr vertex using that search, the new edge makes a
+  cycle.  Otherwise, we can add it.
+* What's the running time of this version of Kruskal's?  (Using BFS.)
+    * Claim O(n^2): We have to go through each vertex, which is O(n),
+      and then check for a cycle, which is also O(n).
+    * Claim O(m*n): We go through each edge, which is O(m), and for each,
+      we check for a cycle, which is also O(n)
+        * Note: Assumes easy to iterate edges in graph 
+    * Checking for a cycle is O(m+n); although we're doing it in a tree,
+      which has only O(n) edges, so ...
+    * Note: Getting the edges in order is O(mlogm).
+* If we can determine cycles more quickly ...
 
 Prim's algorithm
 ----------------
 
+* Start with one vertex
+* Repeatedly: Find the lowest-weight edge that exits that point.
+    * If it creates a cycle, ignore it.
+    * If it does not create a cycle, add it to the MST.
+* How expensive is it to determine if an edge creates a cycle?  (How
+  would you do so?)
+    * "If an edge connects two circled things, it creates a cycle."
+    * O(1): Set up an array of "marks" on vertices.  When you add a
+      vertex to the MST, set the mark to true.  When you look at an
+      edge, check the mark.  (Requires that vertices be numbers or
+      something easily convertable to numbers.)
+        * Note: O(n) setup (space and time)
+* How expensive is Prim's?
+    * O(n) to set up the "mark" array.
+    * O(1) to check whether an edge creates a cycle
+    * Assume that "all the edges from a vertex" does not add extra
+      work (beyond processing those edges).
+    * How do we keep track of the edges remaining to check?  Priority
+      Queue.  
+        * If we implement the priority queue as a sorted list, that's
+          O(m).
+        * If we use balanced BSTs, that's O(logm).  But we don't know
+          how to implement balanced BSTs.
+        * If we use skip lists, that expected O(logm).
+        * If we use heaps, that's O(logm)
+   * We add m edges to the priority queue (heap); each add is O(logm).
+     The algorithm is O(n + mlogm) = O(mlogm).
+
 Greed as an approach to algorithm design
 ----------------------------------------
+
+You have a few basic approaches to designing algorithms.
+
+* "Solve an example by hand and then generalize."
+* Suppose you can solve a slightly simpler version of the problem and
+  use that to solve the original version.  (Aka "recursion".)
+* Divide and conquer.  Break the problem into two halves, solve each,
+  combine them.
+* Look for a similar problem and modify the algorithm you know for solving
+  that problem.
+* Brute force: Try every possible option.  (Often expensive.)
+
+Other things that help
+
+* Draw a picture
+* ...
+
+New idea
+
+* Greed: Given a choice, choice the local best.  See if that gives you 
+  a global best.
+    * Doesn't always work.
+    * Sometimes very expensive.
+* Good for optimization.
 
 Lab
 ---
