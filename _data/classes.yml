@@ -633,7 +633,7 @@
     - link: "Wikipedia: Kruskal's Algorithm"
       url: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
   lab:
-    - /labs/minimum-spanning-trees.html
+    - page: /labs/minimum-spanning-trees.html
 
 - topic: Shortest paths in graphs
   abbrev: shortest-path
@@ -649,7 +649,7 @@
     - link: "Wikipedia; Dijkstra's Algorithm"
       url: https://en.wikipedia.org/wiki/Dijkstra's_algorithm
   lab:
-    - /labs/shortest-paths.html
+    - page: /labs/shortest-paths.html
 
 - topic: Wrapup
   abbrev: wrap
@@ -659,4 +659,3 @@
     - The subject matter(s) of the course
     - Looking ahead
     - Course evaluation
-    - About the final
