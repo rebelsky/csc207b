@@ -13,7 +13,7 @@ link: true
 
 ### Upcoming work
 
-* Reading for Mondays
+* Reading for Monday
     * [Wikipedia: Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
     * [Wikipedia: Kruskal's Algorithm](url: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
 * No lab writeup today.
@@ -30,9 +30,6 @@ link: true
 
 #### Extra credit (Academic/Artistic)
 
-* One remaining talk by Prof. Dr. Yvonne Foerster (<https://yvonnefoerster.com/>)
-    * **Today** May 3, Noon-12:50pm, Bucksbaum 152: _Designing Future Bodies: Fashion and Technology_ (Lunch and beverages provided)
-
 #### Extra credit (Peer)
 
 * Sunday, May 5, 2pm, Herrick (?),
@@ -40,7 +37,6 @@ link: true
 * **Tonight**, 9pm Gardner, Opening Band for Gardner show: "Sorry We're Late".
   Opening for "Girl K" with "Blizzard Babies"
 * **Tomorrow** The Grinnellian, Saturday.
-* **Tomorrow** Track and Field Saturday, Somewhere.
 
 #### Extra credit (Wellness)
 
@@ -62,4 +58,9 @@ link: true
 ### Other good things
 
 ### Friday PSA
+
+* All things moderation
+* Pay attention to the law
+* Know what is right for you; be comfortable with your choices
+* Consent is absolutely necessary
 

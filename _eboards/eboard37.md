@@ -4,7 +4,6 @@ number: 37
 section: eboards
 held: 2019-05-03
 link: true
-current: true
 ---
 CSC 207.02 2019S, Class 37:  Traversing graphs
 ==============================================
@@ -32,7 +31,7 @@ Preliminaries
 
 ### Upcoming work
 
-* Reading for Mondays
+* Reading for Monday
     * [Wikipedia: Prim's Algorithm](https://en.wikipedia.org/wiki/Prim%27s_algorithm)
     * [Wikipedia: Kruskal's Algorithm](url: https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
 * No lab writeup today.
@@ -49,9 +48,6 @@ Preliminaries
 
 #### Extra credit (Academic/Artistic)
 
-* One remaining talk by Prof. Dr. Yvonne Foerster (<https://yvonnefoerster.com/>)
-    * **Today** May 3, Noon-12:50pm, Bucksbaum 152: _Designing Future Bodies: Fashion and Technology_ (Lunch and beverages provided)
-
 #### Extra credit (Peer)
 
 * Sunday, May 5, 2pm, Herrick (?),
@@ -59,7 +55,6 @@ Preliminaries
 * **Tonight**, 9pm Gardner, Opening Band for Gardner show: "Sorry We're Late".
   Opening for "Girl K" with "Blizzard Babies"
 * **Tomorrow** The Grinnellian, Saturday.
-* **Tomorrow** Track and Field Saturday, Somewhere.
 
 #### Extra credit (Wellness)
 
@@ -82,7 +77,37 @@ Preliminaries
 
 ### Friday PSA
 
+* All things moderation
+* Pay attention to the law
+* Know what is right for you; be comfortable with your choices
+* Consent is absolutely necessary
+
 ### Questions
+
+So, how do we traverse a graph?
+
+> Um.  Maybe with recursion.
+
+> For breadth-first traversal, we can use a queue.
+
+> For depth-first traversal, we can use a stack.  (We can also use
+  recursion.)
 
 Lab
 ---
+
+What's the default value in a boolean array?
+
+I don't know, let's try.
+
+```shell
+$ jshell
+|  Welcome to JShell -- Version 11.0.1
+|  For an introduction type: /help intro
+
+jshell> boolean[] vals = new boolean[33];
+vals ==> boolean[33] { false, false, false, false, false,  ... lse, false, false, false }
+```
+
+I love REPLs.  (Read-Eval-Print Loops; the traditional interaction with
+Scheme, also available for Java in JShell)
