@@ -136,6 +136,11 @@ Final
 : 20%
 {:.dl-horizontal}
 
+Since the quizzes ended up being more challenging than you or I anticipated,
+there is also an alternate grading system in effect.  In place of your 
+quiz grade, I will use the highest of (a) your quiz grade, (b) your average
+exam grade, or (c) your final grade.
+
 Some work may be graded by someone other than the instructor. However, any questions or concerns about grading should only be directed to the instructor.
 
 The grading scale for this course will be:
