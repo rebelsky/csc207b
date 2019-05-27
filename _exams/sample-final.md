@@ -297,9 +297,9 @@ for (int i = 0; i < n; i++) {
 Notes
 -----
 
-In case you haven't obserted it already, this exam contains five different
-kinds of sample problems that suggest possible kinds of problems on the
-final.
+In case you haven't observed it already, this samle exam contains
+five different kinds of sample problems that suggest possible kinds
+of problems on the final.
 
 * As in problem 1, I may ask you to write an interator or a list iterator
   for a structure (e.g., list, stack, queue, graph, tree, heap).
